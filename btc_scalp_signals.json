@@ -1,0 +1,40 @@
+{
+  "asset": "Bitcoin",
+  "ticker": "BTC-USD",
+  "timestamp": "2026-04-03T12:05:19.354658",
+  "price": 66601.2422,
+  "change_pct": -0.0166,
+  "session_ok": false,
+  "direction": "NONE",
+  "confidence": 0.0,
+  "score_long": 0.5,
+  "score_short": 0,
+  "signals": {
+    "ema_cross": "LONG (trend) \u2705",
+    "rsi": "NEUTRAL 59.7 \u274c",
+    "vwap": "AT VWAP -0.066% \u274c",
+    "bollinger": "MID BAND 0.45 \u274c",
+    "volume": "NORMAL 0.0x \u274c"
+  },
+  "rsi": 59.65,
+  "vwap_dist_pct": -0.0664,
+  "vol_spike": 0.0,
+  "bb_pct": 0.446,
+  "atr_pct": 0.092,
+  "take_profit": null,
+  "stop_loss": null,
+  "tp_pct": 0.15,
+  "sl_pct": 0.08,
+  "rr_ratio": 1.88,
+  "sentiment": {
+    "score": -0.2111,
+    "headlines": [
+      "Why Is The Crypto Market Down Today?",
+      "Bitcoin Lingers Near Lower Bound of Trading Range Amid Conflict",
+      "XRP Price: XRP Just Posted Its Worst Quarter in 8 Years \u2014 Can the CLARITY Act Turn Things Around in April?",
+      "Bitcoin tumbles, crypto momentum fades as Trump extends Iran timeline",
+      "Google Issues \u2018Q-Day\u2019 Warning"
+    ]
+  },
+  "trade_valid": false
+}

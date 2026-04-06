@@ -1,0 +1,489 @@
+2026-04-03 12:15:10,201 [INFO] Bar 1 | price=66739.0312 | RSI=52.2 | BB%=0.84 | equity=$10000.00 | open=NO
+2026-04-03 12:16:11,003 [INFO] Bar 2 | price=66739.0312 | RSI=52.2 | BB%=0.84 | equity=$10000.00 | open=NO
+2026-04-03 12:17:11,563 [INFO] Bar 3 | price=66738.2969 | RSI=52.1 | BB%=0.84 | equity=$10000.00 | open=NO
+2026-04-03 12:18:12,360 [INFO] Bar 4 | price=66733.1094 | RSI=49.3 | BB%=0.79 | equity=$10000.00 | open=NO
+2026-04-03 12:19:13,095 [INFO] Bar 5 | price=66747.1172 | RSI=50.7 | BB%=0.83 | equity=$10000.00 | open=NO
+2026-04-03 12:20:13,932 [INFO] Bar 6 | price=66770.6406 | RSI=52.9 | BB%=0.88 | equity=$10000.00 | open=NO
+2026-04-03 12:21:14,757 [INFO] Bar 7 | price=66762.1875 | RSI=52.2 | BB%=0.86 | equity=$10000.00 | open=NO
+2026-04-03 12:22:15,260 [INFO] Bar 8 | price=66719.3594 | RSI=48.0 | BB%=0.76 | equity=$10000.00 | open=NO
+2026-04-03 12:23:15,755 [INFO] Bar 9 | price=66747.4688 | RSI=51.4 | BB%=0.80 | equity=$10000.00 | open=NO
+2026-04-03 12:24:16,273 [INFO] Bar 10 | price=66764.2344 | RSI=52.9 | BB%=0.85 | equity=$10000.00 | open=NO
+2026-04-03 12:25:16,849 [INFO] Bar 11 | price=66755.3906 | RSI=52.1 | BB%=0.82 | equity=$10000.00 | open=NO
+2026-04-03 12:26:17,343 [INFO] Bar 12 | price=66747.7500 | RSI=51.4 | BB%=0.81 | equity=$10000.00 | open=NO
+2026-04-03 12:27:17,941 [INFO] Bar 13 | price=66744.8828 | RSI=51.2 | BB%=0.80 | equity=$10000.00 | open=NO
+2026-04-03 12:28:18,440 [INFO] Bar 14 | price=66732.2500 | RSI=51.0 | BB%=0.75 | equity=$10000.00 | open=NO
+2026-04-03 12:29:19,362 [INFO] Bar 15 | price=66743.5234 | RSI=52.1 | BB%=0.78 | equity=$10000.00 | open=NO
+2026-04-03 12:30:20,119 [INFO] Bar 16 | price=66744.8750 | RSI=52.2 | BB%=0.78 | equity=$10000.00 | open=NO
+2026-04-03 12:31:20,756 [INFO] Bar 17 | price=66749.4609 | RSI=52.6 | BB%=0.79 | equity=$10000.00 | open=NO
+2026-04-03 12:32:21,245 [INFO] Bar 18 | price=66764.3125 | RSI=53.9 | BB%=0.83 | equity=$10000.00 | open=NO
+2026-04-03 12:33:21,808 [INFO] Bar 19 | price=66775.1875 | RSI=75.1 | BB%=0.85 | equity=$10000.00 | open=NO
+2026-04-03 12:34:22,301 [INFO] Bar 20 | price=66783.3438 | RSI=75.6 | BB%=0.88 | equity=$10000.00 | open=NO
+2026-04-03 12:35:22,852 [INFO] Bar 21 | price=66788.5156 | RSI=75.9 | BB%=0.89 | equity=$10000.00 | open=NO
+2026-04-03 12:36:23,377 [INFO] Bar 22 | price=66782.8594 | RSI=75.5 | BB%=0.87 | equity=$10000.00 | open=NO
+2026-04-03 12:37:24,148 [INFO] Bar 23 | price=66800.8281 | RSI=76.6 | BB%=0.92 | equity=$10000.00 | open=NO
+2026-04-03 12:38:24,670 [INFO] Bar 24 | price=66786.0078 | RSI=77.2 | BB%=0.85 | equity=$10000.00 | open=NO
+2026-04-03 12:39:25,144 [INFO] Bar 25 | price=66765.8594 | RSI=73.7 | BB%=0.79 | equity=$10000.00 | open=NO
+2026-04-03 12:40:25,669 [INFO] Bar 26 | price=66785.3516 | RSI=77.1 | BB%=0.85 | equity=$10000.00 | open=NO
+2026-04-03 12:41:26,228 [INFO] Bar 27 | price=66814.0469 | RSI=80.7 | BB%=0.92 | equity=$10000.00 | open=NO
+2026-04-03 12:42:26,737 [INFO] Bar 28 | price=66868.1094 | RSI=80.2 | BB%=0.99 | equity=$10000.00 | open=NO
+2026-04-03 12:43:27,231 [INFO] Bar 29 | price=66881.2188 | RSI=80.8 | BB%=1.01 | equity=$10000.00 | open=NO
+2026-04-03 12:44:27,767 [INFO] Bar 30 | price=66806.5000 | RSI=71.4 | BB%=0.84 | equity=$10000.00 | open=NO
+2026-04-03 12:45:28,299 [INFO] Bar 31 | price=66806.5000 | RSI=71.4 | BB%=0.84 | equity=$10000.00 | open=NO
+2026-04-03 12:46:28,982 [INFO] Bar 32 | price=66804.1406 | RSI=71.0 | BB%=0.84 | equity=$10000.00 | open=NO
+2026-04-03 12:47:29,822 [INFO] Bar 33 | price=66808.4062 | RSI=74.1 | BB%=0.83 | equity=$10000.00 | open=NO
+2026-04-03 12:48:30,430 [INFO] Bar 34 | price=66824.9922 | RSI=75.1 | BB%=0.87 | equity=$10000.00 | open=NO
+2026-04-03 12:49:30,895 [INFO] Bar 35 | price=66816.9922 | RSI=74.6 | BB%=0.85 | equity=$10000.00 | open=NO
+2026-04-03 12:50:31,674 [INFO] Bar 36 | price=66796.2969 | RSI=72.5 | BB%=0.80 | equity=$10000.00 | open=NO
+2026-04-03 12:51:32,124 [INFO] Bar 37 | price=66821.3906 | RSI=74.9 | BB%=0.86 | equity=$10000.00 | open=NO
+2026-04-03 12:52:32,781 [INFO] Bar 38 | price=66818.0469 | RSI=72.8 | BB%=0.82 | equity=$10000.00 | open=NO
+2026-04-03 12:53:34,278 [INFO] Bar 39 | price=66846.2812 | RSI=74.9 | BB%=0.89 | equity=$10000.00 | open=NO
+2026-04-03 12:54:34,826 [INFO] Bar 40 | price=66848.1797 | RSI=75.0 | BB%=0.89 | equity=$10000.00 | open=NO
+2026-04-03 12:55:35,333 [INFO] Bar 41 | price=66846.1797 | RSI=74.9 | BB%=0.89 | equity=$10000.00 | open=NO
+2026-04-03 12:56:35,792 [INFO] Bar 42 | price=66857.1484 | RSI=75.5 | BB%=0.91 | equity=$10000.00 | open=NO
+2026-04-03 12:57:36,280 [INFO] Bar 43 | price=66838.2969 | RSI=71.9 | BB%=0.83 | equity=$10000.00 | open=NO
+2026-04-03 12:58:36,753 [INFO] Bar 44 | price=66841.8047 | RSI=72.4 | BB%=0.84 | equity=$10000.00 | open=NO
+2026-04-03 12:59:46,786 [ERROR] 
+1 Failed download:
+2026-04-03 12:59:46,787 [ERROR] ['BTC-USD']: TypeError("'NoneType' object is not subscriptable")
+2026-04-03 12:59:46,805 [WARNING] Not enough data, retrying...
+2026-04-03 13:00:47,517 [INFO] Bar 45 | price=66877.6250 | RSI=76.1 | BB%=0.91 | equity=$10000.00 | open=NO
+2026-04-03 13:01:48,041 [INFO] Bar 46 | price=66880.7422 | RSI=76.2 | BB%=0.92 | equity=$10000.00 | open=NO
+2026-04-03 13:02:48,651 [INFO] Bar 47 | price=66917.3125 | RSI=77.0 | BB%=0.94 | equity=$10000.00 | open=NO
+2026-04-03 13:03:49,175 [INFO] Bar 48 | price=66933.7344 | RSI=77.7 | BB%=0.97 | equity=$10000.00 | open=NO
+2026-04-03 13:04:50,707 [INFO] Bar 49 | price=66923.8047 | RSI=77.3 | BB%=0.96 | equity=$10000.00 | open=NO
+2026-04-03 13:05:51,173 [INFO] Bar 50 | price=66997.2578 | RSI=80.3 | BB%=1.08 | equity=$10000.00 | open=NO
+2026-04-03 13:06:51,712 [INFO] Bar 51 | price=66997.2578 | RSI=80.3 | BB%=1.08 | equity=$10000.00 | open=NO
+2026-04-03 13:07:52,322 [INFO] Bar 52 | price=67061.4922 | RSI=88.8 | BB%=1.09 | equity=$10000.00 | open=NO
+2026-04-03 13:08:52,858 [INFO] Bar 53 | price=67162.3594 | RSI=90.5 | BB%=1.20 | equity=$10000.00 | open=NO
+2026-04-03 13:09:53,344 [INFO] Bar 54 | price=67162.3594 | RSI=90.5 | BB%=1.20 | equity=$10000.00 | open=NO
+2026-04-03 13:10:53,883 [INFO] Bar 55 | price=67122.9297 | RSI=89.9 | BB%=1.16 | equity=$10000.00 | open=NO
+2026-04-03 13:11:54,335 [INFO] Bar 56 | price=67112.3516 | RSI=89.7 | BB%=1.15 | equity=$10000.00 | open=NO
+2026-04-03 13:12:54,796 [INFO] Bar 57 | price=67079.3281 | RSI=84.9 | BB%=1.00 | equity=$10000.00 | open=NO
+2026-04-03 13:13:55,350 [INFO] Bar 58 | price=67091.3750 | RSI=86.5 | BB%=1.01 | equity=$10000.00 | open=NO
+2026-04-03 13:14:56,706 [INFO] Bar 59 | price=67091.3750 | RSI=86.5 | BB%=1.01 | equity=$10000.00 | open=NO
+2026-04-03 13:15:57,165 [INFO] Bar 60 | price=67109.9609 | RSI=89.1 | BB%=1.03 | equity=$10000.00 | open=NO
+2026-04-03 13:16:57,700 [INFO] Bar 61 | price=67092.0234 | RSI=86.6 | BB%=1.01 | equity=$10000.00 | open=NO
+2026-04-03 13:17:58,486 [INFO] Bar 62 | price=67068.1953 | RSI=80.9 | BB%=0.92 | equity=$10000.00 | open=NO
+2026-04-03 13:18:59,242 [INFO] Bar 63 | price=67058.9141 | RSI=79.6 | BB%=0.90 | equity=$10000.00 | open=NO
+2026-04-03 13:19:59,734 [INFO] Bar 64 | price=67048.8438 | RSI=78.3 | BB%=0.89 | equity=$10000.00 | open=NO
+2026-04-03 13:21:00,261 [INFO] Bar 65 | price=67042.2500 | RSI=77.4 | BB%=0.88 | equity=$10000.00 | open=NO
+2026-04-03 13:22:00,777 [INFO] Bar 66 | price=67026.8906 | RSI=75.5 | BB%=0.86 | equity=$10000.00 | open=NO
+2026-04-03 13:23:01,234 [INFO] Bar 67 | price=67026.1797 | RSI=74.4 | BB%=0.82 | equity=$10000.00 | open=NO
+2026-04-03 13:24:01,778 [INFO] Bar 68 | price=67008.9141 | RSI=72.3 | BB%=0.80 | equity=$10000.00 | open=NO
+2026-04-03 13:25:02,397 [INFO] Bar 69 | price=67008.9141 | RSI=72.3 | BB%=0.80 | equity=$10000.00 | open=NO
+2026-04-03 13:26:02,982 [INFO] Bar 70 | price=67028.2969 | RSI=74.5 | BB%=0.83 | equity=$10000.00 | open=NO
+2026-04-03 13:27:03,455 [INFO] Bar 71 | price=67074.0703 | RSI=78.7 | BB%=0.86 | equity=$10000.00 | open=NO
+2026-04-03 13:28:04,376 [INFO] Bar 72 | price=67074.0703 | RSI=78.7 | BB%=0.86 | equity=$10000.00 | open=NO
+2026-04-03 13:29:05,070 [INFO] Bar 73 | price=67048.3984 | RSI=77.8 | BB%=0.82 | equity=$10000.00 | open=NO
+2026-04-03 13:30:05,915 [INFO] Bar 74 | price=67033.6406 | RSI=77.2 | BB%=0.80 | equity=$10000.00 | open=NO
+2026-04-03 13:31:06,405 [INFO] Bar 75 | price=67031.5000 | RSI=77.1 | BB%=0.80 | equity=$10000.00 | open=NO
+2026-04-03 13:32:06,919 [INFO] Bar 76 | price=67027.1484 | RSI=76.9 | BB%=0.79 | equity=$10000.00 | open=NO
+2026-04-03 13:33:07,761 [INFO] Bar 77 | price=67032.5469 | RSI=76.0 | BB%=0.78 | equity=$10000.00 | open=NO
+2026-04-03 13:34:08,347 [INFO] Bar 78 | price=67032.2969 | RSI=76.0 | BB%=0.77 | equity=$10000.00 | open=NO
+2026-04-03 13:35:08,848 [INFO] Bar 79 | price=67053.1562 | RSI=76.9 | BB%=0.80 | equity=$10000.00 | open=NO
+2026-04-03 13:36:09,324 [INFO] Bar 80 | price=67049.5469 | RSI=76.7 | BB%=0.80 | equity=$10000.00 | open=NO
+2026-04-03 13:37:10,024 [INFO] Bar 81 | price=67063.1719 | RSI=77.3 | BB%=0.82 | equity=$10000.00 | open=NO
+2026-04-03 13:38:10,518 [INFO] Bar 82 | price=67085.3516 | RSI=77.4 | BB%=0.83 | equity=$10000.00 | open=NO
+2026-04-03 13:39:11,104 [INFO] Bar 83 | price=67080.5312 | RSI=77.2 | BB%=0.82 | equity=$10000.00 | open=NO
+2026-04-03 13:40:11,642 [INFO] Bar 84 | price=67142.7656 | RSI=79.4 | BB%=0.90 | equity=$10000.00 | open=NO
+2026-04-03 13:41:12,228 [INFO] Bar 85 | price=67197.8750 | RSI=81.0 | BB%=0.97 | equity=$10000.00 | open=NO
+2026-04-03 13:42:12,711 [INFO] Bar 86 | price=67175.0234 | RSI=80.4 | BB%=0.94 | equity=$10000.00 | open=NO
+2026-04-03 13:43:13,423 [INFO] Bar 87 | price=67268.6797 | RSI=81.9 | BB%=1.01 | equity=$10000.00 | open=NO
+2026-04-03 13:44:15,087 [INFO] Bar 88 | price=67246.0625 | RSI=81.3 | BB%=0.99 | equity=$10000.00 | open=NO
+2026-04-03 13:45:15,647 [INFO] Bar 89 | price=67240.4844 | RSI=81.2 | BB%=0.98 | equity=$10000.00 | open=NO
+2026-04-03 13:46:16,266 [INFO] Bar 90 | price=67216.2969 | RSI=80.5 | BB%=0.95 | equity=$10000.00 | open=NO
+2026-04-03 13:47:16,778 [INFO] Bar 91 | price=67191.3359 | RSI=79.8 | BB%=0.92 | equity=$10000.00 | open=NO
+2026-04-03 13:48:17,360 [INFO] Bar 92 | price=67176.0469 | RSI=76.2 | BB%=0.86 | equity=$10000.00 | open=NO
+2026-04-03 13:49:17,833 [INFO] Bar 93 | price=67162.1484 | RSI=74.5 | BB%=0.84 | equity=$10000.00 | open=NO
+2026-04-03 13:50:18,402 [INFO] Bar 94 | price=67174.3047 | RSI=76.0 | BB%=0.86 | equity=$10000.00 | open=NO
+2026-04-03 13:51:19,076 [INFO] Bar 95 | price=67128.6016 | RSI=70.8 | BB%=0.80 | equity=$10000.00 | open=NO
+2026-04-03 13:52:19,569 [INFO] Bar 96 | price=67139.6719 | RSI=72.0 | BB%=0.81 | equity=$10000.00 | open=NO
+2026-04-03 13:53:20,187 [INFO] Bar 97 | price=67149.9531 | RSI=77.8 | BB%=0.80 | equity=$10000.00 | open=NO
+2026-04-03 13:54:21,670 [INFO] Bar 98 | price=67122.0547 | RSI=75.2 | BB%=0.76 | equity=$10000.00 | open=NO
+2026-04-03 13:55:22,230 [INFO] Bar 99 | price=67158.4766 | RSI=78.1 | BB%=0.81 | equity=$10000.00 | open=NO
+2026-04-03 13:56:22,816 [INFO] Bar 100 | price=67160.1250 | RSI=78.1 | BB%=0.81 | equity=$10000.00 | open=NO
+2026-04-03 13:57:23,492 [INFO] Bar 101 | price=67160.1250 | RSI=78.1 | BB%=0.81 | equity=$10000.00 | open=NO
+2026-04-03 13:58:24,029 [INFO] Bar 102 | price=67144.7891 | RSI=75.6 | BB%=0.76 | equity=$10000.00 | open=NO
+2026-04-03 13:59:25,649 [INFO] Bar 103 | price=67144.7891 | RSI=75.6 | BB%=0.76 | equity=$10000.00 | open=NO
+2026-04-03 14:00:26,744 [INFO] Bar 104 | price=67084.5547 | RSI=69.0 | BB%=0.67 | equity=$10000.00 | open=NO
+2026-04-03 14:01:27,453 [INFO] Bar 105 | price=67065.0234 | RSI=67.1 | BB%=0.64 | equity=$10000.00 | open=NO
+2026-04-03 14:02:28,061 [INFO] Bar 106 | price=67065.0234 | RSI=67.1 | BB%=0.64 | equity=$10000.00 | open=NO
+2026-04-03 14:03:28,526 [INFO] Bar 107 | price=67057.3047 | RSI=64.7 | BB%=0.61 | equity=$10000.00 | open=NO
+2026-04-03 14:04:30,778 [INFO] Bar 108 | price=67092.2422 | RSI=66.7 | BB%=0.67 | equity=$10000.00 | open=NO
+2026-04-03 14:05:31,299 [INFO] Bar 109 | price=67095.0781 | RSI=66.9 | BB%=0.67 | equity=$10000.00 | open=NO
+2026-04-03 14:06:31,824 [INFO] Bar 110 | price=67098.9375 | RSI=67.1 | BB%=0.68 | equity=$10000.00 | open=NO
+2026-04-03 14:07:32,480 [INFO] Bar 111 | price=67099.8516 | RSI=66.0 | BB%=0.66 | equity=$10000.00 | open=NO
+2026-04-03 14:08:32,964 [INFO] Bar 112 | price=67099.8516 | RSI=66.0 | BB%=0.66 | equity=$10000.00 | open=NO
+2026-04-03 14:09:33,463 [INFO] Bar 113 | price=67068.5156 | RSI=63.1 | BB%=0.61 | equity=$10000.00 | open=NO
+2026-04-03 14:10:34,061 [INFO] Bar 114 | price=67059.7734 | RSI=62.4 | BB%=0.59 | equity=$10000.00 | open=NO
+2026-04-03 14:11:34,568 [INFO] Bar 115 | price=67034.4766 | RSI=60.3 | BB%=0.54 | equity=$10000.00 | open=NO
+2026-04-03 14:12:35,018 [INFO] Bar 116 | price=67034.4766 | RSI=60.3 | BB%=0.54 | equity=$10000.00 | open=NO
+2026-04-03 14:13:35,522 [INFO] Bar 117 | price=67000.1797 | RSI=50.2 | BB%=0.46 | equity=$10000.00 | open=NO
+2026-04-03 14:14:36,547 [INFO] Bar 118 | price=66945.1484 | RSI=46.4 | BB%=0.35 | equity=$10000.00 | open=NO
+2026-04-03 14:15:38,134 [INFO] Bar 119 | price=66924.1406 | RSI=45.1 | BB%=0.31 | equity=$10000.00 | open=NO
+2026-04-03 14:16:42,905 [INFO] Bar 120 | price=66925.2656 | RSI=35.1 | BB%=0.30 | equity=$10000.00 | open=NO
+2026-04-03 14:17:43,407 [INFO] Bar 121 | price=66925.2656 | RSI=35.1 | BB%=0.30 | equity=$10000.00 | open=NO
+2026-04-03 14:18:43,971 [INFO] Bar 122 | price=66927.0703 | RSI=35.3 | BB%=0.30 | equity=$10000.00 | open=NO
+2026-04-03 14:19:44,503 [INFO] Bar 123 | price=66909.2422 | RSI=34.2 | BB%=0.26 | equity=$10000.00 | open=YES
+2026-04-03 14:20:45,323 [INFO] Bar 124 | price=66939.2344 | RSI=36.5 | BB%=0.32 | equity=$10000.00 | open=YES
+2026-04-03 14:21:45,787 [INFO] Bar 125 | price=66968.6016 | RSI=39.3 | BB%=0.38 | equity=$10000.00 | open=YES
+2026-04-03 14:22:46,345 [INFO] Bar 126 | price=66980.2656 | RSI=41.6 | BB%=0.38 | equity=$10000.00 | open=YES
+2026-04-03 14:23:46,802 [INFO] Bar 127 | price=66971.1797 | RSI=40.8 | BB%=0.36 | equity=$10000.00 | open=YES
+2026-04-03 14:24:47,281 [INFO] Bar 128 | price=66974.0938 | RSI=41.0 | BB%=0.36 | equity=$10000.00 | open=YES
+2026-04-03 14:25:47,844 [INFO] Bar 129 | price=66974.0938 | RSI=41.0 | BB%=0.36 | equity=$10000.00 | open=YES
+2026-04-03 14:26:48,388 [INFO] Bar 130 | price=66936.7656 | RSI=38.7 | BB%=0.28 | equity=$10000.00 | open=YES
+2026-04-03 14:27:48,968 [INFO] Bar 131 | price=66932.2891 | RSI=42.4 | BB%=0.23 | equity=$10000.00 | open=YES
+2026-04-03 14:28:49,450 [INFO] Bar 132 | price=66924.0703 | RSI=41.9 | BB%=0.22 | equity=$10000.00 | open=YES
+2026-04-03 14:29:50,041 [INFO] Bar 133 | price=66932.2578 | RSI=42.4 | BB%=0.23 | equity=$10000.00 | open=YES
+2026-04-03 14:30:51,720 [INFO] Bar 134 | price=66946.3438 | RSI=43.6 | BB%=0.27 | equity=$10000.00 | open=YES
+2026-04-03 14:31:52,168 [INFO] Bar 135 | price=66961.9297 | RSI=45.0 | BB%=0.30 | equity=$10000.00 | open=YES
+2026-04-03 14:32:52,762 [INFO] Bar 136 | price=66959.0312 | RSI=44.6 | BB%=0.26 | equity=$10000.00 | open=YES
+2026-04-03 14:33:53,339 [INFO] Bar 137 | price=66959.0312 | RSI=44.6 | BB%=0.26 | equity=$10000.00 | open=YES
+2026-04-03 14:34:53,862 [INFO] Bar 138 | price=66954.7812 | RSI=44.3 | BB%=0.25 | equity=$10000.00 | open=YES
+2026-04-03 14:35:54,383 [INFO] Bar 139 | price=66974.0312 | RSI=45.9 | BB%=0.30 | equity=$10000.00 | open=YES
+2026-04-03 14:36:54,919 [INFO] Bar 140 | price=66981.8906 | RSI=46.5 | BB%=0.32 | equity=$10000.00 | open=YES
+2026-04-03 14:37:55,651 [INFO] Bar 141 | price=66966.0938 | RSI=45.5 | BB%=0.25 | equity=$10000.00 | open=YES
+2026-04-03 14:38:56,277 [INFO] Bar 142 | price=66888.6016 | RSI=40.8 | BB%=0.05 | equity=$10000.00 | open=YES
+2026-04-03 14:39:56,784 [INFO] Bar 143 | price=66912.9531 | RSI=42.2 | BB%=0.11 | equity=$10000.00 | open=YES
+2026-04-03 14:40:57,305 [INFO] Bar 144 | price=66911.1328 | RSI=42.1 | BB%=0.10 | equity=$10000.00 | open=YES
+2026-04-03 14:41:58,100 [INFO] Bar 145 | price=66890.6797 | RSI=40.9 | BB%=0.06 | equity=$10000.00 | open=YES
+2026-04-03 14:42:58,635 [INFO] Bar 146 | price=66886.2109 | RSI=37.7 | BB%=0.09 | equity=$10000.00 | open=YES
+2026-04-03 14:43:59,184 [INFO] Bar 147 | price=66881.0703 | RSI=37.5 | BB%=0.08 | equity=$9999.28 | open=YES
+2026-04-03 14:44:59,648 [INFO] Bar 148 | price=66877.7109 | RSI=37.3 | BB%=0.07 | equity=$9999.28 | open=YES
+2026-04-03 14:46:00,280 [INFO] Bar 149 | price=66883.6797 | RSI=37.6 | BB%=0.08 | equity=$9999.28 | open=YES
+2026-04-03 14:47:00,752 [INFO] Bar 150 | price=66888.9062 | RSI=37.9 | BB%=0.10 | equity=$9999.28 | open=YES
+2026-04-03 14:48:01,206 [INFO] Bar 151 | price=66890.0703 | RSI=26.6 | BB%=0.14 | equity=$9999.28 | open=YES
+2026-04-03 14:49:01,718 [INFO] Bar 152 | price=66889.3438 | RSI=26.5 | BB%=0.14 | equity=$9999.28 | open=YES
+2026-04-03 14:50:02,226 [INFO] Bar 153 | price=66895.9922 | RSI=27.3 | BB%=0.16 | equity=$9999.28 | open=YES
+2026-04-03 14:51:02,719 [INFO] Bar 154 | price=66895.3281 | RSI=27.2 | BB%=0.16 | equity=$9999.28 | open=YES
+2026-04-03 14:52:03,205 [INFO] Bar 155 | price=66895.3281 | RSI=27.2 | BB%=0.16 | equity=$9999.28 | open=YES
+2026-04-03 14:53:03,790 [INFO] Bar 156 | price=66886.9453 | RSI=24.8 | BB%=0.17 | equity=$9999.28 | open=YES
+2026-04-03 14:54:04,323 [INFO] Bar 157 | price=66825.4609 | RSI=22.6 | BB%=0.05 | equity=$9998.45 | open=YES
+2026-04-03 14:55:04,887 [INFO] Bar 158 | price=66768.1328 | RSI=20.8 | BB%=-0.05 | equity=$9996.56 | open=YES
+2026-04-03 14:56:05,433 [INFO] Bar 159 | price=66757.6172 | RSI=20.5 | BB%=-0.07 | equity=$9996.56 | open=YES
+2026-04-03 14:57:05,925 [INFO] Bar 160 | price=66772.1562 | RSI=20.9 | BB%=-0.04 | equity=$9996.56 | open=YES
+2026-04-03 14:58:06,421 [INFO] Bar 161 | price=66773.1484 | RSI=22.6 | BB%=0.04 | equity=$9996.56 | open=YES
+2026-04-03 14:59:06,992 [INFO] Bar 162 | price=66769.9062 | RSI=22.4 | BB%=0.03 | equity=$9996.56 | open=YES
+2026-04-03 15:00:07,470 [INFO] Bar 163 | price=66785.4922 | RSI=24.0 | BB%=0.06 | equity=$9996.56 | open=YES
+2026-04-03 15:01:07,948 [INFO] Bar 164 | price=66785.4922 | RSI=24.0 | BB%=0.06 | equity=$9996.56 | open=YES
+2026-04-03 15:02:08,528 [INFO] Bar 165 | price=66791.0156 | RSI=24.6 | BB%=0.07 | equity=$9996.56 | open=YES
+2026-04-03 15:03:08,931 [INFO] Bar 166 | price=66794.4531 | RSI=22.7 | BB%=0.12 | equity=$9996.56 | open=YES
+2026-04-03 15:04:09,391 [INFO] Bar 167 | price=66794.4531 | RSI=22.7 | BB%=0.12 | equity=$9996.56 | open=YES
+2026-04-03 15:05:09,890 [INFO] Bar 168 | price=66795.2812 | RSI=22.8 | BB%=0.13 | equity=$9996.56 | open=YES
+2026-04-03 15:06:10,406 [INFO] Bar 169 | price=66831.2344 | RSI=26.7 | BB%=0.19 | equity=$9996.56 | open=YES
+2026-04-03 15:07:10,882 [INFO] Bar 170 | price=66829.1719 | RSI=26.5 | BB%=0.18 | equity=$9996.56 | open=YES
+2026-04-03 15:08:11,432 [INFO] Bar 171 | price=66829.8828 | RSI=30.7 | BB%=0.21 | equity=$9996.56 | open=YES
+2026-04-03 15:09:11,873 [INFO] Bar 172 | price=66804.5781 | RSI=29.5 | BB%=0.17 | equity=$9996.56 | open=YES
+2026-04-03 15:10:12,533 [INFO] Bar 173 | price=66804.5781 | RSI=29.5 | BB%=0.17 | equity=$9996.56 | open=YES
+2026-04-03 15:11:13,159 [INFO] Bar 174 | price=66814.8516 | RSI=30.0 | BB%=0.19 | equity=$9996.56 | open=YES
+2026-04-03 15:12:13,703 [INFO] Bar 175 | price=66817.5469 | RSI=30.1 | BB%=0.19 | equity=$9996.56 | open=YES
+2026-04-03 15:13:14,153 [INFO] Bar 176 | price=66822.5469 | RSI=26.7 | BB%=0.23 | equity=$9996.56 | open=YES
+2026-04-03 15:14:14,634 [INFO] Bar 177 | price=66835.3906 | RSI=28.2 | BB%=0.25 | equity=$9996.56 | open=YES
+2026-04-03 15:15:15,107 [INFO] Bar 178 | price=66872.8203 | RSI=32.4 | BB%=0.32 | equity=$9996.56 | open=YES
+2026-04-03 15:16:15,585 [INFO] Bar 179 | price=66880.5547 | RSI=33.2 | BB%=0.33 | equity=$9996.56 | open=YES
+2026-04-03 15:17:16,181 [INFO] Bar 180 | price=66902.4844 | RSI=35.4 | BB%=0.37 | equity=$9996.56 | open=YES
+2026-04-03 15:18:16,673 [INFO] Bar 181 | price=66893.8672 | RSI=38.6 | BB%=0.37 | equity=$9996.56 | open=YES
+2026-04-03 15:19:19,355 [INFO] Bar 182 | price=66875.5469 | RSI=37.5 | BB%=0.34 | equity=$10000.36 | open=NO
+2026-04-03 15:20:20,458 [INFO] Bar 183 | price=66818.7188 | RSI=34.4 | BB%=0.23 | equity=$10000.36 | open=YES
+2026-04-03 15:21:21,049 [INFO] Bar 184 | price=66818.7188 | RSI=34.4 | BB%=0.23 | equity=$10000.36 | open=YES
+2026-04-03 15:22:21,498 [INFO] Bar 185 | price=66828.1562 | RSI=34.9 | BB%=0.25 | equity=$10000.36 | open=YES
+2026-04-03 15:23:22,589 [INFO] Bar 186 | price=66836.8281 | RSI=42.5 | BB%=0.28 | equity=$10000.36 | open=YES
+2026-04-03 15:24:23,067 [INFO] Bar 187 | price=66837.6328 | RSI=42.6 | BB%=0.29 | equity=$10000.36 | open=YES
+2026-04-03 15:25:23,633 [INFO] Bar 188 | price=66834.9453 | RSI=42.3 | BB%=0.28 | equity=$10000.36 | open=YES
+2026-04-03 15:26:24,093 [INFO] Bar 189 | price=66833.8984 | RSI=42.2 | BB%=0.28 | equity=$10000.36 | open=YES
+2026-04-03 15:27:24,662 [INFO] Bar 190 | price=66815.0156 | RSI=40.7 | BB%=0.24 | equity=$10000.36 | open=YES
+2026-04-03 15:28:25,198 [INFO] Bar 191 | price=66811.0078 | RSI=35.5 | BB%=0.25 | equity=$10000.36 | open=YES
+2026-04-03 15:29:25,746 [INFO] Bar 192 | price=66816.1797 | RSI=35.9 | BB%=0.26 | equity=$10000.36 | open=YES
+2026-04-03 15:30:26,341 [INFO] Bar 193 | price=66827.4219 | RSI=37.2 | BB%=0.29 | equity=$10000.36 | open=YES
+2026-04-03 15:31:26,944 [INFO] Bar 194 | price=66843.3203 | RSI=39.0 | BB%=0.32 | equity=$10000.36 | open=YES
+2026-04-03 15:32:27,411 [INFO] Bar 195 | price=66828.2734 | RSI=40.2 | BB%=0.30 | equity=$10000.36 | open=YES
+2026-04-03 15:33:27,986 [INFO] Bar 196 | price=66828.2734 | RSI=40.2 | BB%=0.30 | equity=$10000.36 | open=YES
+2026-04-03 15:34:29,946 [INFO] Bar 197 | price=66817.2188 | RSI=39.4 | BB%=0.27 | equity=$10000.36 | open=YES
+2026-04-03 15:35:30,734 [INFO] Bar 198 | price=66792.8594 | RSI=37.8 | BB%=0.21 | equity=$10000.36 | open=YES
+2026-04-03 15:36:31,228 [INFO] Bar 199 | price=66784.1016 | RSI=34.4 | BB%=0.21 | equity=$10000.36 | open=YES
+2026-04-03 15:37:31,813 [INFO] Bar 200 | price=66784.1016 | RSI=34.4 | BB%=0.21 | equity=$10000.36 | open=YES
+2026-04-03 15:38:32,392 [INFO] Bar 201 | price=66804.0156 | RSI=36.2 | BB%=0.26 | equity=$10000.36 | open=YES
+2026-04-03 15:39:32,908 [INFO] Bar 202 | price=66782.8047 | RSI=34.4 | BB%=0.21 | equity=$10000.36 | open=YES
+2026-04-03 15:40:35,998 [INFO] Bar 203 | price=66782.8047 | RSI=34.4 | BB%=0.21 | equity=$10000.36 | open=YES
+2026-04-03 15:41:36,771 [INFO] Bar 204 | price=66768.6719 | RSI=33.5 | BB%=0.17 | equity=$10000.36 | open=YES
+2026-04-03 15:42:37,242 [INFO] Bar 205 | price=66785.7266 | RSI=33.2 | BB%=0.23 | equity=$10000.36 | open=YES
+2026-04-03 15:43:38,373 [INFO] Bar 206 | price=66801.8438 | RSI=35.0 | BB%=0.27 | equity=$10000.36 | open=YES
+2026-04-03 15:44:38,822 [INFO] Bar 207 | price=66801.8438 | RSI=35.0 | BB%=0.27 | equity=$10000.10 | open=YES
+2026-04-03 15:45:39,569 [INFO] Bar 208 | price=66801.3438 | RSI=34.9 | BB%=0.27 | equity=$10000.10 | open=YES
+2026-04-03 15:46:40,399 [INFO] Bar 209 | price=66807.9141 | RSI=35.6 | BB%=0.29 | equity=$10000.10 | open=YES
+2026-04-03 15:47:41,111 [INFO] Bar 210 | price=66814.9531 | RSI=42.7 | BB%=0.33 | equity=$10000.10 | open=YES
+2026-04-03 15:48:41,998 [INFO] Bar 211 | price=66808.5625 | RSI=42.0 | BB%=0.31 | equity=$10000.10 | open=YES
+2026-04-03 15:49:42,501 [INFO] Bar 212 | price=66796.2891 | RSI=41.0 | BB%=0.27 | equity=$10000.10 | open=YES
+2026-04-03 15:50:43,206 [INFO] Bar 213 | price=66818.8438 | RSI=43.2 | BB%=0.34 | equity=$10000.10 | open=YES
+2026-04-03 15:51:43,231 [ERROR] 
+1 Failed download:
+2026-04-03 15:51:43,241 [ERROR] ['BTC-USD']: TypeError("'NoneType' object is not subscriptable")
+2026-04-03 15:51:43,250 [WARNING] Not enough data, retrying...
+2026-04-03 15:52:43,288 [ERROR] 
+1 Failed download:
+2026-04-03 15:52:43,291 [ERROR] ['BTC-USD']: TypeError("'NoneType' object is not subscriptable")
+2026-04-03 15:52:43,300 [WARNING] Not enough data, retrying...
+2026-04-03 15:53:43,346 [ERROR] 
+1 Failed download:
+2026-04-03 15:53:43,346 [ERROR] ['BTC-USD']: TypeError("'NoneType' object is not subscriptable")
+2026-04-03 15:53:43,349 [WARNING] Not enough data, retrying...
+2026-04-03 15:54:43,886 [INFO] Bar 214 | price=66821.8672 | RSI=43.9 | BB%=0.37 | equity=$10000.10 | open=YES
+2026-04-03 15:55:44,376 [INFO] Bar 215 | price=66806.8672 | RSI=42.7 | BB%=0.31 | equity=$10000.10 | open=YES
+2026-04-03 15:56:44,815 [INFO] Bar 216 | price=66778.6094 | RSI=40.6 | BB%=0.22 | equity=$10000.10 | open=YES
+2026-04-03 15:57:45,262 [INFO] Bar 217 | price=66787.0703 | RSI=40.9 | BB%=0.27 | equity=$10000.10 | open=YES
+2026-04-03 15:58:48,435 [INFO] Bar 218 | price=66795.0859 | RSI=41.6 | BB%=0.30 | equity=$10000.10 | open=YES
+2026-04-03 15:59:48,945 [INFO] Bar 219 | price=66800.9062 | RSI=42.2 | BB%=0.32 | equity=$10000.10 | open=YES
+2026-04-03 16:00:50,807 [INFO] Bar 220 | price=66807.7109 | RSI=42.8 | BB%=0.35 | equity=$10000.10 | open=YES
+2026-04-03 16:01:53,160 [INFO] Bar 221 | price=66799.1797 | RSI=42.0 | BB%=0.31 | equity=$10000.10 | open=YES
+2026-04-03 16:02:54,060 [INFO] Bar 222 | price=66761.6875 | RSI=49.0 | BB%=0.20 | equity=$10000.10 | open=YES
+2026-04-03 16:03:54,727 [INFO] Bar 223 | price=66696.4453 | RSI=43.5 | BB%=-0.00 | equity=$9999.27 | open=YES
+2026-04-03 16:04:55,447 [INFO] Bar 224 | price=66691.5391 | RSI=43.1 | BB%=-0.02 | equity=$9999.27 | open=YES
+2026-04-03 16:05:57,401 [INFO] Bar 225 | price=66691.5391 | RSI=43.1 | BB%=-0.02 | equity=$9999.27 | open=YES
+2026-04-03 16:06:58,011 [INFO] Bar 226 | price=66731.5469 | RSI=46.3 | BB%=0.10 | equity=$9999.27 | open=YES
+2026-04-03 16:07:58,736 [INFO] Bar 227 | price=66731.5469 | RSI=46.3 | BB%=0.10 | equity=$9999.27 | open=YES
+2026-04-03 16:08:59,324 [INFO] Bar 228 | price=66709.8203 | RSI=42.6 | BB%=0.05 | equity=$9999.27 | open=YES
+2026-04-03 16:10:10,450 [ERROR] 
+1 Failed download:
+2026-04-03 16:10:10,459 [ERROR] ['BTC-USD']: TypeError("'NoneType' object is not subscriptable")
+2026-04-03 16:10:10,462 [WARNING] Not enough data, retrying...
+2026-04-03 16:11:11,619 [ERROR] 
+1 Failed download:
+2026-04-03 16:11:11,624 [ERROR] ['BTC-USD']: TypeError("'NoneType' object is not subscriptable")
+2026-04-03 16:11:11,629 [WARNING] Not enough data, retrying...
+2026-04-03 16:12:12,205 [INFO] Bar 229 | price=66727.2500 | RSI=44.0 | BB%=0.11 | equity=$9999.27 | open=YES
+2026-04-03 16:13:12,897 [INFO] Bar 230 | price=66732.0547 | RSI=40.3 | BB%=0.13 | equity=$9999.27 | open=YES
+2026-04-03 16:14:14,482 [INFO] Bar 231 | price=66745.4375 | RSI=41.9 | BB%=0.18 | equity=$9999.27 | open=YES
+2026-04-03 16:15:14,941 [INFO] Bar 232 | price=66771.4062 | RSI=44.6 | BB%=0.29 | equity=$9999.27 | open=YES
+2026-04-03 16:16:15,414 [INFO] Bar 233 | price=66776.4062 | RSI=45.2 | BB%=0.31 | equity=$9999.27 | open=YES
+2026-04-03 16:17:15,887 [INFO] Bar 234 | price=66780.1250 | RSI=45.5 | BB%=0.33 | equity=$9999.27 | open=YES
+2026-04-03 16:18:16,404 [INFO] Bar 235 | price=66781.4062 | RSI=46.6 | BB%=0.36 | equity=$9999.27 | open=YES
+2026-04-03 16:19:16,970 [INFO] Bar 236 | price=66790.0547 | RSI=47.5 | BB%=0.40 | equity=$9999.27 | open=YES
+2026-04-03 16:20:17,442 [INFO] Bar 237 | price=66810.9844 | RSI=49.4 | BB%=0.50 | equity=$9999.27 | open=YES
+2026-04-03 16:21:17,907 [INFO] Bar 238 | price=66822.1328 | RSI=50.4 | BB%=0.56 | equity=$9999.27 | open=YES
+2026-04-03 16:22:18,486 [INFO] Bar 239 | price=66844.4453 | RSI=52.2 | BB%=0.67 | equity=$9999.27 | open=YES
+2026-04-03 16:23:19,026 [INFO] Bar 240 | price=66839.7734 | RSI=44.0 | BB%=0.67 | equity=$9999.27 | open=YES
+2026-04-03 16:24:23,330 [INFO] Bar 241 | price=66863.0938 | RSI=46.3 | BB%=0.78 | equity=$9999.27 | open=YES
+2026-04-03 16:25:23,817 [INFO] Bar 242 | price=66863.0938 | RSI=46.3 | BB%=0.78 | equity=$9999.27 | open=YES
+2026-04-03 16:26:24,361 [INFO] Bar 243 | price=66862.2344 | RSI=46.2 | BB%=0.78 | equity=$9999.27 | open=YES
+2026-04-03 16:27:24,987 [INFO] Bar 244 | price=66842.9141 | RSI=44.2 | BB%=0.68 | equity=$9999.27 | open=YES
+2026-04-03 16:28:25,511 [INFO] Bar 245 | price=66855.2812 | RSI=53.0 | BB%=0.78 | equity=$9999.27 | open=YES
+2026-04-03 16:29:25,990 [INFO] Bar 246 | price=66866.8516 | RSI=54.1 | BB%=0.84 | equity=$10001.87 | open=NO
+2026-04-03 16:30:26,448 [INFO] Bar 247 | price=66872.0703 | RSI=54.6 | BB%=0.86 | equity=$10001.87 | open=NO
+2026-04-03 16:31:26,968 [INFO] Bar 248 | price=66873.3125 | RSI=54.8 | BB%=0.87 | equity=$10001.87 | open=NO
+2026-04-03 16:32:28,348 [INFO] Bar 249 | price=66880.1797 | RSI=57.0 | BB%=0.86 | equity=$10001.87 | open=NO
+2026-04-03 16:33:29,149 [INFO] Bar 250 | price=66880.1797 | RSI=57.0 | BB%=0.86 | equity=$10001.87 | open=NO
+2026-04-03 16:34:32,648 [INFO] Bar 251 | price=66861.6641 | RSI=54.8 | BB%=0.77 | equity=$10001.87 | open=NO
+2026-04-03 16:35:33,186 [INFO] Bar 252 | price=66878.8750 | RSI=56.8 | BB%=0.85 | equity=$10001.87 | open=NO
+2026-04-03 16:36:33,791 [INFO] Bar 253 | price=66878.8750 | RSI=56.8 | BB%=0.85 | equity=$10001.87 | open=NO
+2026-04-03 16:37:34,331 [INFO] Bar 254 | price=66887.2578 | RSI=54.9 | BB%=0.85 | equity=$10001.87 | open=NO
+2026-04-03 16:38:35,010 [INFO] Bar 255 | price=66863.7891 | RSI=52.3 | BB%=0.74 | equity=$10001.87 | open=NO
+2026-04-03 16:39:35,698 [INFO] Bar 256 | price=66868.5625 | RSI=52.8 | BB%=0.77 | equity=$10001.87 | open=NO
+2026-04-03 16:40:36,173 [INFO] Bar 257 | price=66851.0000 | RSI=50.8 | BB%=0.68 | equity=$10001.87 | open=NO
+2026-04-03 16:41:38,212 [INFO] Bar 258 | price=66851.0000 | RSI=50.8 | BB%=0.68 | equity=$10001.87 | open=NO
+2026-04-03 16:42:38,768 [INFO] Bar 259 | price=66843.0859 | RSI=55.9 | BB%=0.63 | equity=$10001.87 | open=NO
+2026-04-03 16:43:39,877 [INFO] Bar 260 | price=66863.5625 | RSI=58.2 | BB%=0.74 | equity=$10001.87 | open=NO
+2026-04-03 16:44:40,566 [INFO] Bar 261 | price=66840.7266 | RSI=55.6 | BB%=0.62 | equity=$10001.87 | open=NO
+2026-04-03 16:45:41,067 [INFO] Bar 262 | price=66832.5547 | RSI=54.6 | BB%=0.58 | equity=$10001.87 | open=NO
+2026-04-03 16:46:41,563 [INFO] Bar 263 | price=66832.5547 | RSI=54.6 | BB%=0.58 | equity=$10001.87 | open=NO
+2026-04-03 16:47:42,509 [INFO] Bar 264 | price=66837.6406 | RSI=58.3 | BB%=0.60 | equity=$10001.87 | open=NO
+2026-04-03 16:48:42,620 [ERROR] 
+1 Failed download:
+2026-04-03 16:48:42,625 [ERROR] ['BTC-USD']: TypeError("'NoneType' object is not subscriptable")
+2026-04-03 16:48:42,653 [WARNING] Not enough data, retrying...
+2026-04-03 16:49:43,072 [ERROR] 
+1 Failed download:
+2026-04-03 16:49:43,136 [ERROR] ['BTC-USD']: TypeError("'NoneType' object is not subscriptable")
+2026-04-03 16:49:43,139 [WARNING] Not enough data, retrying...
+2026-04-03 16:50:45,931 [INFO] Bar 265 | price=66847.6719 | RSI=59.3 | BB%=0.65 | equity=$10001.87 | open=NO
+2026-04-03 16:51:49,268 [INFO] Bar 266 | price=66850.4844 | RSI=59.5 | BB%=0.67 | equity=$10001.87 | open=NO
+2026-04-03 16:52:49,945 [INFO] Bar 267 | price=66852.9219 | RSI=55.7 | BB%=0.71 | equity=$10001.87 | open=NO
+2026-04-03 16:53:50,665 [INFO] Bar 268 | price=66889.3594 | RSI=59.5 | BB%=0.89 | equity=$10001.87 | open=NO
+2026-04-03 16:54:50,893 [ERROR] 
+1 Failed download:
+2026-04-03 16:54:50,925 [ERROR] ['BTC-USD']: TypeError("'NoneType' object is not subscriptable")
+2026-04-03 16:54:50,982 [WARNING] Not enough data, retrying...
+2026-04-03 16:55:51,012 [ERROR] 
+1 Failed download:
+2026-04-03 16:55:51,017 [ERROR] ['BTC-USD']: TypeError("'NoneType' object is not subscriptable")
+2026-04-03 16:55:51,029 [WARNING] Not enough data, retrying...
+2026-04-03 16:56:51,044 [ERROR] 
+1 Failed download:
+2026-04-03 16:56:51,046 [ERROR] ['BTC-USD']: TypeError("'NoneType' object is not subscriptable")
+2026-04-03 16:56:51,051 [WARNING] Not enough data, retrying...
+2026-04-03 16:57:51,997 [INFO] Bar 269 | price=66904.3984 | RSI=57.6 | BB%=0.87 | equity=$10001.87 | open=NO
+2026-04-03 16:58:52,565 [INFO] Bar 270 | price=66913.2188 | RSI=58.7 | BB%=0.91 | equity=$10001.87 | open=NO
+2026-04-03 16:59:53,167 [INFO] Bar 271 | price=66929.6875 | RSI=60.9 | BB%=0.97 | equity=$10001.87 | open=NO
+2026-04-03 17:00:53,810 [INFO] Bar 272 | price=66924.1172 | RSI=60.1 | BB%=0.95 | equity=$10001.87 | open=NO
+2026-04-03 17:01:54,349 [INFO] Bar 273 | price=66924.1172 | RSI=60.1 | BB%=0.95 | equity=$10001.87 | open=NO
+2026-04-03 17:02:55,007 [INFO] Bar 274 | price=66923.4531 | RSI=67.9 | BB%=0.89 | equity=$10001.87 | open=NO
+2026-04-03 17:03:55,586 [INFO] Bar 275 | price=66926.5156 | RSI=68.2 | BB%=0.90 | equity=$10001.87 | open=NO
+2026-04-03 17:04:56,138 [INFO] Bar 276 | price=66910.3125 | RSI=65.8 | BB%=0.84 | equity=$10001.87 | open=NO
+2026-04-03 17:05:56,636 [INFO] Bar 277 | price=66950.7734 | RSI=70.0 | BB%=0.98 | equity=$10001.87 | open=NO
+2026-04-03 17:06:57,191 [INFO] Bar 278 | price=66950.8594 | RSI=70.0 | BB%=0.98 | equity=$10001.87 | open=NO
+2026-04-03 17:07:57,898 [INFO] Bar 279 | price=66946.1094 | RSI=67.7 | BB%=0.91 | equity=$10001.87 | open=NO
+2026-04-03 17:08:58,730 [INFO] Bar 280 | price=66959.1328 | RSI=69.1 | BB%=0.95 | equity=$10001.87 | open=NO
+2026-04-03 17:09:59,280 [INFO] Bar 281 | price=66975.9609 | RSI=70.3 | BB%=0.99 | equity=$10001.87 | open=NO
+2026-04-03 17:10:59,907 [INFO] Bar 282 | price=66976.0078 | RSI=70.3 | BB%=0.99 | equity=$10001.87 | open=NO
+2026-04-03 17:12:06,397 [INFO] Bar 283 | price=66977.0391 | RSI=70.4 | BB%=1.00 | equity=$10001.87 | open=NO
+2026-04-03 17:13:07,013 [INFO] Bar 284 | price=66975.1641 | RSI=82.9 | BB%=0.92 | equity=$10001.87 | open=NO
+2026-04-03 17:14:07,573 [INFO] Bar 285 | price=66978.4453 | RSI=83.4 | BB%=0.93 | equity=$10001.87 | open=NO
+2026-04-03 17:15:08,254 [INFO] Bar 286 | price=66980.1797 | RSI=83.4 | BB%=0.94 | equity=$10001.87 | open=NO
+2026-04-03 17:16:08,810 [INFO] Bar 287 | price=66978.0234 | RSI=83.4 | BB%=0.93 | equity=$10001.87 | open=NO
+2026-04-03 17:17:10,952 [INFO] Bar 288 | price=67026.7188 | RSI=85.3 | BB%=1.05 | equity=$10001.87 | open=NO
+2026-04-03 17:18:11,616 [INFO] Bar 289 | price=66995.3047 | RSI=80.1 | BB%=0.90 | equity=$10001.87 | open=NO
+2026-04-03 17:19:12,209 [INFO] Bar 290 | price=67018.6953 | RSI=84.5 | BB%=0.95 | equity=$10001.87 | open=NO
+2026-04-03 17:20:12,947 [INFO] Bar 291 | price=67018.6953 | RSI=84.5 | BB%=0.95 | equity=$10001.87 | open=NO
+2026-04-03 17:21:13,498 [INFO] Bar 292 | price=67015.1484 | RSI=83.8 | BB%=0.94 | equity=$10001.87 | open=NO
+2026-04-03 17:22:14,004 [INFO] Bar 293 | price=66997.0547 | RSI=80.4 | BB%=0.90 | equity=$10001.87 | open=NO
+2026-04-03 17:23:14,511 [INFO] Bar 294 | price=66980.0000 | RSI=74.5 | BB%=0.81 | equity=$10001.87 | open=NO
+2026-04-03 17:24:15,037 [INFO] Bar 295 | price=66968.7344 | RSI=72.5 | BB%=0.79 | equity=$10001.87 | open=NO
+2026-04-03 17:25:15,716 [INFO] Bar 296 | price=66964.3125 | RSI=71.7 | BB%=0.77 | equity=$10001.87 | open=NO
+2026-04-03 17:26:16,307 [INFO] Bar 297 | price=66978.2188 | RSI=74.2 | BB%=0.81 | equity=$10001.87 | open=NO
+2026-04-03 17:27:16,871 [INFO] Bar 298 | price=66996.1094 | RSI=77.6 | BB%=0.85 | equity=$10001.87 | open=NO
+2026-04-03 17:28:17,424 [INFO] Bar 299 | price=67004.5156 | RSI=73.8 | BB%=0.84 | equity=$10001.87 | open=NO
+2026-04-03 17:29:18,055 [INFO] Bar 300 | price=66991.9766 | RSI=72.3 | BB%=0.81 | equity=$10001.87 | open=NO
+2026-04-03 17:30:18,537 [INFO] Bar 301 | price=67001.4688 | RSI=73.6 | BB%=0.83 | equity=$10001.87 | open=NO
+2026-04-03 17:31:19,751 [INFO] Bar 302 | price=66993.7812 | RSI=72.6 | BB%=0.81 | equity=$10001.87 | open=NO
+2026-04-03 17:32:20,441 [INFO] Bar 303 | price=66995.7109 | RSI=73.1 | BB%=0.82 | equity=$10001.87 | open=NO
+2026-04-03 17:33:21,117 [INFO] Bar 304 | price=67002.0078 | RSI=73.9 | BB%=0.80 | equity=$10001.87 | open=NO
+2026-04-03 17:34:21,627 [INFO] Bar 305 | price=67016.6094 | RSI=75.0 | BB%=0.83 | equity=$10001.87 | open=NO
+2026-04-03 17:35:22,355 [INFO] Bar 306 | price=67017.5312 | RSI=75.1 | BB%=0.84 | equity=$10001.87 | open=NO
+2026-04-03 17:36:22,887 [INFO] Bar 307 | price=67020.1016 | RSI=75.3 | BB%=0.84 | equity=$10001.87 | open=NO
+2026-04-03 17:37:23,704 [INFO] Bar 308 | price=67016.3828 | RSI=71.5 | BB%=0.80 | equity=$10001.87 | open=NO
+2026-04-03 17:38:24,444 [INFO] Bar 309 | price=67016.3828 | RSI=71.5 | BB%=0.80 | equity=$10001.87 | open=NO
+2026-04-03 17:39:24,996 [INFO] Bar 310 | price=67005.9688 | RSI=69.3 | BB%=0.78 | equity=$10001.87 | open=NO
+2026-04-03 17:40:25,480 [INFO] Bar 311 | price=67017.9531 | RSI=71.9 | BB%=0.80 | equity=$10001.87 | open=NO
+2026-04-03 17:41:26,029 [INFO] Bar 312 | price=66999.7656 | RSI=68.0 | BB%=0.76 | equity=$10001.87 | open=NO
+2026-04-03 17:42:26,607 [INFO] Bar 313 | price=67014.9531 | RSI=71.4 | BB%=0.77 | equity=$10001.87 | open=NO
+2026-04-03 17:43:27,121 [INFO] Bar 314 | price=67014.9531 | RSI=71.4 | BB%=0.77 | equity=$10001.87 | open=NO
+2026-04-03 17:44:27,609 [INFO] Bar 315 | price=66951.5078 | RSI=59.5 | BB%=0.61 | equity=$10001.87 | open=NO
+2026-04-03 17:45:28,115 [INFO] Bar 316 | price=66973.7734 | RSI=63.2 | BB%=0.67 | equity=$10001.87 | open=NO
+2026-04-03 17:46:31,082 [INFO] Bar 317 | price=66973.7734 | RSI=63.2 | BB%=0.67 | equity=$10001.87 | open=NO
+2026-04-03 17:47:31,570 [INFO] Bar 318 | price=66968.2891 | RSI=67.4 | BB%=0.64 | equity=$10001.87 | open=NO
+2026-04-03 17:48:32,606 [INFO] Bar 319 | price=67012.5859 | RSI=71.8 | BB%=0.77 | equity=$10001.87 | open=NO
+2026-04-03 17:49:33,278 [INFO] Bar 320 | price=66962.8594 | RSI=66.3 | BB%=0.62 | equity=$10001.87 | open=NO
+2026-04-03 17:50:34,119 [INFO] Bar 321 | price=66956.5703 | RSI=65.1 | BB%=0.60 | equity=$10001.87 | open=NO
+2026-04-03 17:51:34,574 [INFO] Bar 322 | price=66954.1016 | RSI=64.7 | BB%=0.59 | equity=$10001.87 | open=NO
+2026-04-03 17:52:35,178 [INFO] Bar 323 | price=66954.1016 | RSI=64.7 | BB%=0.59 | equity=$10001.87 | open=NO
+2026-04-03 17:53:35,953 [INFO] Bar 324 | price=66994.9453 | RSI=71.7 | BB%=0.71 | equity=$10001.87 | open=NO
+2026-04-03 17:54:36,449 [INFO] Bar 325 | price=67002.3438 | RSI=72.3 | BB%=0.74 | equity=$10001.87 | open=NO
+2026-04-03 17:55:36,986 [INFO] Bar 326 | price=66996.2500 | RSI=71.8 | BB%=0.72 | equity=$10001.87 | open=NO
+2026-04-03 17:56:37,516 [INFO] Bar 327 | price=66959.6484 | RSI=68.8 | BB%=0.59 | equity=$10001.87 | open=NO
+2026-04-03 17:57:38,050 [INFO] Bar 328 | price=66944.4219 | RSI=64.0 | BB%=0.52 | equity=$10001.87 | open=NO
+2026-04-03 17:58:38,624 [INFO] Bar 329 | price=66990.8828 | RSI=69.9 | BB%=0.69 | equity=$10001.87 | open=NO
+2026-04-03 17:59:39,153 [INFO] Bar 330 | price=67023.0312 | RSI=72.5 | BB%=0.80 | equity=$10001.87 | open=NO
+2026-04-03 18:00:39,670 [INFO] Bar 331 | price=67023.0312 | RSI=72.5 | BB%=0.80 | equity=$10001.87 | open=NO
+2026-04-03 18:01:40,152 [INFO] Bar 332 | price=67099.0547 | RSI=77.0 | BB%=1.02 | equity=$10001.87 | open=NO
+2026-04-03 18:02:40,725 [INFO] Bar 333 | price=67041.4609 | RSI=62.5 | BB%=0.79 | equity=$10001.87 | open=NO
+2026-04-03 18:03:41,170 [INFO] Bar 334 | price=67041.4609 | RSI=62.5 | BB%=0.79 | equity=$10001.87 | open=NO
+2026-04-03 18:04:41,217 [ERROR] 
+1 Failed download:
+2026-04-03 18:04:41,222 [ERROR] ['BTC-USD']: TypeError("'NoneType' object is not subscriptable")
+2026-04-03 18:04:41,253 [WARNING] Not enough data, retrying...
+2026-04-03 18:05:41,328 [ERROR] 
+1 Failed download:
+2026-04-03 18:05:41,330 [ERROR] ['BTC-USD']: TypeError("'NoneType' object is not subscriptable")
+2026-04-03 18:05:41,340 [WARNING] Not enough data, retrying...
+2026-04-03 18:06:41,394 [ERROR] 
+1 Failed download:
+2026-04-03 18:06:41,396 [ERROR] ['BTC-USD']: TypeError("'NoneType' object is not subscriptable")
+2026-04-03 18:06:41,408 [WARNING] Not enough data, retrying...
+2026-04-03 18:07:41,455 [ERROR] 
+1 Failed download:
+2026-04-03 18:07:41,457 [ERROR] ['BTC-USD']: TypeError("'NoneType' object is not subscriptable")
+2026-04-03 18:07:41,472 [WARNING] Not enough data, retrying...
+2026-04-03 18:08:41,499 [ERROR] 
+1 Failed download:
+2026-04-03 18:08:41,501 [ERROR] ['BTC-USD']: TypeError("'NoneType' object is not subscriptable")
+2026-04-03 18:08:41,510 [WARNING] Not enough data, retrying...
+2026-04-03 18:09:41,559 [ERROR] 
+1 Failed download:
+2026-04-03 18:09:41,561 [ERROR] ['BTC-USD']: TypeError("'NoneType' object is not subscriptable")
+2026-04-03 18:09:41,572 [WARNING] Not enough data, retrying...
+2026-04-03 18:10:41,619 [ERROR] 
+1 Failed download:
+2026-04-03 18:10:41,619 [ERROR] ['BTC-USD']: TypeError("'NoneType' object is not subscriptable")
+2026-04-03 18:10:41,623 [WARNING] Not enough data, retrying...
+2026-04-03 18:11:43,071 [INFO] Bar 335 | price=66826.4609 | RSI=42.4 | BB%=0.08 | equity=$10001.87 | open=NO
+2026-04-03 18:12:43,626 [INFO] Bar 336 | price=66829.7500 | RSI=40.2 | BB%=0.11 | equity=$10001.87 | open=NO
+2026-04-03 18:13:44,214 [INFO] Bar 337 | price=66831.3750 | RSI=40.4 | BB%=0.12 | equity=$10001.87 | open=NO
+2026-04-03 18:14:44,782 [INFO] Bar 338 | price=66821.3984 | RSI=39.6 | BB%=0.09 | equity=$10001.87 | open=NO
+2026-04-03 18:15:45,379 [INFO] Bar 339 | price=66845.1406 | RSI=41.7 | BB%=0.16 | equity=$10001.87 | open=NO
+2026-04-03 18:16:45,884 [INFO] Bar 340 | price=66852.8984 | RSI=39.9 | BB%=0.18 | equity=$10001.87 | open=NO
+2026-04-03 18:17:46,696 [INFO] Bar 341 | price=66852.8984 | RSI=39.9 | BB%=0.18 | equity=$10001.87 | open=NO
+2026-04-03 18:18:47,448 [INFO] Bar 342 | price=66873.5547 | RSI=41.9 | BB%=0.24 | equity=$10001.87 | open=NO
+2026-04-03 18:19:48,219 [INFO] Bar 343 | price=66860.1484 | RSI=40.6 | BB%=0.20 | equity=$10001.87 | open=NO
+2026-04-03 18:20:49,125 [INFO] Bar 344 | price=66827.5000 | RSI=38.0 | BB%=0.11 | equity=$10001.87 | open=NO
+2026-04-03 18:21:49,650 [INFO] Bar 345 | price=66807.4688 | RSI=36.9 | BB%=0.06 | equity=$10001.87 | open=YES
+2026-04-03 18:22:50,140 [INFO] Bar 346 | price=66763.1328 | RSI=29.4 | BB%=-0.03 | equity=$10001.87 | open=YES
+2026-04-03 18:23:50,664 [INFO] Bar 347 | price=66658.3750 | RSI=25.3 | BB%=-0.21 | equity=$10001.03 | open=YES
+2026-04-03 18:24:51,308 [INFO] Bar 348 | price=66706.5469 | RSI=27.0 | BB%=-0.13 | equity=$10001.03 | open=YES
+2026-04-03 18:25:51,874 [INFO] Bar 349 | price=66745.8516 | RSI=28.6 | BB%=-0.06 | equity=$10001.03 | open=YES
+2026-04-03 18:26:52,382 [INFO] Bar 350 | price=66759.9844 | RSI=31.5 | BB%=0.03 | equity=$10001.03 | open=YES
+2026-04-03 18:27:52,833 [INFO] Bar 351 | price=66759.9844 | RSI=31.5 | BB%=0.03 | equity=$10001.03 | open=YES
+2026-04-03 18:28:53,300 [INFO] Bar 352 | price=66761.3438 | RSI=31.7 | BB%=0.03 | equity=$10001.03 | open=YES
+2026-04-03 18:29:53,958 [INFO] Bar 353 | price=66773.1172 | RSI=32.9 | BB%=0.06 | equity=$10001.03 | open=YES
+2026-04-03 18:30:54,613 [INFO] Bar 354 | price=66767.3438 | RSI=32.3 | BB%=0.04 | equity=$10001.03 | open=YES
+2026-04-03 18:31:55,278 [INFO] Bar 355 | price=66751.7812 | RSI=30.6 | BB%=0.01 | equity=$10001.03 | open=YES
+2026-04-03 18:32:56,672 [INFO] Bar 356 | price=66719.5469 | RSI=29.2 | BB%=0.02 | equity=$10001.03 | open=YES
+2026-04-03 18:33:57,351 [INFO] Bar 357 | price=66685.2109 | RSI=27.8 | BB%=-0.04 | equity=$10001.03 | open=YES
+2026-04-03 18:34:57,885 [INFO] Bar 358 | price=66685.2109 | RSI=27.8 | BB%=-0.04 | equity=$10001.03 | open=YES
+2026-04-03 18:35:58,502 [INFO] Bar 359 | price=66682.4375 | RSI=27.6 | BB%=-0.05 | equity=$10001.03 | open=YES
+2026-04-03 18:36:59,048 [INFO] Bar 360 | price=66634.4531 | RSI=25.9 | BB%=-0.04 | equity=$10001.03 | open=YES
+2026-04-03 18:37:59,772 [INFO] Bar 361 | price=66634.4531 | RSI=25.9 | BB%=-0.04 | equity=$10001.03 | open=YES
+2026-04-03 18:39:00,436 [INFO] Bar 362 | price=66658.3672 | RSI=26.7 | BB%=-0.00 | equity=$10001.03 | open=YES
+2026-04-03 18:40:01,117 [INFO] Bar 363 | price=66668.7422 | RSI=27.1 | BB%=0.01 | equity=$10001.03 | open=YES
+2026-04-03 18:41:01,769 [INFO] Bar 364 | price=66643.6484 | RSI=26.2 | BB%=-0.02 | equity=$10001.03 | open=YES
+2026-04-03 18:42:02,272 [INFO] Bar 365 | price=66590.1328 | RSI=24.4 | BB%=-0.09 | equity=$9999.14 | open=YES
+2026-04-03 18:43:03,159 [INFO] Bar 366 | price=66566.7969 | RSI=21.4 | BB%=-0.03 | equity=$9999.14 | open=YES
+2026-04-03 18:44:03,847 [INFO] Bar 367 | price=66566.7969 | RSI=21.4 | BB%=-0.03 | equity=$9999.14 | open=YES
+2026-04-03 18:45:04,351 [INFO] Bar 368 | price=66591.9609 | RSI=22.2 | BB%=0.01 | equity=$9999.14 | open=YES
+2026-04-03 18:46:05,440 [INFO] Bar 369 | price=66591.9609 | RSI=22.2 | BB%=0.01 | equity=$9999.14 | open=YES
+2026-04-03 18:47:06,098 [INFO] Bar 370 | price=66603.8594 | RSI=23.4 | BB%=0.02 | equity=$9999.14 | open=YES
+2026-04-03 18:48:06,703 [INFO] Bar 371 | price=66676.2891 | RSI=29.9 | BB%=0.18 | equity=$9999.14 | open=YES
+2026-04-03 18:49:07,160 [INFO] Bar 372 | price=66676.2891 | RSI=29.9 | BB%=0.18 | equity=$9999.14 | open=YES
+2026-04-03 18:50:07,642 [INFO] Bar 373 | price=66642.1875 | RSI=27.0 | BB%=0.13 | equity=$9999.14 | open=YES
+2026-04-03 18:51:08,145 [INFO] Bar 374 | price=66613.8359 | RSI=24.4 | BB%=0.10 | equity=$9999.14 | open=YES
+2026-04-03 18:52:08,660 [INFO] Bar 375 | price=66638.7422 | RSI=26.7 | BB%=0.13 | equity=$9999.14 | open=YES
+2026-04-03 18:53:09,112 [INFO] Bar 376 | price=66657.3984 | RSI=30.0 | BB%=0.19 | equity=$9999.14 | open=YES
+2026-04-03 18:54:09,796 [INFO] Bar 377 | price=66663.3984 | RSI=30.5 | BB%=0.20 | equity=$9999.14 | open=YES
+2026-04-03 18:55:10,320 [INFO] Bar 378 | price=66677.9219 | RSI=31.8 | BB%=0.22 | equity=$9999.14 | open=YES
+2026-04-03 18:56:15,273 [INFO] Bar 379 | price=66696.9844 | RSI=33.3 | BB%=0.25 | equity=$9999.14 | open=YES
+2026-04-03 18:57:15,814 [INFO] Bar 380 | price=66695.5859 | RSI=34.1 | BB%=0.27 | equity=$9999.14 | open=YES
+2026-04-03 18:58:16,423 [INFO] Bar 381 | price=66695.5859 | RSI=34.1 | BB%=0.27 | equity=$9999.14 | open=YES
+2026-04-03 18:59:16,935 [INFO] Bar 382 | price=66698.7109 | RSI=34.3 | BB%=0.27 | equity=$9999.14 | open=YES
+2026-04-03 19:00:17,482 [INFO] Bar 383 | price=66698.7109 | RSI=34.3 | BB%=0.27 | equity=$9999.14 | open=YES
+2026-04-03 19:01:17,937 [INFO] Bar 384 | price=66671.9531 | RSI=33.1 | BB%=0.24 | equity=$9999.14 | open=YES
+2026-04-03 19:02:18,431 [INFO] Bar 385 | price=66666.6406 | RSI=32.9 | BB%=0.23 | equity=$9999.14 | open=YES
+2026-04-03 19:03:18,950 [INFO] Bar 386 | price=66670.3594 | RSI=32.7 | BB%=0.26 | equity=$9999.14 | open=YES
+2026-04-03 19:04:19,537 [INFO] Bar 387 | price=66662.3594 | RSI=32.3 | BB%=0.25 | equity=$9999.14 | open=YES
+2026-04-03 19:05:20,119 [INFO] Bar 388 | price=66662.3594 | RSI=32.3 | BB%=0.25 | equity=$9999.14 | open=YES
+2026-04-03 19:06:20,599 [INFO] Bar 389 | price=66655.6172 | RSI=32.0 | BB%=0.24 | equity=$10001.47 | open=YES
+2026-04-03 19:07:21,076 [INFO] Bar 390 | price=66595.8516 | RSI=29.9 | BB%=0.16 | equity=$10000.63 | open=YES
+2026-04-03 19:08:21,615 [INFO] Bar 391 | price=66602.4844 | RSI=17.9 | BB%=0.20 | equity=$10000.63 | open=YES
+2026-04-03 19:09:22,141 [INFO] Bar 392 | price=66648.7578 | RSI=22.5 | BB%=0.26 | equity=$10000.63 | open=YES
+2026-04-03 19:10:22,674 [INFO] Bar 393 | price=66648.7578 | RSI=22.5 | BB%=0.26 | equity=$10000.63 | open=YES
+2026-04-03 19:11:23,173 [INFO] Bar 394 | price=66638.8438 | RSI=21.6 | BB%=0.25 | equity=$10000.63 | open=YES
+2026-04-03 19:12:23,635 [INFO] Bar 395 | price=66605.2500 | RSI=18.2 | BB%=0.20 | equity=$10000.63 | open=YES
+2026-04-03 19:13:24,114 [INFO] Bar 396 | price=66598.3281 | RSI=22.8 | BB%=0.22 | equity=$10000.63 | open=YES
+2026-04-03 19:14:24,601 [INFO] Bar 397 | price=66598.3281 | RSI=22.8 | BB%=0.22 | equity=$10000.63 | open=YES
+2026-04-03 19:15:25,095 [INFO] Bar 398 | price=66595.0234 | RSI=22.6 | BB%=0.22 | equity=$10000.63 | open=YES
+2026-04-03 19:16:25,834 [INFO] Bar 399 | price=66610.1250 | RSI=23.6 | BB%=0.24 | equity=$10000.63 | open=YES
+2026-04-03 19:17:26,398 [INFO] Bar 400 | price=66584.2578 | RSI=22.3 | BB%=0.20 | equity=$10000.63 | open=YES
+2026-04-03 19:18:26,910 [INFO] Bar 401 | price=66579.5391 | RSI=26.6 | BB%=0.22 | equity=$10000.63 | open=YES
+2026-04-03 19:19:28,521 [INFO] Bar 402 | price=66598.0938 | RSI=28.8 | BB%=0.25 | equity=$10000.63 | open=YES
+2026-04-03 19:20:29,209 [INFO] Bar 403 | price=66587.8125 | RSI=27.4 | BB%=0.23 | equity=$10000.63 | open=YES
+2026-04-03 19:21:29,777 [INFO] Bar 404 | price=66534.3203 | RSI=24.5 | BB%=0.16 | equity=$9998.75 | open=YES
+2026-04-03 19:22:31,696 [INFO] Bar 405 | price=66507.0625 | RSI=21.0 | BB%=0.16 | equity=$9998.75 | open=YES
+2026-04-03 19:23:32,347 [INFO] Bar 406 | price=66527.3594 | RSI=21.7 | BB%=0.18 | equity=$9998.75 | open=YES
+2026-04-03 19:24:32,845 [INFO] Bar 407 | price=66534.8984 | RSI=22.1 | BB%=0.19 | equity=$9998.75 | open=YES
+2026-04-03 19:25:33,459 [INFO] Bar 408 | price=66559.8516 | RSI=25.4 | BB%=0.23 | equity=$9998.75 | open=YES
+2026-04-03 19:26:33,995 [INFO] Bar 409 | price=66613.7500 | RSI=31.8 | BB%=0.30 | equity=$9998.75 | open=YES
+2026-04-03 19:27:34,637 [INFO] Bar 410 | price=66671.6328 | RSI=39.6 | BB%=0.41 | equity=$9998.75 | open=YES
+2026-04-03 19:28:35,978 [INFO] Bar 411 | price=66656.2109 | RSI=38.2 | BB%=0.39 | equity=$9998.75 | open=YES
+2026-04-03 19:29:36,925 [INFO] Bar 412 | price=66632.2734 | RSI=35.8 | BB%=0.35 | equity=$9998.75 | open=YES
+2026-04-03 19:30:38,154 [INFO] Bar 413 | price=66645.2344 | RSI=37.1 | BB%=0.37 | equity=$9998.75 | open=YES
+2026-04-03 19:31:38,721 [INFO] Bar 414 | price=66662.8906 | RSI=38.8 | BB%=0.40 | equity=$9998.75 | open=YES
+2026-04-03 19:32:39,235 [INFO] Bar 415 | price=66640.3125 | RSI=41.3 | BB%=0.38 | equity=$9998.75 | open=YES
+2026-04-03 19:33:39,730 [INFO] Bar 416 | price=66640.3125 | RSI=41.3 | BB%=0.38 | equity=$9998.75 | open=YES
+2026-04-03 19:34:40,235 [INFO] Bar 417 | price=66647.6484 | RSI=41.8 | BB%=0.39 | equity=$9998.75 | open=YES

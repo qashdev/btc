@@ -1,0 +1,228 @@
+// ============================================================
+// GOLD SCALPING STRATEGY - TradingView Pine Script v5
+// ============================================================
+// Same 5-signal logic as the Python scalping bot:
+//   1. EMA 9/21 Crossover
+//   2. RSI (oversold/overbought)
+//   3. VWAP Distance
+//   4. Bollinger Band position
+//   5. Volume Spike + Momentum
+//
+// Recommended settings:
+//   Chart:     XAUUSD (Gold)
+//   Timeframe: 5min or 15min
+//   Broker:    Any (works with spread included)
+//
+// How to use:
+//   1. Open TradingView → Pine Script Editor (bottom panel)
+//   2. Paste this entire code
+//   3. Click "Add to chart"
+//   4. Go to Strategy Tester tab for backtest results
+// ============================================================
+
+//@version=5
+strategy(
+  title       = "Gold Scalping Bot - 5 Signal System",
+  shorttitle  = "GOLD SCALP",
+  overlay     = true,
+  margin_long = 100,
+  margin_short= 100,
+  default_qty_type  = strategy.percent_of_equity,
+  default_qty_value = 95,
+  commission_type   = strategy.commission.percent,
+  commission_value  = 0.01,   // 0.01% commission per trade
+  slippage          = 2       // 2 tick slippage
+)
+
+// //
+// INPUTS
+// //
+grp1 = "=== EMA Settings ==="
+ema_fast    = input.int(9,  "Fast EMA", minval=1, group=grp1)
+ema_slow    = input.int(21, "Slow EMA", minval=1, group=grp1)
+
+grp2 = "=== RSI Settings ==="
+rsi_len     = input.int(14, "RSI Length",       minval=1,  group=grp2)
+rsi_ob      = input.int(65, "RSI Overbought",   minval=50, group=grp2)
+rsi_os      = input.int(35, "RSI Oversold",     maxval=50, group=grp2)
+
+grp3 = "=== Bollinger Band Settings ==="
+bb_len      = input.int(20,  "BB Length", minval=1,   group=grp3)
+bb_mult     = input.float(2.0,"BB Std Dev", minval=0.1, group=grp3)
+
+grp4 = "=== VWAP Settings ==="
+vwap_thresh = input.float(0.001, "VWAP Distance Threshold", minval=0.0001, step=0.0001, group=grp4)
+
+grp5 = "=== Volume Settings ==="
+vol_mult    = input.float(1.5, "Volume Spike Multiplier", minval=1.0, group=grp5)
+
+grp6 = "=== Signal & Trade Settings ==="
+min_score   = input.int(3,     "Min Signals Required (1-5)", minval=1, maxval=5, group=grp6)
+tp_pct      = input.float(0.20, "Take Profit %", minval=0.05, step=0.05, group=grp6)
+sl_pct      = input.float(0.10, "Stop Loss %",   minval=0.02, step=0.01, group=grp6)
+longs_only  = input.bool(true,  "Longs Only (recommended for Gold)", group=grp6)
+
+grp7 = "=== Session Filter ==="
+use_session = input.bool(true, "London + NY Session Only", group=grp7)
+sess_start  = input.int(7,  "Session Start (UTC hour)", minval=0, maxval=23, group=grp7)
+sess_end    = input.int(21, "Session End   (UTC hour)", minval=0, maxval=23, group=grp7)
+
+// //
+// INDICATORS
+// //
+
+// 1. EMAs
+ema9  = ta.ema(close, ema_fast)
+ema21 = ta.ema(close, ema_slow)
+
+// 2. RSI
+rsi   = ta.rsi(close, rsi_len)
+
+// 3. Bollinger Bands
+[bb_mid, bb_upper, bb_lower] = ta.bb(close, bb_len, bb_mult)
+bb_pct  = (close - bb_lower) / (bb_upper - bb_lower + 0.0001)
+bb_width= (bb_upper - bb_lower) / (bb_mid + 0.0001)
+bb_squeeze = bb_width < ta.sma(bb_width, 20) * 0.8
+
+// 4. VWAP
+vwap_val   = ta.vwap(hlc3)
+vwap_dist  = (close - vwap_val) / (vwap_val + 0.0001)
+
+// 5. Volume spike
+vol_avg    = ta.sma(volume, 20)
+vol_spike  = volume / (vol_avg + 0.0001)
+mom3       = (close - close[3]) / (close[3] + 0.0001)
+
+// Session filter
+hour_utc   = hour(time, "UTC")
+dow        = dayofweek
+in_session = (not use_session) or (hour_utc >= sess_start and hour_utc < sess_end and dow != dayofweek.sunday and dow != dayofweek.saturday)
+
+// //
+// SIGNAL SCORING
+// //
+
+// Signal 1: EMA Cross
+ema_bull = ema9 > ema21
+ema_cross_up   = ta.crossover(ema9, ema21)
+ema_cross_down = ta.crossunder(ema9, ema21)
+sig1_long  = ema_cross_up  ? 1.0 : ema_bull  ? 0.5 : 0.0
+sig1_short = ema_cross_down? 1.0 : not ema_bull ? 0.5 : 0.0
+
+// Signal 2: RSI
+sig2_long  = rsi < rsi_os ? 1.0 : 0.0
+sig2_short = rsi > rsi_ob ? 1.0 : 0.0
+
+// Signal 3: VWAP Bounce
+sig3_long  = vwap_dist < -vwap_thresh ? 1.0 : 0.0
+sig3_short = vwap_dist >  vwap_thresh ? 1.0 : 0.0
+
+// Signal 4: Bollinger Band
+sig4_long  = bb_pct < 0.2 ? 1.0 : 0.0
+sig4_short = bb_pct > 0.8 ? 1.0 : 0.0
+
+// Signal 5: Volume + Momentum
+sig5_long  = vol_spike >= vol_mult and mom3 > 0 ? 1.0 : 0.0
+sig5_short = vol_spike >= vol_mult and mom3 < 0 ? 1.0 : 0.0
+
+// Total scores
+score_long  = sig1_long  + sig2_long  + sig3_long  + sig4_long  + sig5_long
+score_short = sig1_short + sig2_short + sig3_short + sig4_short + sig5_short
+
+// Entry conditions
+long_signal  = score_long  >= min_score and in_session and barstate.isconfirmed
+short_signal = score_short >= min_score and in_session and not longs_only and barstate.isconfirmed
+
+// //
+// STRATEGY EXECUTION
+// //
+if long_signal and strategy.position_size == 0
+    strategy.entry("LONG", strategy.long, comment="▲ " + str.tostring(score_long, "#.#"))
+    strategy.exit("LONG_EXIT", "LONG",
+      profit = close * tp_pct / 100 / syminfo.mintick,
+      loss   = close * sl_pct / 100 / syminfo.mintick)
+
+if short_signal and strategy.position_size == 0
+    strategy.entry("SHORT", strategy.short, comment="▼ " + str.tostring(score_short, "#.#"))
+    strategy.exit("SHORT_EXIT", "SHORT",
+      profit = close * tp_pct / 100 / syminfo.mintick,
+      loss   = close * sl_pct / 100 / syminfo.mintick)
+
+// //
+// VISUALS - Chart Overlays
+// //
+
+// EMAs
+plot(ema9,  "EMA 9",  color=color.new(color.yellow, 0),  linewidth=1)
+plot(ema21, "EMA 21", color=color.new(color.orange, 0),  linewidth=1)
+
+// VWAP
+plot(vwap_val, "VWAP", color=color.new(color.aqua, 20), linewidth=2, style=plot.style_line)
+
+// Bollinger Bands
+bb_upper_plot = plot(bb_upper, "BB Upper", color=color.new(color.gray, 60), linewidth=1)
+bb_lower_plot = plot(bb_lower, "BB Lower", color=color.new(color.gray, 60), linewidth=1)
+fill(bb_upper_plot, bb_lower_plot, color=color.new(color.gray, 90))
+
+// Buy/Sell signals on chart
+plotshape(long_signal,  title="BUY",  location=location.belowbar, color=color.new(color.lime,  0), style=shape.triangleup,   size=size.small, text="BUY")
+plotshape(short_signal, title="SELL", location=location.abovebar, color=color.new(color.red,   0), style=shape.triangledown, size=size.small, text="SELL")
+
+// BB Squeeze indicator
+bgcolor(bb_squeeze ? color.new(color.yellow, 92) : na, title="BB Squeeze")
+
+// Session shading
+bgcolor(not in_session and use_session ? color.new(color.gray, 95) : na, title="Outside Session")
+
+// //
+// SIGNAL DASHBOARD (top-right table)
+// //
+var table dash = table.new(position.top_right, 2, 9,
+  bgcolor     = color.new(color.black, 70),
+  border_color= color.new(color.gray, 50),
+  border_width= 1)
+
+if barstate.islast
+    // Header
+    table.cell(dash, 0, 0, "SIGNAL",      text_color=color.yellow, text_size=size.small, bgcolor=color.new(color.navy,40))
+    table.cell(dash, 1, 0, "STATUS",      text_color=color.yellow, text_size=size.small, bgcolor=color.new(color.navy,40))
+    // Signals
+    table.cell(dash, 0, 1, "EMA Cross",   text_color=color.white,  text_size=size.tiny)
+    table.cell(dash, 1, 1, sig1_long >= 1 ? "🟢 BULL" : sig1_short >= 1 ? "🔴 BEAR" : "⚪ NEUTRAL",
+      text_color = sig1_long >= 1 ? color.lime : sig1_short >= 1 ? color.red : color.gray, text_size=size.tiny)
+
+    table.cell(dash, 0, 2, "RSI " + str.tostring(math.round(rsi, 1)), text_color=color.white, text_size=size.tiny)
+    table.cell(dash, 1, 2, rsi < rsi_os ? "🟢 OVERSOLD" : rsi > rsi_ob ? "🔴 OVERBOUGHT" : "⚪ " + str.tostring(math.round(rsi,1)),
+      text_color = rsi < rsi_os ? color.lime : rsi > rsi_ob ? color.red : color.gray, text_size=size.tiny)
+
+    table.cell(dash, 0, 3, "VWAP",        text_color=color.white,  text_size=size.tiny)
+    table.cell(dash, 1, 3, vwap_dist < -vwap_thresh ? "🟢 BELOW" : vwap_dist > vwap_thresh ? "🔴 ABOVE" : "⚪ AT",
+      text_color = vwap_dist < -vwap_thresh ? color.lime : vwap_dist > vwap_thresh ? color.red : color.gray, text_size=size.tiny)
+
+    table.cell(dash, 0, 4, "Bollinger",   text_color=color.white,  text_size=size.tiny)
+    table.cell(dash, 1, 4, bb_pct < 0.2 ? "🟢 LOWER BAND" : bb_pct > 0.8 ? "🔴 UPPER BAND" : "⚪ MID",
+      text_color = bb_pct < 0.2 ? color.lime : bb_pct > 0.8 ? color.red : color.gray, text_size=size.tiny)
+
+    table.cell(dash, 0, 5, "Volume",      text_color=color.white,  text_size=size.tiny)
+    table.cell(dash, 1, 5, vol_spike >= vol_mult ? (mom3 > 0 ? "🟢 SPIKE UP" : "🔴 SPIKE DOWN") : "⚪ NORMAL",
+      text_color = vol_spike >= vol_mult ? (mom3 > 0 ? color.lime : color.red) : color.gray, text_size=size.tiny)
+
+    // Scores
+    table.cell(dash, 0, 6, "LONG Score",  text_color=color.lime,   text_size=size.tiny)
+    table.cell(dash, 1, 6, str.tostring(score_long, "#.#") + " / 5",
+      text_color = score_long >= min_score ? color.lime : color.gray, text_size=size.tiny)
+
+    table.cell(dash, 0, 7, "SHORT Score", text_color=color.red,    text_size=size.tiny)
+    table.cell(dash, 1, 7, str.tostring(score_short, "#.#") + " / 5",
+      text_color = score_short >= min_score ? color.red : color.gray, text_size=size.tiny)
+
+    // Session
+    table.cell(dash, 0, 8, "Session",     text_color=color.white,  text_size=size.tiny)
+    table.cell(dash, 1, 8, in_session ? "✅ ACTIVE" : "❌ CLOSED",
+      text_color = in_session ? color.lime : color.red, text_size=size.tiny)
+
+// //
+// ALERTS
+// //
+alertcondition(long_signal,  title="GOLD BUY Signal",  message="🟢 GOLD BUY - Score: {{plot_0}} | Price: {{close}}")
+alertcondition(short_signal, title="GOLD SELL Signal", message="🔴 GOLD SELL - Score: {{plot_0}} | Price: {{close}}")

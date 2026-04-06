@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gold Trading Bot — Puter.js Dashboard</title>
+  <script src="https://js.puter.com/v2/"></script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: #0a0a15;
+      color: #e0e0e0;
+      font-family: 'Segoe UI', sans-serif;
+      min-height: 100vh;
+      padding: 24px;
+    }
+    h1 {
+      text-align: center;
+      font-size: 1.8rem;
+      color: #FFD700;
+      margin-bottom: 4px;
+    }
+    .subtitle { text-align: center; color: #888; font-size: 0.85rem; margin-bottom: 24px; }
+
+    .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; max-width: 1000px; margin: 0 auto 24px; }
+    .card {
+      background: #12122a;
+      border: 1px solid #2a2a4a;
+      border-radius: 12px;
+      padding: 20px;
+    }
+    .card.full { grid-column: 1 / -1; }
+    .card h2 { font-size: 0.9rem; color: #888; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 14px; }
+
+    .stat { display: flex; justify-content: space-between; align-items: center; padding: 8px 0; border-bottom: 1px solid #1e1e38; }
+    .stat:last-child { border-bottom: none; }
+    .stat label { color: #aaa; font-size: 0.88rem; }
+    .stat value { font-weight: 700; font-size: 0.95rem; }
+    .green  { color: #00e676; }
+    .red    { color: #ff1744; }
+    .gold   { color: #FFD700; }
+    .orange { color: #ff9800; }
+    .blue   { color: #448aff; }
+
+    /* Signal box */
+    .signal-box {
+      border-radius: 10px;
+      padding: 18px 24px;
+      text-align: center;
+      font-size: 1.6rem;
+      font-weight: 900;
+      letter-spacing: 2px;
+      margin-bottom: 14px;
+    }
+    .signal-long  { background: rgba(0,230,118,0.12); border: 2px solid #00e676; color: #00e676; }
+    .signal-short { background: rgba(255,23,68,0.12);  border: 2px solid #ff1744; color: #ff1744; }
+    .signal-wait  { background: rgba(255,152,0,0.12);  border: 2px solid #ff9800; color: #ff9800; }
+
+    /* Headlines */
+    .headline { padding: 7px 0; border-bottom: 1px solid #1e1e38; font-size: 0.83rem; color: #bbb; }
+    .headline:last-child { border-bottom: none; }
+
+    /* Claude analysis */
+    #claude-box {
+      background: #0d0d20;
+      border: 1px solid #3a3a6a;
+      border-radius: 10px;
+      padding: 20px;
+      font-size: 0.9rem;
+      line-height: 1.7;
+      white-space: pre-wrap;
+      min-height: 120px;
+      color: #ddd;
+    }
+    .loading { color: #888; font-style: italic; }
+
+    .badge {
+      display: inline-block;
+      padding: 3px 10px;
+      border-radius: 20px;
+      font-size: 0.75rem;
+      font-weight: 700;
+    }
+    .badge-green  { background: rgba(0,230,118,0.15); color: #00e676; border: 1px solid #00e67644; }
+    .badge-red    { background: rgba(255,23,68,0.15);  color: #ff1744; border: 1px solid #ff174444; }
+    .badge-orange { background: rgba(255,152,0,0.15);  color: #ff9800; border: 1px solid #ff980044; }
+
+    .agent-row {
+      display: flex; align-items: center; gap: 10px;
+      padding: 8px 0; border-bottom: 1px solid #1e1e38; font-size: 0.85rem;
+    }
+    .agent-row:last-child { border-bottom: none; }
+    .agent-icon { font-size: 1.2rem; width: 28px; }
+    .agent-label { color: #aaa; flex: 1; }
+    .agent-status { font-weight: 600; }
+
+    button {
+      background: #FFD700;
+      color: #000;
+      border: none;
+      border-radius: 8px;
+      padding: 12px 28px;
+      font-size: 1rem;
+      font-weight: 700;
+      cursor: pointer;
+      display: block;
+      margin: 0 auto;
+      transition: opacity 0.2s;
+    }
+    button:hover { opacity: 0.85; }
+    button:disabled { opacity: 0.4; cursor: not-allowed; }
+
+    .timestamp { text-align: center; color: #555; font-size: 0.78rem; margin-top: 8px; }
+  </style>
+</head>
+<body>
+
+<h1>🏅 Gold Trading Bot</h1>
+<p class="subtitle">Powered by XGBoost + Claude AI via Puter.js (no API key needed)</p>
+
+<div class="grid" id="main-grid">
+  <div class="card" id="card-signal">
+    <h2>📡 Trade Signal</h2>
+    <div class="signal-box signal-wait" id="signal-box">LOADING...</div>
+    <div class="stat">
+      <label>Asset</label>
+      <value class="gold" id="val-asset">—</value>
+    </div>
+    <div class="stat">
+      <label>Current Price</label>
+      <value class="gold" id="val-price">—</value>
+    </div>
+    <div class="stat">
+      <label>Today's Change</label>
+      <value id="val-change">—</value>
+    </div>
+    <div class="stat">
+      <label>Direction</label>
+      <value id="val-direction">—</value>
+    </div>
+    <div class="stat">
+      <label>Confidence</label>
+      <value id="val-confidence">—</value>
+    </div>
+  </div>
+
+  <div class="card" id="card-risk">
+    <h2>🛡️ Risk Management</h2>
+    <div class="stat">
+      <label>Position Size</label>
+      <value id="val-position">—</value>
+    </div>
+    <div class="stat">
+      <label>Stop Loss</label>
+      <value class="red" id="val-sl">—</value>
+    </div>
+    <div class="stat">
+      <label>Take Profit</label>
+      <value class="green" id="val-tp">—</value>
+    </div>
+    <div class="stat">
+      <label>Sentiment Score</label>
+      <value id="val-sentiment">—</value>
+    </div>
+    <div class="stat">
+      <label>Volume Spike</label>
+      <value id="val-volume">—</value>
+    </div>
+    <div class="stat">
+      <label>Volatility (20d)</label>
+      <value id="val-vol">—</value>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>🤖 Agent Pipeline</h2>
+    <div class="agent-row">
+      <div class="agent-icon">🔍</div>
+      <div class="agent-label">Scanner Agent</div>
+      <div class="agent-status" id="agent-1">—</div>
+    </div>
+    <div class="agent-row">
+      <div class="agent-icon">📰</div>
+      <div class="agent-label">Research Agent</div>
+      <div class="agent-status" id="agent-2">—</div>
+    </div>
+    <div class="agent-row">
+      <div class="agent-icon">🧠</div>
+      <div class="agent-label">Prediction Agent (XGBoost)</div>
+      <div class="agent-status" id="agent-3">—</div>
+    </div>
+    <div class="agent-row">
+      <div class="agent-icon">🛡️</div>
+      <div class="agent-label">Risk Agent</div>
+      <div class="agent-status" id="agent-4">—</div>
+    </div>
+    <div class="agent-row">
+      <div class="agent-icon">🔬</div>
+      <div class="agent-label">Claude AI (Puter.js)</div>
+      <div class="agent-status" id="agent-5">—</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>📰 Latest Headlines</h2>
+    <div id="headlines-list">Loading...</div>
+  </div>
+
+  <div class="card full">
+    <h2>🤖 Claude AI Analysis <span class="badge badge-orange">via Puter.js — Free</span></h2>
+    <div id="claude-box"><span class="loading">Waiting for signal data... Click "Run Analysis" below.</span></div>
+  </div>
+</div>
+
+<button id="run-btn" onclick="runAnalysis()">▶ Run Analysis</button>
+<p class="timestamp" id="timestamp"></p>
+
+<script>
+// ── Load signal JSON produced by Python bot ──
+// When opened via file://, fetch the local JSON
+let signalData = null;
+
+async function loadSignal() {
+  try {
+    // Try to fetch gold_signals.json from same directory
+    const res = await fetch('./gold_signals.json');
+    if (!res.ok) throw new Error('not found');
+    signalData = await res.json();
+    renderSignal(signalData);
+  } catch (e) {
+    // If not found, show demo data so you can test the dashboard alone
+    signalData = getDemoData();
+    renderSignal(signalData);
+    document.getElementById('claude-box').innerHTML =
+      '<span class="loading">⚠️ gold_signals.json not found. Showing demo data.\nRun: python gold_bot_puter.py first, then refresh this page.</span>';
+  }
+}
+
+function getDemoData() {
+  return {
+    timestamp: new Date().toISOString(),
+    asset: "Gold (GC=F)",
+    price: 2345.50,
+    price_change_pct: 0.72,
+    volume_spike: 1.63,
+    volatility: 0.142,
+    flagged: true,
+    sentiment_score: 0.18,
+    headlines: [
+      "Gold prices rise amid inflation concerns",
+      "Fed signals rate pause, gold steady near highs",
+      "Dollar weakens, boosting precious metals",
+      "Geopolitical tensions drive safe-haven demand",
+      "Gold ETF inflows hit 3-month high",
+    ],
+    prediction: { direction: "LONG", confidence: 0.67, prob_up: 0.67, prob_down: 0.33 },
+    risk: { approved: true, position_usd: 150, stop_loss: 2310.28, take_profit: 2415.65 },
+    no_trade_reason: null,
+  };
+}
+
+function renderSignal(data) {
+  // Timestamp
+  document.getElementById('timestamp').textContent =
+    'Signal generated: ' + new Date(data.timestamp).toLocaleString();
+
+  // Asset & price
+  document.getElementById('val-asset').textContent  = data.asset;
+  document.getElementById('val-price').textContent  = `$${data.price.toLocaleString()}`;
+
+  const chg = data.price_change_pct;
+  const chgEl = document.getElementById('val-change');
+  chgEl.textContent  = `${chg > 0 ? '+' : ''}${chg.toFixed(2)}%`;
+  chgEl.className    = chg >= 0 ? 'green' : 'red';
+
+  // Agents
+  setAgent('agent-1', data.flagged ? '✅ Flagged' : '⏸ No signal', data.flagged ? 'green' : 'orange');
+  setAgent('agent-2', `✅ ${data.headlines.length} headlines`, 'green');
+
+  const pred = data.prediction;
+  if (pred) {
+    setAgent('agent-3', `✅ ${pred.direction} @ ${(pred.confidence*100).toFixed(1)}%`, pred.direction === 'LONG' ? 'green' : 'red');
+    document.getElementById('val-direction').textContent  = pred.direction;
+    document.getElementById('val-direction').className    = pred.direction === 'LONG' ? 'green' : 'red';
+    document.getElementById('val-confidence').textContent = `${(pred.confidence*100).toFixed(1)}%`;
+    document.getElementById('val-confidence').className   = pred.confidence >= 0.62 ? 'green' : 'orange';
+  } else {
+    setAgent('agent-3', '⏸ No prediction', 'orange');
+  }
+
+  const risk = data.risk;
+  if (risk && risk.approved) {
+    setAgent('agent-4', '✅ Approved', 'green');
+    document.getElementById('val-position').textContent = `$${risk.position_usd.toFixed(2)}`;
+    document.getElementById('val-sl').textContent       = `$${risk.stop_loss.toLocaleString()}`;
+    document.getElementById('val-tp').textContent       = `$${risk.take_profit.toLocaleString()}`;
+  } else if (risk && !risk.approved) {
+    setAgent('agent-4', '❌ Blocked', 'red');
+  } else {
+    setAgent('agent-4', '⏸ Skipped', 'orange');
+  }
+
+  setAgent('agent-5', '⏳ Awaiting...', 'orange');
+
+  // Signal box
+  const box = document.getElementById('signal-box');
+  if (data.no_trade_reason) {
+    box.textContent = '⏸ NO TRADE';
+    box.className   = 'signal-box signal-wait';
+  } else if (pred && pred.direction === 'LONG') {
+    box.textContent = '📈 LONG — BUY GOLD';
+    box.className   = 'signal-box signal-long';
+  } else if (pred && pred.direction === 'SHORT') {
+    box.textContent = '📉 SHORT — SELL GOLD';
+    box.className   = 'signal-box signal-short';
+  } else {
+    box.textContent = '⏸ NO SIGNAL';
+    box.className   = 'signal-box signal-wait';
+  }
+
+  // Risk stats
+  document.getElementById('val-sentiment').textContent = data.sentiment_score >= 0
+    ? `+${data.sentiment_score.toFixed(3)} 😊` : `${data.sentiment_score.toFixed(3)} 😟`;
+  document.getElementById('val-sentiment').className   = data.sentiment_score >= 0 ? 'green' : 'red';
+  document.getElementById('val-volume').textContent    = `${data.volume_spike.toFixed(2)}x`;
+  document.getElementById('val-volume').className      = data.volume_spike > 1.5 ? 'orange' : 'blue';
+  document.getElementById('val-vol').textContent       = `${(data.volatility * 100).toFixed(1)}%`;
+
+  // Headlines
+  const container = document.getElementById('headlines-list');
+  container.innerHTML = data.headlines
+    .map(h => `<div class="headline">• ${h}</div>`)
+    .join('');
+}
+
+function setAgent(id, text, color) {
+  const el = document.getElementById(id);
+  el.textContent = text;
+  el.className   = 'agent-status ' + color;
+}
+
+// ── Claude via Puter.js ──
+async function runAnalysis() {
+  if (!signalData) { alert('Signal data not loaded yet.'); return; }
+
+  const btn = document.getElementById('run-btn');
+  btn.disabled    = true;
+  btn.textContent = '⏳ Claude is thinking...';
+  setAgent('agent-5', '⏳ Running...', 'orange');
+
+  const box = document.getElementById('claude-box');
+  box.innerHTML = '<span class="loading">🤖 Claude is analyzing the gold market signal...</span>';
+
+  const pred = signalData.prediction;
+  const risk = signalData.risk;
+
+  const prompt = `You are a professional gold commodities trader and risk analyst.
+
+Analyze this trading signal and give a clear recommendation:
+
+MARKET DATA:
+- Asset: ${signalData.asset}
+- Current Price: $${signalData.price}
+- Today's Change: ${signalData.price_change_pct}%
+- Volume Spike: ${signalData.volume_spike}x normal
+- 20-day Volatility: ${(signalData.volatility * 100).toFixed(1)}%
+
+AI MODEL OUTPUT:
+- XGBoost Direction: ${pred ? pred.direction : 'N/A'}
+- Confidence: ${pred ? (pred.confidence * 100).toFixed(1) + '%' : 'N/A'}
+- Prob Up: ${pred ? (pred.prob_up * 100).toFixed(1) + '%' : 'N/A'}
+- Prob Down: ${pred ? (pred.prob_down * 100).toFixed(1) + '%' : 'N/A'}
+
+SENTIMENT:
+- Score: ${signalData.sentiment_score} (-1 = very bearish, +1 = very bullish)
+- Headlines: ${signalData.headlines.slice(0, 4).join(' | ')}
+
+RISK PARAMETERS:
+${risk ? `- Recommended Position: $${risk.position_usd}
+- Stop Loss: $${risk.stop_loss}
+- Take Profit: $${risk.take_profit}
+- Trade Approved: ${risk.approved}` : '- No trade recommended'}
+
+${signalData.no_trade_reason ? `NO TRADE REASON: ${signalData.no_trade_reason}` : ''}
+
+Please provide:
+1. 📊 YOUR ASSESSMENT: Do you agree with the model's signal? Why or why not?
+2. ⚠️ KEY RISKS: What are the top 2-3 risks if this trade goes wrong?
+3. 🎯 RECOMMENDATION: TAKE THE TRADE / SKIP / WAIT — with a one-line reason.
+4. 💡 PRO TIP: One tactical advice for this specific setup.
+
+Be direct, concise, and professional. Use bullet points.`;
+
+  try {
+    const response = await puter.ai.chat(prompt, {
+      model: "claude-sonnet-4-5"
+    });
+
+    const text = response?.message?.content?.[0]?.text || response?.toString() || 'No response';
+    box.textContent = text;
+    setAgent('agent-5', '✅ Analysis done', 'green');
+  } catch (err) {
+    box.innerHTML = `<span class="red">❌ Puter.js error: ${err.message || err}\n\nMake sure you are connected to the internet and Puter.js is accessible.</span>`;
+    setAgent('agent-5', '❌ Error', 'red');
+  }
+
+  btn.disabled    = false;
+  btn.textContent = '🔄 Re-run Analysis';
+}
+
+// Init
+loadSignal();
+</script>
+</body>
+</html>

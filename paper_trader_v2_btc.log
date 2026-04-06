@@ -1,0 +1,722 @@
+2026-04-03 14:02:20,315 [INFO] Bar 1 | price=67065.02 | RSI=67.1 | sess=London open | streak=0 | eq=$10000
+2026-04-03 14:03:20,778 [INFO] Bar 2 | price=67051.76 | RSI=64.1 | sess=London open | streak=0 | eq=$10000
+2026-04-03 14:04:21,291 [INFO] Bar 3 | price=67057.30 | RSI=64.7 | sess=London open | streak=0 | eq=$10000
+2026-04-03 14:05:21,822 [INFO] Bar 4 | price=67092.24 | RSI=66.7 | sess=London open | streak=0 | eq=$10000
+2026-04-03 14:06:22,369 [INFO] Bar 5 | price=67095.08 | RSI=66.9 | sess=London open | streak=0 | eq=$10000
+2026-04-03 14:07:22,999 [INFO] Bar 6 | price=67098.94 | RSI=67.1 | sess=London open | streak=0 | eq=$10000
+2026-04-03 14:08:23,553 [INFO] Bar 7 | price=67099.85 | RSI=66.0 | sess=London open | streak=0 | eq=$10000
+2026-04-03 14:09:24,182 [INFO] Bar 8 | price=67099.85 | RSI=66.0 | sess=London open | streak=0 | eq=$10000
+2026-04-03 14:10:24,801 [INFO] Bar 9 | price=67068.52 | RSI=63.1 | sess=London open | streak=0 | eq=$10000
+2026-04-03 14:11:25,615 [INFO] Bar 10 | price=67059.77 | RSI=62.4 | sess=London open | streak=0 | eq=$10000
+2026-04-03 14:12:26,455 [INFO] Bar 11 | price=67034.48 | RSI=60.3 | sess=London open | streak=0 | eq=$10000
+2026-04-03 14:13:27,127 [INFO] Bar 12 | price=67000.18 | RSI=50.2 | sess=London open | streak=0 | eq=$10000
+2026-04-03 14:14:27,722 [INFO] Bar 13 | price=66945.15 | RSI=46.4 | sess=London open | streak=0 | eq=$10000
+2026-04-03 14:15:28,346 [INFO] Bar 14 | price=66924.14 | RSI=45.1 | sess=London open | streak=0 | eq=$10000
+2026-04-03 14:16:28,970 [INFO] Bar 15 | price=66925.27 | RSI=35.1 | sess=London open | streak=0 | eq=$10000
+2026-04-03 14:17:29,433 [INFO] Bar 16 | price=66925.27 | RSI=35.1 | sess=London open | streak=0 | eq=$10000
+2026-04-03 14:18:29,893 [INFO] Bar 17 | price=66927.07 | RSI=35.3 | sess=London open | streak=0 | eq=$10000
+2026-04-03 14:19:30,426 [INFO] Bar 18 | price=66909.24 | RSI=34.2 | sess=London open | streak=0 | eq=$10000
+2026-04-03 14:20:31,507 [INFO] Bar 19 | price=66939.23 | RSI=36.5 | sess=London open | streak=0 | eq=$10000
+2026-04-03 14:21:32,004 [INFO] Bar 20 | price=66968.60 | RSI=39.3 | sess=London open | streak=0 | eq=$10000
+2026-04-03 14:22:32,489 [INFO] Bar 21 | price=66980.27 | RSI=41.6 | sess=London open | streak=0 | eq=$10000
+2026-04-03 14:23:33,037 [INFO] Bar 22 | price=66971.18 | RSI=40.8 | sess=London open | streak=0 | eq=$10000
+2026-04-03 14:24:33,572 [INFO] Bar 23 | price=66974.09 | RSI=41.0 | sess=London open | streak=0 | eq=$10000
+2026-04-03 14:25:34,091 [INFO] Bar 24 | price=66974.09 | RSI=41.0 | sess=London open | streak=0 | eq=$10000
+2026-04-03 14:26:34,628 [INFO] Bar 25 | price=66936.77 | RSI=38.7 | sess=London open | streak=0 | eq=$10000
+2026-04-03 14:27:35,109 [INFO] Bar 26 | price=66932.29 | RSI=42.4 | sess=London open | streak=0 | eq=$10000
+2026-04-03 14:28:35,611 [INFO] Bar 27 | price=66924.07 | RSI=41.9 | sess=London open | streak=0 | eq=$10000
+2026-04-03 14:29:36,088 [INFO] Bar 28 | price=66932.26 | RSI=42.4 | sess=London open | streak=0 | eq=$10000
+2026-04-03 14:30:36,630 [INFO] Bar 29 | price=66946.34 | RSI=43.6 | sess=London open | streak=0 | eq=$10000
+2026-04-03 14:31:37,254 [INFO] Bar 30 | price=66961.93 | RSI=45.0 | sess=London open | streak=0 | eq=$10000
+2026-04-03 14:32:37,720 [INFO] Bar 31 | price=66959.03 | RSI=44.6 | sess=London open | streak=0 | eq=$10000
+2026-04-03 14:33:38,190 [INFO] Bar 32 | price=66959.03 | RSI=44.6 | sess=London open | streak=0 | eq=$10000
+2026-04-03 14:34:38,707 [INFO] Bar 33 | price=66954.78 | RSI=44.3 | sess=London open | streak=0 | eq=$10000
+2026-04-03 14:35:39,190 [INFO] Bar 34 | price=66974.03 | RSI=45.9 | sess=London open | streak=0 | eq=$10000
+2026-04-03 14:36:39,725 [INFO] Bar 35 | price=66981.89 | RSI=46.5 | sess=London open | streak=0 | eq=$10000
+2026-04-03 14:37:40,341 [INFO] Bar 36 | price=66966.09 | RSI=45.5 | sess=London open | streak=0 | eq=$10000
+2026-04-03 14:38:40,869 [INFO] Bar 37 | price=66888.60 | RSI=40.8 | sess=London open | streak=0 | eq=$10000
+2026-04-03 14:39:41,474 [INFO] Bar 38 | price=66912.95 | RSI=42.2 | sess=London open | streak=0 | eq=$10000
+2026-04-03 14:40:42,142 [INFO] Bar 39 | price=66911.13 | RSI=42.1 | sess=London open | streak=0 | eq=$10000
+2026-04-03 14:41:42,820 [INFO] Bar 40 | price=66890.68 | RSI=40.9 | sess=London open | streak=0 | eq=$10000
+2026-04-03 14:42:44,151 [INFO] Bar 41 | price=66886.21 | RSI=37.7 | sess=London open | streak=0 | eq=$10000
+2026-04-03 14:43:44,784 [INFO] Bar 42 | price=66881.07 | RSI=37.5 | sess=London open | streak=0 | eq=$10000
+2026-04-03 14:44:45,254 [INFO] Bar 43 | price=66877.71 | RSI=37.3 | sess=London open | streak=0 | eq=$10000
+2026-04-03 14:45:45,852 [INFO] Bar 44 | price=66883.68 | RSI=37.6 | sess=London open | streak=0 | eq=$10000
+2026-04-03 14:46:46,621 [INFO] Bar 45 | price=66888.91 | RSI=37.9 | sess=London open | streak=0 | eq=$10000
+2026-04-03 14:47:47,212 [INFO] Bar 46 | price=66890.07 | RSI=26.6 | sess=London open | streak=0 | eq=$10000
+2026-04-03 14:48:47,698 [INFO] Bar 47 | price=66889.34 | RSI=26.5 | sess=London open | streak=0 | eq=$10000
+2026-04-03 14:49:48,331 [INFO] Bar 48 | price=66895.99 | RSI=27.3 | sess=London open | streak=0 | eq=$10000
+2026-04-03 14:50:48,852 [INFO] Bar 49 | price=66895.33 | RSI=27.2 | sess=London open | streak=0 | eq=$10000
+2026-04-03 14:51:49,463 [INFO] Bar 50 | price=66895.33 | RSI=27.2 | sess=London open | streak=0 | eq=$10000
+2026-04-03 14:52:49,972 [INFO] Bar 51 | price=66886.95 | RSI=24.8 | sess=London open | streak=0 | eq=$10000
+2026-04-03 14:53:50,455 [INFO] Bar 52 | price=66825.46 | RSI=22.6 | sess=London open | streak=1 | eq=$9999
+2026-04-03 14:54:51,116 [INFO] Bar 53 | price=66768.13 | RSI=20.8 | sess=London open | streak=2 | eq=$9997
+2026-04-03 14:55:51,631 [INFO] Bar 54 | price=66757.62 | RSI=20.5 | sess=London open | streak=2 | eq=$9997
+2026-04-03 14:56:52,087 [INFO] Bar 55 | price=66772.16 | RSI=20.9 | sess=London open | streak=2 | eq=$9997
+2026-04-03 14:57:52,694 [INFO] Bar 56 | price=66773.15 | RSI=22.6 | sess=London open | streak=2 | eq=$9997
+2026-04-03 14:58:55,870 [INFO] Bar 57 | price=66769.91 | RSI=22.4 | sess=London open | streak=2 | eq=$9997
+2026-04-03 14:59:56,475 [INFO] Bar 58 | price=66785.49 | RSI=24.0 | sess=London open | streak=2 | eq=$9997
+2026-04-03 15:00:56,939 [INFO] Bar 59 | price=66785.49 | RSI=24.0 | sess=London open | streak=2 | eq=$9997
+2026-04-03 15:01:57,512 [INFO] Bar 60 | price=66791.02 | RSI=24.6 | sess=London open | streak=0 | eq=$9998
+2026-04-03 15:02:58,002 [INFO] Bar 61 | price=66794.45 | RSI=22.7 | sess=London open | streak=0 | eq=$9998
+2026-04-03 15:03:58,549 [INFO] Bar 62 | price=66794.45 | RSI=22.7 | sess=London open | streak=0 | eq=$9998
+2026-04-03 15:04:59,368 [INFO] Bar 63 | price=66795.28 | RSI=22.8 | sess=London open | streak=0 | eq=$9998
+2026-04-03 15:06:00,003 [INFO] Bar 64 | price=66831.23 | RSI=26.7 | sess=London open | streak=0 | eq=$9998
+2026-04-03 15:07:00,449 [INFO] Bar 65 | price=66829.17 | RSI=26.5 | sess=London open | streak=0 | eq=$9998
+2026-04-03 15:08:00,943 [INFO] Bar 66 | price=66829.88 | RSI=30.7 | sess=London open | streak=0 | eq=$9998
+2026-04-03 15:09:01,473 [INFO] Bar 67 | price=66804.58 | RSI=29.5 | sess=London open | streak=0 | eq=$9998
+2026-04-03 15:10:02,017 [INFO] Bar 68 | price=66804.58 | RSI=29.5 | sess=London open | streak=0 | eq=$9998
+2026-04-03 15:11:03,116 [INFO] Bar 69 | price=66814.85 | RSI=30.0 | sess=London open | streak=0 | eq=$9998
+2026-04-03 15:12:03,579 [INFO] Bar 70 | price=66817.55 | RSI=30.1 | sess=London open | streak=0 | eq=$9998
+2026-04-03 15:13:04,130 [INFO] Bar 71 | price=66822.55 | RSI=26.7 | sess=London open | streak=0 | eq=$9998
+2026-04-03 15:14:04,681 [INFO] Bar 72 | price=66835.39 | RSI=28.2 | sess=London open | streak=0 | eq=$9998
+2026-04-03 15:15:07,174 [INFO] Bar 73 | price=66872.82 | RSI=32.4 | sess=London open | streak=0 | eq=$9998
+2026-04-03 15:16:07,722 [INFO] Bar 74 | price=66880.55 | RSI=33.2 | sess=London open | streak=0 | eq=$10000
+2026-04-03 15:17:08,232 [INFO] Bar 75 | price=66902.48 | RSI=35.4 | sess=London open | streak=0 | eq=$10000
+2026-04-03 15:18:08,712 [INFO] Bar 76 | price=66893.87 | RSI=38.6 | sess=London open | streak=0 | eq=$10000
+2026-04-03 15:19:09,169 [INFO] Bar 77 | price=66875.55 | RSI=37.5 | sess=London open | streak=0 | eq=$10000
+2026-04-03 15:20:09,765 [INFO] Bar 78 | price=66818.72 | RSI=34.4 | sess=London open | streak=0 | eq=$10000
+2026-04-03 15:21:10,875 [INFO] Bar 79 | price=66818.72 | RSI=34.4 | sess=London open | streak=0 | eq=$10000
+2026-04-03 15:22:11,364 [INFO] Bar 80 | price=66828.16 | RSI=34.9 | sess=London open | streak=0 | eq=$10000
+2026-04-03 15:23:12,790 [INFO] Bar 81 | price=66836.83 | RSI=42.5 | sess=London open | streak=0 | eq=$10000
+2026-04-03 15:24:13,505 [INFO] Bar 82 | price=66837.63 | RSI=42.6 | sess=London open | streak=0 | eq=$10000
+2026-04-03 15:25:13,960 [INFO] Bar 83 | price=66834.95 | RSI=42.3 | sess=London open | streak=0 | eq=$10000
+2026-04-03 15:26:14,489 [INFO] Bar 84 | price=66833.90 | RSI=42.2 | sess=London open | streak=0 | eq=$10000
+2026-04-03 15:27:14,951 [INFO] Bar 85 | price=66815.02 | RSI=40.7 | sess=London open | streak=0 | eq=$10000
+2026-04-03 15:28:15,516 [INFO] Bar 86 | price=66811.01 | RSI=35.5 | sess=London open | streak=0 | eq=$10000
+2026-04-03 15:29:16,081 [INFO] Bar 87 | price=66816.18 | RSI=35.9 | sess=London open | streak=0 | eq=$10000
+2026-04-03 15:30:16,587 [INFO] Bar 88 | price=66827.42 | RSI=37.2 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 15:31:17,088 [INFO] Bar 89 | price=66839.12 | RSI=38.5 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 15:32:17,682 [INFO] Bar 90 | price=66843.32 | RSI=39.0 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 15:33:18,140 [INFO] Bar 91 | price=66828.27 | RSI=40.2 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 15:34:18,634 [INFO] Bar 92 | price=66828.27 | RSI=40.2 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 15:35:20,105 [INFO] Bar 93 | price=66817.22 | RSI=39.4 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 15:36:20,682 [INFO] Bar 94 | price=66792.86 | RSI=37.8 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 15:37:21,320 [INFO] Bar 95 | price=66784.10 | RSI=34.4 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 15:38:22,145 [INFO] Bar 96 | price=66784.10 | RSI=34.4 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 15:39:22,637 [INFO] Bar 97 | price=66804.02 | RSI=36.2 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 15:40:23,179 [INFO] Bar 98 | price=66782.80 | RSI=34.4 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 15:41:23,650 [INFO] Bar 99 | price=66782.80 | RSI=34.4 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 15:42:24,168 [INFO] Bar 100 | price=66768.67 | RSI=33.5 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 15:43:32,100 [INFO] Bar 101 | price=66801.84 | RSI=35.0 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 15:44:32,628 [INFO] Bar 102 | price=66801.84 | RSI=35.0 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 15:45:33,632 [INFO] Bar 103 | price=66801.34 | RSI=34.9 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 15:46:34,342 [INFO] Bar 104 | price=66807.91 | RSI=35.6 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 15:47:35,256 [INFO] Bar 105 | price=66814.95 | RSI=42.7 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 15:48:36,002 [INFO] Bar 106 | price=66808.56 | RSI=42.0 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 15:49:36,527 [INFO] Bar 107 | price=66796.29 | RSI=41.0 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 15:50:37,075 [INFO] Bar 108 | price=66818.84 | RSI=43.2 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 15:51:37,125 [ERROR] 
+1 Failed download:
+2026-04-03 15:51:37,129 [ERROR] ['BTC-USD']: TypeError("'NoneType' object is not subscriptable")
+2026-04-03 15:51:37,163 [WARNING] Not enough data, retrying...
+2026-04-03 15:52:37,231 [ERROR] 
+1 Failed download:
+2026-04-03 15:52:37,234 [ERROR] ['BTC-USD']: TypeError("'NoneType' object is not subscriptable")
+2026-04-03 15:52:37,243 [WARNING] Not enough data, retrying...
+2026-04-03 15:53:37,289 [ERROR] 
+1 Failed download:
+2026-04-03 15:53:37,290 [ERROR] ['BTC-USD']: TypeError("'NoneType' object is not subscriptable")
+2026-04-03 15:53:37,292 [WARNING] Not enough data, retrying...
+2026-04-03 15:54:38,993 [INFO] Bar 109 | price=66821.87 | RSI=43.9 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 15:55:39,516 [INFO] Bar 110 | price=66806.87 | RSI=42.7 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 15:56:40,021 [INFO] Bar 111 | price=66778.61 | RSI=40.6 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 15:57:40,758 [INFO] Bar 112 | price=66787.07 | RSI=40.9 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 15:58:41,730 [INFO] Bar 113 | price=66795.09 | RSI=41.6 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 15:59:42,598 [INFO] Bar 114 | price=66800.91 | RSI=42.2 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 16:00:43,227 [INFO] Bar 115 | price=66807.71 | RSI=42.8 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 16:01:43,812 [INFO] Bar 116 | price=66799.18 | RSI=42.0 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 16:02:44,463 [INFO] Bar 117 | price=66761.69 | RSI=49.0 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 16:03:45,499 [INFO] Bar 118 | price=66696.45 | RSI=43.5 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 16:04:46,129 [INFO] Bar 119 | price=66691.54 | RSI=43.1 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 16:05:47,556 [INFO] Bar 120 | price=66691.54 | RSI=43.1 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 16:06:48,165 [INFO] Bar 121 | price=66731.55 | RSI=46.3 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 16:07:48,751 [INFO] Bar 122 | price=66731.55 | RSI=46.3 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 16:08:49,403 [INFO] Bar 123 | price=66709.82 | RSI=42.6 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 16:10:00,516 [ERROR] 
+1 Failed download:
+2026-04-03 16:10:00,516 [ERROR] ['BTC-USD']: TypeError("'NoneType' object is not subscriptable")
+2026-04-03 16:10:00,521 [WARNING] Not enough data, retrying...
+2026-04-03 16:11:11,618 [ERROR] 
+1 Failed download:
+2026-04-03 16:11:11,622 [ERROR] ['BTC-USD']: TypeError("'NoneType' object is not subscriptable")
+2026-04-03 16:11:11,626 [WARNING] Not enough data, retrying...
+2026-04-03 16:12:12,127 [INFO] Bar 124 | price=66727.25 | RSI=44.0 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 16:13:12,849 [INFO] Bar 125 | price=66732.05 | RSI=40.3 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 16:14:14,497 [INFO] Bar 126 | price=66745.44 | RSI=41.9 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 16:15:15,057 [INFO] Bar 127 | price=66771.41 | RSI=44.6 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 16:16:15,518 [INFO] Bar 128 | price=66776.41 | RSI=45.2 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 16:17:15,979 [INFO] Bar 129 | price=66780.12 | RSI=45.5 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 16:18:16,463 [INFO] Bar 130 | price=66781.41 | RSI=46.6 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 16:19:17,013 [INFO] Bar 131 | price=66790.05 | RSI=47.5 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 16:20:17,517 [INFO] Bar 132 | price=66810.98 | RSI=49.4 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 16:21:17,982 [INFO] Bar 133 | price=66822.13 | RSI=50.4 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 16:22:18,526 [INFO] Bar 134 | price=66844.45 | RSI=52.2 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 16:23:19,158 [INFO] Bar 135 | price=66839.77 | RSI=44.0 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 16:24:23,242 [INFO] Bar 136 | price=66863.09 | RSI=46.3 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 16:25:23,781 [INFO] Bar 137 | price=66863.09 | RSI=46.3 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 16:26:24,230 [INFO] Bar 138 | price=66862.23 | RSI=46.2 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 16:27:24,934 [INFO] Bar 139 | price=66842.91 | RSI=44.2 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 16:28:25,508 [INFO] Bar 140 | price=66855.28 | RSI=53.0 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 16:29:26,027 [INFO] Bar 141 | price=66866.85 | RSI=54.1 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 16:30:26,497 [INFO] Bar 142 | price=66872.07 | RSI=54.6 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 16:31:26,958 [INFO] Bar 143 | price=66873.31 | RSI=54.8 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 16:32:28,347 [INFO] Bar 144 | price=66880.18 | RSI=57.0 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 16:33:29,184 [INFO] Bar 145 | price=66880.18 | RSI=57.0 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 16:34:32,579 [INFO] Bar 146 | price=66861.66 | RSI=54.8 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 16:35:33,125 [INFO] Bar 147 | price=66878.88 | RSI=56.8 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 16:36:33,635 [INFO] Bar 148 | price=66878.88 | RSI=56.8 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 16:37:34,128 [INFO] Bar 149 | price=66887.26 | RSI=54.9 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 16:38:35,037 [INFO] Bar 150 | price=66863.79 | RSI=52.3 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 16:39:35,647 [INFO] Bar 151 | price=66868.56 | RSI=52.8 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 16:40:36,199 [INFO] Bar 152 | price=66851.00 | RSI=50.8 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 16:41:38,315 [INFO] Bar 153 | price=66851.00 | RSI=50.8 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 16:42:38,841 [INFO] Bar 154 | price=66843.09 | RSI=55.9 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 16:43:39,889 [INFO] Bar 155 | price=66863.56 | RSI=58.2 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 16:44:40,471 [INFO] Bar 156 | price=66840.73 | RSI=55.6 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 16:45:40,956 [INFO] Bar 157 | price=66832.55 | RSI=54.6 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 16:46:41,457 [INFO] Bar 158 | price=66832.55 | RSI=54.6 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 16:47:42,278 [INFO] Bar 159 | price=66837.64 | RSI=58.3 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 16:48:42,351 [ERROR] 
+1 Failed download:
+2026-04-03 16:48:42,354 [ERROR] ['BTC-USD']: TypeError("'NoneType' object is not subscriptable")
+2026-04-03 16:48:42,406 [WARNING] Not enough data, retrying...
+2026-04-03 16:49:42,834 [ERROR] 
+1 Failed download:
+2026-04-03 16:49:42,905 [ERROR] ['BTC-USD']: TypeError("'NoneType' object is not subscriptable")
+2026-04-03 16:49:43,019 [WARNING] Not enough data, retrying...
+2026-04-03 16:50:45,925 [INFO] Bar 160 | price=66847.67 | RSI=59.3 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 16:51:49,259 [INFO] Bar 161 | price=66850.48 | RSI=59.5 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 16:52:49,841 [INFO] Bar 162 | price=66852.92 | RSI=55.7 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 16:53:50,663 [INFO] Bar 163 | price=66889.36 | RSI=59.5 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 16:54:50,890 [ERROR] 
+1 Failed download:
+2026-04-03 16:54:50,898 [ERROR] ['BTC-USD']: TypeError("'NoneType' object is not subscriptable")
+2026-04-03 16:54:50,970 [WARNING] Not enough data, retrying...
+2026-04-03 16:55:51,009 [ERROR] 
+1 Failed download:
+2026-04-03 16:55:51,009 [ERROR] ['BTC-USD']: TypeError("'NoneType' object is not subscriptable")
+2026-04-03 16:55:51,024 [WARNING] Not enough data, retrying...
+2026-04-03 16:56:51,051 [ERROR] 
+1 Failed download:
+2026-04-03 16:56:51,051 [ERROR] ['BTC-USD']: TypeError("'NoneType' object is not subscriptable")
+2026-04-03 16:56:51,057 [WARNING] Not enough data, retrying...
+2026-04-03 16:57:51,997 [INFO] Bar 164 | price=66904.40 | RSI=57.6 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 16:58:52,545 [INFO] Bar 165 | price=66913.22 | RSI=58.7 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 16:59:53,124 [INFO] Bar 166 | price=66929.69 | RSI=60.9 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 17:00:53,617 [INFO] Bar 167 | price=66924.12 | RSI=60.1 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 17:01:54,374 [INFO] Bar 168 | price=66924.12 | RSI=60.1 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 17:02:55,064 [INFO] Bar 169 | price=66923.45 | RSI=67.9 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 17:03:55,574 [INFO] Bar 170 | price=66926.52 | RSI=68.2 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 17:04:56,077 [INFO] Bar 171 | price=66910.31 | RSI=65.8 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 17:05:56,660 [INFO] Bar 172 | price=66950.77 | RSI=70.0 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 17:06:57,205 [INFO] Bar 173 | price=66950.86 | RSI=70.0 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 17:07:57,881 [INFO] Bar 174 | price=66946.11 | RSI=67.7 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 17:08:58,647 [INFO] Bar 175 | price=66959.13 | RSI=69.1 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 17:09:59,170 [INFO] Bar 176 | price=66975.96 | RSI=70.3 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 17:10:59,779 [INFO] Bar 177 | price=66976.01 | RSI=70.3 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 17:12:06,402 [INFO] Bar 178 | price=66977.04 | RSI=70.4 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 17:13:07,068 [INFO] Bar 179 | price=66975.16 | RSI=82.9 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 17:14:07,570 [INFO] Bar 180 | price=66978.45 | RSI=83.4 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 17:15:08,298 [INFO] Bar 181 | price=66980.18 | RSI=83.4 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 17:16:08,810 [INFO] Bar 182 | price=66978.02 | RSI=83.4 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 17:17:10,842 [INFO] Bar 183 | price=67026.72 | RSI=85.3 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 17:18:11,631 [INFO] Bar 184 | price=66995.30 | RSI=80.1 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 17:19:12,195 [INFO] Bar 185 | price=67018.70 | RSI=84.5 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 17:20:12,947 [INFO] Bar 186 | price=67018.70 | RSI=84.5 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 17:21:13,452 [INFO] Bar 187 | price=67015.15 | RSI=83.8 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 17:22:13,920 [INFO] Bar 188 | price=66997.05 | RSI=80.4 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 17:23:14,495 [INFO] Bar 189 | price=66980.00 | RSI=74.5 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 17:24:15,077 [INFO] Bar 190 | price=66968.73 | RSI=72.5 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 17:25:15,669 [INFO] Bar 191 | price=66964.31 | RSI=71.7 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 17:26:16,262 [INFO] Bar 192 | price=66978.22 | RSI=74.2 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 17:27:16,685 [INFO] Bar 193 | price=66996.11 | RSI=77.6 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 17:28:17,473 [INFO] Bar 194 | price=67004.52 | RSI=73.8 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 17:29:18,009 [INFO] Bar 195 | price=66991.98 | RSI=72.3 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 17:30:18,496 [INFO] Bar 196 | price=67001.47 | RSI=73.6 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 17:31:19,799 [INFO] Bar 197 | price=66993.78 | RSI=72.6 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 17:32:20,380 [INFO] Bar 198 | price=66995.71 | RSI=73.1 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 17:33:21,118 [INFO] Bar 199 | price=67002.01 | RSI=73.9 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 17:34:21,649 [INFO] Bar 200 | price=67016.61 | RSI=75.0 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 17:35:22,363 [INFO] Bar 201 | price=67017.53 | RSI=75.1 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 17:36:22,886 [INFO] Bar 202 | price=67020.10 | RSI=75.3 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 17:37:23,916 [INFO] Bar 203 | price=67016.38 | RSI=71.5 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 17:38:24,389 [INFO] Bar 204 | price=67016.38 | RSI=71.5 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 17:39:24,957 [INFO] Bar 205 | price=67005.97 | RSI=69.3 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 17:40:25,420 [INFO] Bar 206 | price=67017.95 | RSI=71.9 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 17:41:25,969 [INFO] Bar 207 | price=66999.77 | RSI=68.0 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 17:42:26,438 [INFO] Bar 208 | price=67014.95 | RSI=71.4 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 17:43:27,006 [INFO] Bar 209 | price=67014.95 | RSI=71.4 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 17:44:27,562 [INFO] Bar 210 | price=66951.51 | RSI=59.5 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 17:45:28,061 [INFO] Bar 211 | price=66973.77 | RSI=63.2 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 17:46:31,591 [INFO] Bar 212 | price=66973.77 | RSI=63.2 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 17:47:32,061 [INFO] Bar 213 | price=66968.29 | RSI=67.4 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 17:48:32,719 [INFO] Bar 214 | price=67012.59 | RSI=71.8 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 17:49:33,249 [INFO] Bar 215 | price=66962.86 | RSI=66.3 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 17:50:33,932 [INFO] Bar 216 | price=66956.57 | RSI=65.1 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 17:51:34,532 [INFO] Bar 217 | price=66954.10 | RSI=64.7 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 17:52:35,179 [INFO] Bar 218 | price=66954.10 | RSI=64.7 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 17:53:35,904 [INFO] Bar 219 | price=66994.95 | RSI=71.7 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 17:54:36,436 [INFO] Bar 220 | price=67002.34 | RSI=72.3 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 17:55:37,002 [INFO] Bar 221 | price=66996.25 | RSI=71.8 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 17:56:37,592 [INFO] Bar 222 | price=66959.65 | RSI=68.8 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 17:57:38,407 [INFO] Bar 223 | price=66944.42 | RSI=64.0 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 17:58:39,147 [INFO] Bar 224 | price=66990.88 | RSI=69.9 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 17:59:39,631 [INFO] Bar 225 | price=67023.03 | RSI=72.5 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 18:00:40,057 [INFO] Bar 226 | price=67023.03 | RSI=72.5 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 18:01:40,532 [INFO] Bar 227 | price=67099.05 | RSI=77.0 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 18:02:40,999 [INFO] Bar 228 | price=67041.46 | RSI=62.5 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 18:03:41,532 [INFO] Bar 229 | price=67041.46 | RSI=62.5 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 18:04:41,714 [ERROR] 
+1 Failed download:
+2026-04-03 18:04:41,732 [ERROR] ['BTC-USD']: TypeError("'NoneType' object is not subscriptable")
+2026-04-03 18:04:41,743 [WARNING] Not enough data, retrying...
+2026-04-03 18:05:41,769 [ERROR] 
+1 Failed download:
+2026-04-03 18:05:41,770 [ERROR] ['BTC-USD']: TypeError("'NoneType' object is not subscriptable")
+2026-04-03 18:05:41,780 [WARNING] Not enough data, retrying...
+2026-04-03 18:06:41,806 [ERROR] 
+1 Failed download:
+2026-04-03 18:06:41,807 [ERROR] ['BTC-USD']: TypeError("'NoneType' object is not subscriptable")
+2026-04-03 18:06:41,818 [WARNING] Not enough data, retrying...
+2026-04-03 18:07:41,849 [ERROR] 
+1 Failed download:
+2026-04-03 18:07:41,853 [ERROR] ['BTC-USD']: TypeError("'NoneType' object is not subscriptable")
+2026-04-03 18:07:41,863 [WARNING] Not enough data, retrying...
+2026-04-03 18:08:41,928 [ERROR] 
+1 Failed download:
+2026-04-03 18:08:41,929 [ERROR] ['BTC-USD']: TypeError("'NoneType' object is not subscriptable")
+2026-04-03 18:08:41,941 [WARNING] Not enough data, retrying...
+2026-04-03 18:09:41,991 [ERROR] 
+1 Failed download:
+2026-04-03 18:09:41,993 [ERROR] ['BTC-USD']: TypeError("'NoneType' object is not subscriptable")
+2026-04-03 18:09:42,005 [WARNING] Not enough data, retrying...
+2026-04-03 18:10:42,052 [ERROR] 
+1 Failed download:
+2026-04-03 18:10:42,053 [ERROR] ['BTC-USD']: TypeError("'NoneType' object is not subscriptable")
+2026-04-03 18:10:42,058 [WARNING] Not enough data, retrying...
+2026-04-03 18:11:43,070 [INFO] Bar 230 | price=66826.46 | RSI=42.4 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 18:12:43,594 [INFO] Bar 231 | price=66829.75 | RSI=40.2 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 18:13:44,074 [INFO] Bar 232 | price=66831.38 | RSI=40.4 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 18:14:44,821 [INFO] Bar 233 | price=66821.40 | RSI=39.6 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 18:15:45,362 [INFO] Bar 234 | price=66845.14 | RSI=41.7 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 18:16:45,923 [INFO] Bar 235 | price=66852.90 | RSI=39.9 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 18:17:46,676 [INFO] Bar 236 | price=66852.90 | RSI=39.9 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 18:18:47,506 [INFO] Bar 237 | price=66873.55 | RSI=41.9 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 18:19:48,294 [INFO] Bar 238 | price=66860.15 | RSI=40.6 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 18:20:48,924 [INFO] Bar 239 | price=66827.50 | RSI=38.0 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 18:21:49,557 [INFO] Bar 240 | price=66807.47 | RSI=36.9 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 18:22:50,129 [INFO] Bar 241 | price=66763.13 | RSI=29.4 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 18:23:50,648 [INFO] Bar 242 | price=66658.38 | RSI=25.3 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 18:24:51,327 [INFO] Bar 243 | price=66706.55 | RSI=27.0 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 18:25:51,790 [INFO] Bar 244 | price=66745.85 | RSI=28.6 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 18:26:52,271 [INFO] Bar 245 | price=66759.98 | RSI=31.5 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 18:27:52,729 [INFO] Bar 246 | price=66759.98 | RSI=31.5 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 18:28:53,203 [INFO] Bar 247 | price=66761.34 | RSI=31.7 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 18:29:53,975 [INFO] Bar 248 | price=66773.12 | RSI=32.9 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 18:30:54,571 [INFO] Bar 249 | price=66767.34 | RSI=32.3 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 18:31:55,314 [INFO] Bar 250 | price=66751.78 | RSI=30.6 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 18:32:57,361 [INFO] Bar 251 | price=66719.55 | RSI=29.2 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 18:33:57,827 [INFO] Bar 252 | price=66685.21 | RSI=27.8 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 18:34:58,375 [INFO] Bar 253 | price=66685.21 | RSI=27.8 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 18:35:58,865 [INFO] Bar 254 | price=66682.44 | RSI=27.6 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 18:36:59,341 [INFO] Bar 255 | price=66634.45 | RSI=25.9 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 18:37:59,826 [INFO] Bar 256 | price=66634.45 | RSI=25.9 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 18:39:00,515 [INFO] Bar 257 | price=66658.37 | RSI=26.7 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 18:40:01,182 [INFO] Bar 258 | price=66668.74 | RSI=27.1 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 18:41:01,706 [INFO] Bar 259 | price=66643.65 | RSI=26.2 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 18:42:02,301 [INFO] Bar 260 | price=66590.13 | RSI=24.4 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 18:43:03,226 [INFO] Bar 261 | price=66566.80 | RSI=21.4 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 18:44:03,842 [INFO] Bar 262 | price=66566.80 | RSI=21.4 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 18:45:04,392 [INFO] Bar 263 | price=66591.96 | RSI=22.2 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 18:46:05,427 [INFO] Bar 264 | price=66591.96 | RSI=22.2 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 18:47:05,980 [INFO] Bar 265 | price=66603.86 | RSI=23.4 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 18:48:06,570 [INFO] Bar 266 | price=66676.29 | RSI=29.9 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 18:49:07,040 [INFO] Bar 267 | price=66676.29 | RSI=29.9 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 18:50:07,570 [INFO] Bar 268 | price=66642.19 | RSI=27.0 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 18:51:08,039 [INFO] Bar 269 | price=66613.84 | RSI=24.4 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 18:52:08,498 [INFO] Bar 270 | price=66638.74 | RSI=26.7 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 18:53:09,102 [INFO] Bar 271 | price=66657.40 | RSI=30.0 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 18:54:09,754 [INFO] Bar 272 | price=66663.40 | RSI=30.5 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 18:55:10,219 [INFO] Bar 273 | price=66677.92 | RSI=31.8 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 18:56:15,327 [INFO] Bar 274 | price=66696.98 | RSI=33.3 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 18:57:15,855 [INFO] Bar 275 | price=66695.59 | RSI=34.1 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 18:58:16,377 [INFO] Bar 276 | price=66695.59 | RSI=34.1 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 18:59:16,917 [INFO] Bar 277 | price=66698.71 | RSI=34.3 | sess=out of session | streak=0 | eq=$10000
+2026-04-03 19:00:17,509 [INFO] Bar 278 | price=66698.71 | RSI=34.3 | sess=NY open | streak=0 | eq=$10000
+2026-04-03 19:01:17,997 [INFO] Bar 279 | price=66671.95 | RSI=33.1 | sess=NY open | streak=0 | eq=$10000
+2026-04-03 19:02:18,498 [INFO] Bar 280 | price=66666.64 | RSI=32.9 | sess=NY open | streak=0 | eq=$10000
+2026-04-03 19:03:18,968 [INFO] Bar 281 | price=66670.36 | RSI=32.7 | sess=NY open | streak=0 | eq=$10000
+2026-04-03 19:04:19,509 [INFO] Bar 282 | price=66662.36 | RSI=32.3 | sess=NY open | streak=0 | eq=$10000
+2026-04-03 19:05:20,091 [INFO] Bar 283 | price=66662.36 | RSI=32.3 | sess=NY open | streak=0 | eq=$10000
+2026-04-03 19:06:20,647 [INFO] Bar 284 | price=66655.62 | RSI=32.0 | sess=NY open | streak=0 | eq=$10000
+2026-04-03 19:07:21,153 [INFO] Bar 285 | price=66595.85 | RSI=29.9 | sess=NY open | streak=0 | eq=$10000
+2026-04-03 19:08:21,653 [INFO] Bar 286 | price=66602.48 | RSI=17.9 | sess=NY open | streak=0 | eq=$10000
+2026-04-03 19:09:22,159 [INFO] Bar 287 | price=66648.76 | RSI=22.5 | sess=NY open | streak=0 | eq=$10000
+2026-04-03 19:10:22,756 [INFO] Bar 288 | price=66648.76 | RSI=22.5 | sess=NY open | streak=0 | eq=$10000
+2026-04-03 19:11:23,291 [INFO] Bar 289 | price=66638.84 | RSI=21.6 | sess=NY open | streak=0 | eq=$10000
+2026-04-03 19:12:23,760 [INFO] Bar 290 | price=66605.25 | RSI=18.2 | sess=NY open | streak=0 | eq=$10000
+2026-04-03 19:13:24,227 [INFO] Bar 291 | price=66598.33 | RSI=22.8 | sess=NY open | streak=0 | eq=$10000
+2026-04-03 19:14:24,689 [INFO] Bar 292 | price=66598.33 | RSI=22.8 | sess=NY open | streak=0 | eq=$10000
+2026-04-03 19:15:25,221 [INFO] Bar 293 | price=66595.02 | RSI=22.6 | sess=NY open | streak=0 | eq=$10000
+2026-04-03 19:16:25,883 [INFO] Bar 294 | price=66610.12 | RSI=23.6 | sess=NY open | streak=0 | eq=$10000
+2026-04-03 19:17:26,420 [INFO] Bar 295 | price=66584.26 | RSI=22.3 | sess=NY open | streak=0 | eq=$10000
+2026-04-03 19:18:26,965 [INFO] Bar 296 | price=66579.54 | RSI=26.6 | sess=NY open | streak=0 | eq=$10000
+2026-04-03 19:19:28,509 [INFO] Bar 297 | price=66598.09 | RSI=28.8 | sess=NY open | streak=0 | eq=$10000
+2026-04-03 19:20:29,164 [INFO] Bar 298 | price=66587.81 | RSI=27.4 | sess=NY open | streak=0 | eq=$10000
+2026-04-03 19:21:27,390 [INFO] Bar 1 | 66588 | NY open | eq=$10000
+2026-04-03 19:21:30,642 [INFO] Bar 299 | price=66534.32 | RSI=24.5 | sess=NY open | streak=0 | eq=$10000
+2026-04-03 19:22:31,668 [INFO] Bar 300 | price=66507.06 | RSI=21.0 | sess=NY open | streak=0 | eq=$10000
+2026-04-03 19:23:32,265 [INFO] Bar 301 | price=66527.36 | RSI=21.7 | sess=NY open | streak=0 | eq=$10000
+2026-04-03 19:24:32,798 [INFO] Bar 302 | price=66534.90 | RSI=22.1 | sess=NY open | streak=0 | eq=$10000
+2026-04-03 19:25:33,394 [INFO] Bar 303 | price=66559.85 | RSI=25.4 | sess=NY open | streak=0 | eq=$10000
+2026-04-03 19:26:33,874 [INFO] Bar 304 | price=66613.75 | RSI=31.8 | sess=NY open | streak=0 | eq=$10000
+2026-04-03 19:27:34,516 [INFO] Bar 305 | price=66671.63 | RSI=39.6 | sess=NY open | streak=0 | eq=$10000
+2026-04-03 19:28:34,652 [ERROR] 
+1 Failed download:
+2026-04-03 19:28:34,669 [ERROR] ['BTC-USD']: TypeError("'NoneType' object is not subscriptable")
+2026-04-03 19:28:34,695 [WARNING] Not enough data, retrying...
+2026-04-03 19:29:36,000 [INFO] Bar 306 | price=66632.27 | RSI=35.8 | sess=NY open | streak=0 | eq=$10003
+2026-04-03 19:30:36,858 [INFO] Bar 307 | price=66645.23 | RSI=37.1 | sess=NY open | streak=0 | eq=$10003
+2026-04-03 19:31:37,741 [INFO] Bar 308 | price=66662.89 | RSI=38.8 | sess=NY open | streak=0 | eq=$10003
+2026-04-03 19:32:38,350 [INFO] Bar 309 | price=66640.31 | RSI=41.3 | sess=NY open | streak=0 | eq=$10003
+2026-04-03 19:33:38,902 [INFO] Bar 310 | price=66640.31 | RSI=41.3 | sess=NY open | streak=0 | eq=$10003
+2026-04-03 19:34:39,601 [INFO] Bar 311 | price=66647.65 | RSI=41.8 | sess=NY open | streak=0 | eq=$10003
+2026-04-03 23:35:35,888 [INFO] Bar 1 | 66843 | out of session | eq=$10000
+2026-04-04 10:57:50,881 [INFO] Bar 1 | 66852 | out of session | eq=$10000
+2026-04-04 10:58:51,441 [INFO] Bar 2 | 66852 | out of session | eq=$10000
+2026-04-04 10:59:52,040 [INFO] Bar 3 | 66848 | out of session | eq=$10000
+2026-04-04 11:00:52,548 [INFO] Bar 4 | 66842 | out of session | eq=$10000
+2026-04-04 11:01:52,998 [INFO] Bar 5 | 66842 | out of session | eq=$10000
+2026-04-04 11:02:55,029 [INFO] Bar 6 | 66844 | out of session | eq=$10000
+2026-04-04 11:03:55,564 [INFO] Bar 7 | 66901 | out of session | eq=$10000
+2026-04-04 11:04:56,183 [INFO] Bar 8 | 66911 | out of session | eq=$10000
+2026-04-04 11:05:56,688 [INFO] Bar 9 | 66916 | out of session | eq=$10000
+2026-04-04 11:06:57,129 [INFO] Bar 10 | 66916 | out of session | eq=$10000
+2026-04-04 11:07:57,635 [INFO] Bar 11 | 66908 | out of session | eq=$10000
+2026-04-04 11:08:58,136 [INFO] Bar 12 | 66900 | out of session | eq=$10000
+2026-04-04 11:09:58,588 [INFO] Bar 13 | 66900 | out of session | eq=$10000
+2026-04-04 11:11:01,395 [INFO] Bar 14 | 66905 | out of session | eq=$10000
+2026-04-04 11:12:01,827 [INFO] Bar 15 | 66904 | out of session | eq=$10000
+2026-04-04 11:13:02,260 [INFO] Bar 16 | 66885 | out of session | eq=$10000
+2026-04-04 11:14:02,731 [INFO] Bar 17 | 66888 | out of session | eq=$10000
+2026-04-04 11:15:03,290 [INFO] Bar 18 | 66888 | out of session | eq=$10000
+2026-04-04 11:16:03,758 [INFO] Bar 19 | 66893 | out of session | eq=$10000
+2026-04-04 11:17:04,299 [INFO] Bar 20 | 66893 | out of session | eq=$10000
+2026-04-04 11:18:04,787 [INFO] Bar 21 | 66889 | out of session | eq=$10000
+2026-04-04 11:19:05,338 [INFO] Bar 22 | 66898 | out of session | eq=$10000
+2026-04-04 11:20:05,850 [INFO] Bar 23 | 66898 | out of session | eq=$10000
+2026-04-04 11:21:06,360 [INFO] Bar 24 | 66909 | out of session | eq=$10000
+2026-04-04 11:22:06,959 [INFO] Bar 25 | 66906 | out of session | eq=$10000
+2026-04-04 11:23:07,422 [INFO] Bar 26 | 66899 | out of session | eq=$10000
+2026-04-04 11:24:07,959 [INFO] Bar 27 | 66899 | out of session | eq=$10000
+2026-04-04 11:25:08,545 [INFO] Bar 28 | 66902 | out of session | eq=$10000
+2026-04-04 11:26:09,001 [INFO] Bar 29 | 66907 | out of session | eq=$10000
+2026-04-04 11:27:09,578 [INFO] Bar 30 | 66899 | out of session | eq=$10000
+2026-04-04 11:28:10,305 [INFO] Bar 31 | 66901 | out of session | eq=$10000
+2026-04-04 11:29:10,874 [INFO] Bar 32 | 66900 | out of session | eq=$10000
+2026-04-04 11:30:11,620 [INFO] Bar 33 | 66896 | out of session | eq=$10000
+2026-04-04 11:31:12,235 [INFO] Bar 34 | 66900 | out of session | eq=$10000
+2026-04-04 11:32:12,862 [INFO] Bar 35 | 66898 | out of session | eq=$10000
+2026-04-04 11:33:13,423 [INFO] Bar 36 | 66909 | out of session | eq=$10000
+2026-04-04 11:34:14,398 [INFO] Bar 37 | 66909 | out of session | eq=$10000
+2026-04-04 11:35:15,439 [INFO] Bar 38 | 66923 | out of session | eq=$10000
+2026-04-04 11:36:15,894 [INFO] Bar 39 | 66923 | out of session | eq=$10000
+2026-04-04 11:37:16,480 [INFO] Bar 40 | 66911 | out of session | eq=$10000
+2026-04-04 11:38:16,990 [INFO] Bar 41 | 66910 | out of session | eq=$10000
+2026-04-04 11:39:17,500 [INFO] Bar 42 | 66912 | out of session | eq=$10000
+2026-04-04 11:40:18,098 [INFO] Bar 43 | 66919 | out of session | eq=$10000
+2026-04-04 11:41:18,633 [INFO] Bar 44 | 66923 | out of session | eq=$10000
+2026-04-04 11:42:22,118 [INFO] Bar 1 | 66914 | out of session | eq=$100
+2026-04-04 11:43:22,203 [ERROR] 
+1 Failed download:
+2026-04-04 11:43:22,204 [ERROR] ['BTC-USD']: TypeError("'NoneType' object is not subscriptable")
+2026-04-04 11:43:22,207 [WARNING] Not enough data, retrying...
+2026-04-04 11:44:22,662 [INFO] Bar 2 | 66931 | out of session | eq=$100
+2026-04-04 11:45:23,162 [INFO] Bar 3 | 66933 | out of session | eq=$100
+2026-04-04 11:46:23,631 [INFO] Bar 4 | 66931 | out of session | eq=$100
+2026-04-04 11:47:25,190 [INFO] Bar 5 | 66934 | out of session | eq=$100
+2026-04-04 11:48:25,740 [INFO] Bar 6 | 66943 | out of session | eq=$100
+2026-04-04 11:49:26,266 [INFO] Bar 7 | 66941 | out of session | eq=$100
+2026-04-04 11:50:26,749 [INFO] Bar 8 | 66938 | out of session | eq=$100
+2026-04-04 11:51:27,250 [INFO] Bar 9 | 66937 | out of session | eq=$100
+2026-04-04 11:52:27,705 [INFO] Bar 10 | 66947 | out of session | eq=$100
+2026-04-04 11:53:28,169 [INFO] Bar 11 | 66956 | out of session | eq=$100
+2026-04-04 11:54:28,967 [INFO] Bar 12 | 66945 | out of session | eq=$100
+2026-04-04 11:55:38,990 [ERROR] 
+1 Failed download:
+2026-04-04 11:55:38,990 [ERROR] ['BTC-USD']: TypeError("'NoneType' object is not subscriptable")
+2026-04-04 11:55:38,993 [WARNING] Not enough data, retrying...
+2026-04-04 11:56:39,439 [INFO] Bar 13 | 66934 | out of session | eq=$100
+2026-04-04 11:57:40,082 [INFO] Bar 14 | 66931 | out of session | eq=$100
+2026-04-04 11:58:40,987 [INFO] Bar 15 | 66937 | out of session | eq=$100
+2026-04-04 11:59:41,644 [INFO] Bar 16 | 66926 | out of session | eq=$100
+2026-04-04 12:00:42,499 [INFO] Bar 17 | 66893 | out of session | eq=$100
+2026-04-04 12:01:43,060 [INFO] Bar 18 | 66896 | out of session | eq=$100
+2026-04-04 12:02:43,829 [INFO] Bar 19 | 66913 | out of session | eq=$100
+2026-04-04 12:03:44,545 [INFO] Bar 20 | 66936 | out of session | eq=$100
+2026-04-04 12:04:45,228 [INFO] Bar 21 | 66917 | out of session | eq=$100
+2026-04-04 12:05:45,988 [INFO] Bar 22 | 66917 | out of session | eq=$100
+2026-04-04 12:06:46,447 [INFO] Bar 23 | 66920 | out of session | eq=$100
+2026-04-04 12:07:47,142 [INFO] Bar 24 | 66931 | out of session | eq=$100
+2026-04-04 12:08:47,712 [INFO] Bar 25 | 66928 | out of session | eq=$100
+2026-04-04 12:09:48,367 [INFO] Bar 26 | 66922 | out of session | eq=$100
+2026-04-04 12:10:48,972 [INFO] Bar 27 | 66923 | out of session | eq=$100
+2026-04-04 12:11:49,548 [INFO] Bar 28 | 66923 | out of session | eq=$100
+2026-04-04 12:12:49,995 [INFO] Bar 29 | 66910 | out of session | eq=$100
+2026-04-04 12:13:50,536 [INFO] Bar 30 | 66908 | out of session | eq=$100
+2026-04-04 12:14:51,034 [INFO] Bar 31 | 66914 | out of session | eq=$100
+2026-04-04 12:15:51,542 [INFO] Bar 32 | 66914 | out of session | eq=$100
+2026-04-04 12:16:52,159 [INFO] Bar 33 | 66925 | out of session | eq=$100
+2026-04-04 12:17:52,648 [INFO] Bar 34 | 66925 | out of session | eq=$100
+2026-04-04 12:18:53,216 [INFO] Bar 35 | 66941 | out of session | eq=$100
+2026-04-04 12:19:53,805 [INFO] Bar 36 | 66949 | out of session | eq=$100
+2026-04-04 12:20:54,293 [INFO] Bar 37 | 66951 | out of session | eq=$100
+2026-04-04 12:21:54,781 [INFO] Bar 38 | 66955 | out of session | eq=$100
+2026-04-04 12:22:55,295 [INFO] Bar 39 | 66972 | out of session | eq=$100
+2026-04-04 12:23:55,814 [INFO] Bar 40 | 66989 | out of session | eq=$100
+2026-04-04 12:24:56,495 [INFO] Bar 41 | 66988 | out of session | eq=$100
+2026-04-04 12:25:56,951 [INFO] Bar 42 | 66988 | out of session | eq=$100
+2026-04-04 12:26:57,439 [INFO] Bar 43 | 66992 | out of session | eq=$100
+2026-04-04 12:27:57,464 [ERROR] 
+1 Failed download:
+2026-04-04 12:27:57,465 [ERROR] ['BTC-USD']: TypeError("'NoneType' object is not subscriptable")
+2026-04-04 12:27:57,477 [WARNING] Not enough data, retrying...
+2026-04-04 12:28:57,512 [ERROR] 
+1 Failed download:
+2026-04-04 12:28:57,513 [ERROR] ['BTC-USD']: TypeError("'NoneType' object is not subscriptable")
+2026-04-04 12:28:57,522 [WARNING] Not enough data, retrying...
+2026-04-04 12:29:57,559 [ERROR] 
+1 Failed download:
+2026-04-04 12:29:57,559 [ERROR] ['BTC-USD']: TypeError("'NoneType' object is not subscriptable")
+2026-04-04 12:29:57,565 [WARNING] Not enough data, retrying...
+2026-04-04 12:30:57,590 [ERROR] 
+1 Failed download:
+2026-04-04 12:30:57,591 [ERROR] ['BTC-USD']: TypeError("'NoneType' object is not subscriptable")
+2026-04-04 12:30:57,598 [WARNING] Not enough data, retrying...
+2026-04-04 12:31:57,622 [ERROR] 
+1 Failed download:
+2026-04-04 12:31:57,623 [ERROR] ['BTC-USD']: TypeError("'NoneType' object is not subscriptable")
+2026-04-04 12:31:57,630 [WARNING] Not enough data, retrying...
+2026-04-04 12:32:57,655 [ERROR] 
+1 Failed download:
+2026-04-04 12:32:57,656 [ERROR] ['BTC-USD']: TypeError("'NoneType' object is not subscriptable")
+2026-04-04 12:32:57,663 [WARNING] Not enough data, retrying...
+2026-04-04 12:33:57,697 [ERROR] 
+1 Failed download:
+2026-04-04 12:33:57,698 [ERROR] ['BTC-USD']: TypeError("'NoneType' object is not subscriptable")
+2026-04-04 12:33:57,705 [WARNING] Not enough data, retrying...
+2026-04-04 12:34:57,719 [ERROR] 
+1 Failed download:
+2026-04-04 12:34:57,720 [ERROR] ['BTC-USD']: TypeError("'NoneType' object is not subscriptable")
+2026-04-04 12:34:57,724 [WARNING] Not enough data, retrying...
+2026-04-04 14:00:16,423 [INFO] Bar 1 | 67023 | London open | eq=$100
+2026-04-04 14:01:17,032 [INFO] Bar 2 | 67024 | London open | eq=$100
+2026-04-04 14:02:17,576 [INFO] Bar 3 | 67025 | London open | eq=$100
+2026-04-04 14:03:19,474 [INFO] Bar 4 | 67031 | London open | eq=$100
+2026-04-04 14:04:20,113 [INFO] Bar 5 | 67025 | London open | eq=$100
+2026-04-04 14:05:20,792 [INFO] Bar 6 | 66994 | London open | eq=$100
+2026-04-04 14:06:21,293 [INFO] Bar 7 | 67000 | London open | eq=$100
+2026-04-04 14:07:21,759 [INFO] Bar 8 | 66980 | London open | eq=$100
+2026-04-04 14:08:22,237 [INFO] Bar 9 | 66954 | London open | eq=$100
+2026-04-04 14:09:22,742 [INFO] Bar 10 | 66951 | London open | eq=$100
+2026-04-04 14:10:23,205 [INFO] Bar 11 | 66967 | London open | eq=$100
+2026-04-04 14:11:23,686 [INFO] Bar 12 | 66967 | London open | eq=$100
+2026-04-04 14:12:24,185 [INFO] Bar 13 | 66965 | London open | eq=$100
+2026-04-04 14:13:24,663 [INFO] Bar 14 | 66965 | London open | eq=$100
+2026-04-04 14:14:25,161 [INFO] Bar 15 | 66961 | London open | eq=$100
+2026-04-04 14:15:25,750 [INFO] Bar 16 | 66961 | London open | eq=$100
+2026-04-04 14:16:26,331 [INFO] Bar 17 | 66958 | London open | eq=$100
+2026-04-04 14:17:26,874 [INFO] Bar 18 | 66954 | London open | eq=$100
+2026-04-04 14:18:27,371 [INFO] Bar 19 | 66954 | London open | eq=$100
+2026-04-04 14:19:27,926 [INFO] Bar 20 | 66950 | London open | eq=$100
+2026-04-04 14:20:28,509 [INFO] Bar 21 | 66952 | London open | eq=$100
+2026-04-04 14:21:29,012 [INFO] Bar 22 | 66952 | London open | eq=$100
+2026-04-04 14:22:29,512 [INFO] Bar 23 | 66952 | London open | eq=$100
+2026-04-04 14:23:30,012 [INFO] Bar 24 | 66953 | London open | eq=$100
+2026-04-04 14:24:30,512 [INFO] Bar 25 | 66942 | London open | eq=$100
+2026-04-04 14:25:31,042 [INFO] Bar 26 | 66924 | London open | eq=$100
+2026-04-04 14:26:31,842 [INFO] Bar 27 | 66913 | London open | eq=$100
+2026-04-04 14:27:32,389 [INFO] Bar 28 | 66910 | London open | eq=$100
+2026-04-04 14:28:32,863 [INFO] Bar 29 | 66920 | London open | eq=$100
+2026-04-04 14:29:33,346 [INFO] Bar 30 | 66914 | London open | eq=$100
+2026-04-04 14:30:33,791 [INFO] Bar 31 | 66918 | London open | eq=$100
+2026-04-04 14:31:34,294 [INFO] Bar 32 | 66918 | London open | eq=$100
+2026-04-04 14:32:34,822 [INFO] Bar 33 | 66913 | London open | eq=$100
+2026-04-04 14:33:35,306 [INFO] Bar 34 | 66913 | London open | eq=$100
+2026-04-04 14:34:35,988 [INFO] Bar 35 | 66919 | London open | eq=$100
+2026-04-04 14:35:36,523 [INFO] Bar 36 | 66929 | London open | eq=$100
+2026-04-04 14:36:37,209 [INFO] Bar 37 | 66926 | London open | eq=$100
+2026-04-04 14:37:37,746 [INFO] Bar 38 | 66923 | London open | eq=$100
+2026-04-04 14:38:38,237 [INFO] Bar 39 | 66926 | London open | eq=$100
+2026-04-04 14:39:39,092 [INFO] Bar 40 | 66933 | London open | eq=$100
+2026-04-04 14:40:39,639 [INFO] Bar 41 | 66939 | London open | eq=$100
+2026-04-04 14:41:40,448 [INFO] Bar 42 | 66944 | London open | eq=$100
+2026-04-04 14:42:41,022 [INFO] Bar 43 | 66947 | London open | eq=$100
+2026-04-04 14:43:41,602 [INFO] Bar 44 | 66947 | London open | eq=$100
+2026-04-04 14:44:42,129 [INFO] Bar 45 | 66969 | London open | eq=$100
+2026-04-04 14:45:42,640 [INFO] Bar 46 | 66970 | London open | eq=$100
+2026-04-04 14:46:43,222 [INFO] Bar 47 | 66961 | London open | eq=$100
+2026-04-04 14:47:43,986 [INFO] Bar 48 | 66967 | London open | eq=$100
+2026-04-04 14:48:44,549 [INFO] Bar 49 | 66969 | London open | eq=$100
+2026-04-04 14:49:52,079 [INFO] Bar 50 | 66960 | London open | eq=$100
+2026-04-04 14:50:52,968 [INFO] Bar 51 | 66950 | London open | eq=$100
+2026-04-04 14:51:53,518 [INFO] Bar 52 | 66954 | London open | eq=$100
+2026-04-04 14:52:54,028 [INFO] Bar 53 | 66971 | London open | eq=$100
+2026-04-04 14:53:54,621 [INFO] Bar 54 | 66971 | London open | eq=$100
+2026-04-04 14:54:55,165 [INFO] Bar 55 | 66958 | London open | eq=$100
+2026-04-04 14:55:55,640 [INFO] Bar 56 | 66959 | London open | eq=$100
+2026-04-04 14:56:56,163 [INFO] Bar 57 | 66959 | London open | eq=$100
+2026-04-04 14:57:56,708 [INFO] Bar 58 | 66957 | London open | eq=$100
+2026-04-04 14:58:57,497 [INFO] Bar 59 | 66959 | London open | eq=$100
+2026-04-04 14:59:57,926 [INFO] Bar 60 | 66961 | London open | eq=$100
+2026-04-04 15:00:58,475 [INFO] Bar 61 | 66959 | London open | eq=$100
+2026-04-04 15:01:58,969 [INFO] Bar 62 | 66931 | London open | eq=$100
+2026-04-04 15:02:59,659 [INFO] Bar 63 | 66940 | London open | eq=$100
+2026-04-04 15:04:00,230 [INFO] Bar 64 | 66952 | London open | eq=$100
+2026-04-04 15:05:00,856 [INFO] Bar 65 | 66955 | London open | eq=$100
+2026-04-04 15:06:01,433 [INFO] Bar 66 | 66959 | London open | eq=$100
+2026-04-04 15:07:02,013 [INFO] Bar 67 | 66959 | London open | eq=$100
+2026-04-04 15:08:02,509 [INFO] Bar 68 | 66952 | London open | eq=$100
+2026-04-04 15:09:03,249 [INFO] Bar 69 | 66952 | London open | eq=$100
+2026-04-04 15:10:03,909 [INFO] Bar 70 | 66954 | London open | eq=$100
+2026-04-04 15:11:04,439 [INFO] Bar 71 | 66960 | London open | eq=$100
+2026-04-04 15:12:04,903 [INFO] Bar 72 | 66958 | London open | eq=$100
+2026-04-04 15:13:05,453 [INFO] Bar 73 | 66959 | London open | eq=$100
+2026-04-04 15:14:06,284 [INFO] Bar 74 | 66952 | London open | eq=$100
+2026-04-04 15:15:06,946 [INFO] Bar 75 | 66955 | London open | eq=$100
+2026-04-04 15:16:07,460 [INFO] Bar 76 | 66956 | London open | eq=$100
+2026-04-04 15:17:07,976 [INFO] Bar 77 | 66952 | London open | eq=$100
+2026-04-04 15:18:08,501 [INFO] Bar 78 | 66952 | London open | eq=$100
+2026-04-04 15:19:09,129 [INFO] Bar 79 | 66952 | London open | eq=$100
+2026-04-04 15:20:09,702 [INFO] Bar 80 | 66954 | London open | eq=$100
+2026-04-04 15:21:12,312 [INFO] Bar 81 | 66963 | London open | eq=$100
+2026-04-04 15:22:12,882 [INFO] Bar 82 | 66963 | London open | eq=$100
+2026-04-04 15:23:13,464 [INFO] Bar 83 | 66963 | London open | eq=$100
+2026-04-04 15:24:14,053 [INFO] Bar 84 | 66962 | London open | eq=$100
+2026-04-04 15:25:14,628 [INFO] Bar 85 | 66963 | London open | eq=$100
+2026-04-04 15:26:15,135 [INFO] Bar 86 | 66963 | London open | eq=$100
+2026-04-04 15:27:15,616 [INFO] Bar 87 | 66957 | London open | eq=$100
+2026-04-04 15:28:16,156 [INFO] Bar 88 | 66960 | London open | eq=$100
+2026-04-04 15:29:16,631 [INFO] Bar 89 | 66958 | London open | eq=$100
+2026-04-04 15:30:17,368 [INFO] Bar 90 | 66956 | out of session | eq=$100
+2026-04-04 15:31:17,964 [INFO] Bar 91 | 66965 | out of session | eq=$100
+2026-04-04 15:32:18,510 [INFO] Bar 92 | 66961 | out of session | eq=$100
+2026-04-04 15:33:18,995 [INFO] Bar 93 | 66965 | out of session | eq=$100
+2026-04-04 15:34:24,072 [INFO] Bar 94 | 66975 | out of session | eq=$100
+2026-04-04 15:35:24,719 [INFO] Bar 95 | 66975 | out of session | eq=$100
+2026-04-04 15:36:25,284 [INFO] Bar 96 | 66989 | out of session | eq=$100
+2026-04-04 15:37:26,437 [INFO] Bar 97 | 66983 | out of session | eq=$100
+2026-04-04 15:38:26,944 [INFO] Bar 98 | 66967 | out of session | eq=$100
+2026-04-04 15:39:27,456 [INFO] Bar 99 | 66957 | out of session | eq=$100
+2026-04-04 15:40:28,050 [INFO] Bar 100 | 66957 | out of session | eq=$100
+2026-04-04 15:41:28,499 [INFO] Bar 101 | 66954 | out of session | eq=$100
+2026-04-04 15:42:29,051 [INFO] Bar 102 | 66951 | out of session | eq=$100
+2026-04-04 15:43:29,741 [INFO] Bar 103 | 66942 | out of session | eq=$100
+2026-04-04 15:44:30,208 [INFO] Bar 104 | 66924 | out of session | eq=$100
+2026-04-04 15:45:30,956 [INFO] Bar 105 | 66920 | out of session | eq=$100
+2026-04-04 15:46:31,719 [INFO] Bar 106 | 66920 | out of session | eq=$100
+2026-04-04 15:47:32,213 [INFO] Bar 107 | 66905 | out of session | eq=$100
+2026-04-04 15:48:32,903 [INFO] Bar 108 | 66906 | out of session | eq=$100
+2026-04-04 15:49:33,499 [INFO] Bar 109 | 66915 | out of session | eq=$100
+2026-04-04 15:50:34,288 [INFO] Bar 110 | 66914 | out of session | eq=$100
+2026-04-04 15:51:34,809 [INFO] Bar 111 | 66917 | out of session | eq=$100
+2026-04-04 15:52:35,234 [INFO] Bar 112 | 66915 | out of session | eq=$100
+2026-04-04 15:53:35,883 [INFO] Bar 113 | 66915 | out of session | eq=$100
+2026-04-04 15:54:36,547 [INFO] Bar 114 | 66917 | out of session | eq=$100
+2026-04-04 15:55:37,200 [INFO] Bar 115 | 66917 | out of session | eq=$100
+2026-04-04 15:56:37,693 [INFO] Bar 116 | 66916 | out of session | eq=$100
+2026-04-04 15:57:38,246 [INFO] Bar 117 | 66916 | out of session | eq=$100
+2026-04-04 15:58:39,016 [INFO] Bar 118 | 66911 | out of session | eq=$100
+2026-04-04 15:59:41,037 [INFO] Bar 119 | 66914 | out of session | eq=$100
+2026-04-04 16:00:41,538 [INFO] Bar 120 | 66918 | out of session | eq=$100
+2026-04-04 16:01:42,280 [INFO] Bar 121 | 66918 | out of session | eq=$100
+2026-04-04 16:02:25,338 [INFO] Bar 1 | 66918 | out of session | eq=$100
+2026-04-04 16:03:25,363 [ERROR] 
+1 Failed download:
+2026-04-04 16:03:25,364 [ERROR] ['BTC-USD']: TypeError("'NoneType' object is not subscriptable")
+2026-04-04 16:03:25,368 [WARNING] Not enough data, retrying...
+2026-04-04 16:04:25,396 [ERROR] 
+1 Failed download:
+2026-04-04 16:04:25,397 [ERROR] ['BTC-USD']: TypeError("'NoneType' object is not subscriptable")
+2026-04-04 16:04:25,407 [WARNING] Not enough data, retrying...
+2026-04-04 16:05:25,433 [ERROR] 
+1 Failed download:
+2026-04-04 16:05:25,434 [ERROR] ['BTC-USD']: TypeError("'NoneType' object is not subscriptable")
+2026-04-04 16:05:25,445 [WARNING] Not enough data, retrying...
+2026-04-04 16:06:25,480 [ERROR] 
+1 Failed download:
+2026-04-04 16:06:25,481 [ERROR] ['BTC-USD']: TypeError("'NoneType' object is not subscriptable")
+2026-04-04 16:06:25,489 [WARNING] Not enough data, retrying...
+2026-04-04 16:07:25,515 [ERROR] 
+1 Failed download:
+2026-04-04 16:07:25,516 [ERROR] ['BTC-USD']: TypeError("'NoneType' object is not subscriptable")
+2026-04-04 16:07:25,528 [WARNING] Not enough data, retrying...
+2026-04-04 16:08:25,555 [ERROR] 
+1 Failed download:
+2026-04-04 16:08:25,556 [ERROR] ['BTC-USD']: TypeError("'NoneType' object is not subscriptable")
+2026-04-04 16:08:25,564 [WARNING] Not enough data, retrying...
+2026-04-04 16:09:25,592 [ERROR] 
+1 Failed download:
+2026-04-04 16:09:25,593 [ERROR] ['BTC-USD']: TypeError("'NoneType' object is not subscriptable")
+2026-04-04 16:09:25,604 [WARNING] Not enough data, retrying...
+2026-04-04 16:10:25,630 [ERROR] 
+1 Failed download:
+2026-04-04 16:10:25,631 [ERROR] ['BTC-USD']: TypeError("'NoneType' object is not subscriptable")
+2026-04-04 16:10:25,641 [WARNING] Not enough data, retrying...
+2026-04-04 16:11:25,667 [ERROR] 
+1 Failed download:
+2026-04-04 16:11:25,668 [ERROR] ['BTC-USD']: TypeError("'NoneType' object is not subscriptable")
+2026-04-04 16:11:25,678 [WARNING] Not enough data, retrying...
+2026-04-04 16:12:25,702 [ERROR] 
+1 Failed download:
+2026-04-04 16:12:25,704 [ERROR] ['BTC-USD']: TypeError("'NoneType' object is not subscriptable")
+2026-04-04 16:12:25,713 [WARNING] Not enough data, retrying...
+2026-04-04 16:13:25,739 [ERROR] 
+1 Failed download:
+2026-04-04 16:13:25,741 [ERROR] ['BTC-USD']: TypeError("'NoneType' object is not subscriptable")
+2026-04-04 16:13:25,755 [WARNING] Not enough data, retrying...
+2026-04-04 16:14:25,780 [ERROR] 
+1 Failed download:
+2026-04-04 16:14:25,781 [ERROR] ['BTC-USD']: TypeError("'NoneType' object is not subscriptable")
+2026-04-04 16:14:25,790 [WARNING] Not enough data, retrying...
+2026-04-04 16:15:25,815 [ERROR] 
+1 Failed download:
+2026-04-04 16:15:25,815 [ERROR] ['BTC-USD']: TypeError("'NoneType' object is not subscriptable")
+2026-04-04 16:15:25,822 [WARNING] Not enough data, retrying...
+2026-04-04 16:16:25,849 [ERROR] 
+1 Failed download:
+2026-04-04 16:16:25,850 [ERROR] ['BTC-USD']: TypeError("'NoneType' object is not subscriptable")
+2026-04-04 16:16:25,859 [WARNING] Not enough data, retrying...
+2026-04-04 16:17:25,874 [ERROR] 
+1 Failed download:
+2026-04-04 16:17:25,875 [ERROR] ['BTC-USD']: TypeError("'NoneType' object is not subscriptable")
+2026-04-04 16:17:25,885 [WARNING] Not enough data, retrying...
+2026-04-04 16:18:25,902 [ERROR] 
+1 Failed download:
+2026-04-04 16:18:25,902 [ERROR] ['BTC-USD']: TypeError("'NoneType' object is not subscriptable")
+2026-04-04 16:18:25,908 [WARNING] Not enough data, retrying...
+2026-04-04 16:19:25,934 [ERROR] 
+1 Failed download:
+2026-04-04 16:19:25,935 [ERROR] ['BTC-USD']: TypeError("'NoneType' object is not subscriptable")
+2026-04-04 16:19:25,943 [WARNING] Not enough data, retrying...
+2026-04-04 16:20:25,968 [ERROR] 
+1 Failed download:
+2026-04-04 16:20:25,970 [ERROR] ['BTC-USD']: TypeError("'NoneType' object is not subscriptable")
+2026-04-04 16:20:25,977 [WARNING] Not enough data, retrying...
+2026-04-04 16:21:25,991 [ERROR] 
+1 Failed download:
+2026-04-04 16:21:25,991 [ERROR] ['BTC-USD']: TypeError("'NoneType' object is not subscriptable")
+2026-04-04 16:21:26,001 [WARNING] Not enough data, retrying...
+2026-04-04 16:22:27,234 [INFO] Bar 2 | 67038 | out of session | eq=$100
+2026-04-04 16:23:27,748 [INFO] Bar 3 | 67116 | out of session | eq=$100
+2026-04-04 16:24:28,269 [INFO] Bar 4 | 67114 | out of session | eq=$100
+2026-04-04 16:25:28,834 [INFO] Bar 5 | 67148 | out of session | eq=$100
+2026-04-04 16:26:29,582 [INFO] Bar 6 | 67148 | out of session | eq=$100
+2026-04-04 16:27:30,852 [INFO] Bar 7 | 67149 | out of session | eq=$100
+2026-04-04 16:28:31,798 [INFO] Bar 8 | 67149 | out of session | eq=$100
+2026-04-04 16:29:32,299 [INFO] Bar 9 | 67149 | out of session | eq=$100
+2026-04-04 16:30:33,270 [INFO] Bar 10 | 67135 | out of session | eq=$100
+2026-04-04 16:31:34,330 [INFO] Bar 11 | 67138 | out of session | eq=$100
+2026-04-04 16:32:35,546 [INFO] Bar 12 | 67144 | out of session | eq=$100
+2026-04-04 16:33:36,783 [INFO] Bar 13 | 67178 | out of session | eq=$100

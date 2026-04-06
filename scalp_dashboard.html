@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Scalping Bot Dashboard</title>
+<script src="https://js.puter.com/v2/"></script>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #0a0a14; color: #e0e0e0; font-family: 'Segoe UI', monospace; }
+  .header { background: linear-gradient(135deg, #1a1a2e, #16213e);
+    padding: 20px 30px; border-bottom: 2px solid #FFD700; }
+  .header h1 { color: #FFD700; font-size: 1.6em; }
+  .header p  { color: #888; font-size: 0.85em; margin-top: 4px; }
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; padding: 20px; }
+  .card { background: #12122a; border: 1px solid #2a2a4a; border-radius: 12px; padding: 20px; }
+  .card h2 { font-size: 1em; color: #aaa; margin-bottom: 14px; letter-spacing: 1px; text-transform: uppercase; }
+  .price { font-size: 2.2em; font-weight: bold; color: #FFD700; }
+  .change.pos { color: #00e676; } .change.neg { color: #ff1744; }
+  .direction { font-size: 1.6em; font-weight: bold; padding: 10px 20px;
+    border-radius: 8px; display: inline-block; margin: 10px 0; }
+  .LONG  { background: #00c85322; color: #00e676; border: 1px solid #00e676; }
+  .SHORT { background: #ff174422; color: #ff1744; border: 1px solid #ff1744; }
+  .NONE  { background: #ffffff11; color: #888; border: 1px solid #444; }
+  .signal-row { display: flex; justify-content: space-between; padding: 6px 0;
+    border-bottom: 1px solid #1a1a3a; font-size: 0.85em; }
+  .signal-key { color: #aaa; } .signal-val { color: #e0e0e0; text-align: right; max-width: 60%; }
+  .badge { padding: 2px 8px; border-radius: 12px; font-size: 0.75em; font-weight: bold; }
+  .badge.green { background: #00e67622; color: #00e676; border: 1px solid #00e676; }
+  .badge.red   { background: #ff174422; color: #ff1744; border: 1px solid #ff1744; }
+  .badge.gold  { background: #FFD70022; color: #FFD700; border: 1px solid #FFD700; }
+  .levels { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; margin-top: 10px; }
+  .level-box { background: #1a1a2e; border-radius: 8px; padding: 10px; text-align: center; }
+  .level-box .label { font-size: 0.7em; color: #888; text-transform: uppercase; }
+  .level-box .val { font-size: 1em; font-weight: bold; margin-top: 4px; }
+  .tp  { color: #00e676; } .sl { color: #ff1744; } .rr { color: #FFD700; }
+  .ai-box { background: #0d1117; border: 1px solid #2a2a4a; border-radius: 8px;
+    padding: 16px; min-height: 120px; font-size: 0.9em; line-height: 1.6; color: #c9d1d9; }
+  .ai-thinking { color: #FFD700; font-style: italic; }
+  .btn { background: linear-gradient(135deg, #FFD700, #FFA500); color: #000;
+    border: none; padding: 12px 28px; border-radius: 8px; font-weight: bold;
+    cursor: pointer; font-size: 1em; margin-top: 14px; width: 100%; }
+  .btn:hover { opacity: 0.9; } .btn:disabled { opacity: 0.4; cursor: not-allowed; }
+  .full { grid-column: 1 / -1; }
+  .session { padding: 4px 12px; border-radius: 12px; font-size: 0.8em; display: inline-block; margin-top: 8px; }
+  .session.ok  { background: #00e67622; color: #00e676; border: 1px solid #00e676; }
+  .session.off { background: #ff174422; color: #ff1744; border: 1px solid #ff1744; }
+  .score-bar { height: 8px; border-radius: 4px; margin: 6px 0; }
+  .score-bar-long  { background: linear-gradient(90deg, #00e676, #00c853); }
+  .score-bar-short { background: linear-gradient(90deg, #ff1744, #c62828); }
+  .tab-bar { display: flex; gap: 10px; padding: 0 20px; border-bottom: 1px solid #2a2a4a; }
+  .tab { padding: 12px 20px; cursor: pointer; color: #888; border-bottom: 3px solid transparent; }
+  .tab.active { color: #FFD700; border-bottom-color: #FFD700; }
+  .tab-content { display: none; } .tab-content.active { display: block; }
+  .headline { padding: 6px 0; border-bottom: 1px solid #1a1a3a; font-size: 0.82em; color: #aaa; }
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>⚡ Professional Scalping Bot</h1>
+  <p>5-Signal System • EMA Crossover • VWAP • RSI • Bollinger Bands • Volume Spike • Via Puter.js AI</p>
+</div>
+
+<div class="tab-bar">
+  <div class="tab active" onclick="showTab('gold')">🥇 Gold</div>
+  <div class="tab" onclick="showTab('btc')">₿ Bitcoin</div>
+</div>
+
+<div id="tab-gold" class="tab-content active">
+  <div class="grid" id="gold-grid">
+    <div class="card" style="text-align:center; grid-column:1/-1">
+      <p style="color:#888">Loading Gold data...</p>
+    </div>
+  </div>
+</div>
+
+<div id="tab-btc" class="tab-content">
+  <div class="grid" id="btc-grid">
+    <div class="card" style="text-align:center; grid-column:1/-1">
+      <p style="color:#888">Loading BTC data...</p>
+    </div>
+  </div>
+</div>
+
+<script>
+function showTab(name) {
+  document.querySelectorAll('.tab').forEach((t,i) => t.classList.toggle('active', ['gold','btc'][i]===name));
+  document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
+  document.getElementById('tab-'+name).classList.add('active');
+}
+
+function fmt(v, d=2) { return v == null ? 'N/A' : Number(v).toLocaleString(undefined,{minimumFractionDigits:d,maximumFractionDigits:d}); }
+
+function renderAsset(data, gridId) {
+  const grid = document.getElementById(gridId);
+  if (!data || data.error) {
+    grid.innerHTML = `<div class="card full"><p style="color:#ff1744">Error: ${data?.error||'No data'}</p></div>`;
+    return;
+  }
+
+  const dirClass = data.direction;
+  const dirIcon  = data.direction==='LONG' ? '🟢 LONG — BUY' : data.direction==='SHORT' ? '🔴 SHORT — SELL' : '⚪ NO SIGNAL';
+  const chgClass = data.change_pct >= 0 ? 'pos' : 'neg';
+  const chgSign  = data.change_pct >= 0 ? '+' : '';
+  const sessionHtml = data.session_ok
+    ? '<span class="session ok">✅ London/NY Session ACTIVE</span>'
+    : '<span class="session off">❌ Outside Trading Hours</span>';
+
+  const signalRows = Object.entries(data.signals).map(([k,v]) =>
+    `<div class="signal-row"><span class="signal-key">${k.toUpperCase()}</span><span class="signal-val">${v}</span></div>`
+  ).join('');
+
+  const sentimentRows = (data.sentiment?.headlines||[]).map(h =>
+    `<div class="headline">• ${h}</div>`
+  ).join('');
+
+  const scoreL = Math.min((data.score_long / 5) * 100, 100);
+  const scoreS = Math.min((data.score_short / 5) * 100, 100);
+
+  grid.innerHTML = `
+    <div class="card">
+      <h2>📊 ${data.asset} (${data.ticker})</h2>
+      <div class="price">$${fmt(data.price)}</div>
+      <div class="change ${chgClass}">${chgSign}${fmt(data.change_pct,3)}% (5min)</div>
+      <div class="direction ${dirClass}">${dirIcon}</div>
+      ${sessionHtml}
+      <div style="margin-top:12px">
+        <div style="display:flex;justify-content:space-between;font-size:0.8em;color:#888">
+          <span>LONG score: ${data.score_long}/5</span><span>SHORT score: ${data.score_short}/5</span>
+        </div>
+        <div class="score-bar score-bar-long"  style="width:${scoreL}%"></div>
+        <div class="score-bar score-bar-short" style="width:${scoreS}%"></div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>🎯 Trade Levels</h2>
+      <div class="levels">
+        <div class="level-box"><div class="label">Entry</div><div class="val">$${fmt(data.price)}</div></div>
+        <div class="level-box"><div class="label">Take Profit</div><div class="val tp">$${fmt(data.take_profit)||'—'}</div></div>
+        <div class="level-box"><div class="label">Stop Loss</div><div class="val sl">$${fmt(data.stop_loss)||'—'}</div></div>
+      </div>
+      <div class="levels" style="margin-top:10px">
+        <div class="level-box"><div class="label">TP %</div><div class="val tp">+${data.tp_pct}%</div></div>
+        <div class="level-box"><div class="label">SL %</div><div class="val sl">-${data.sl_pct}%</div></div>
+        <div class="level-box"><div class="label">R:R</div><div class="val rr">1:${data.rr_ratio}</div></div>
+      </div>
+      <div style="margin-top:14px;display:grid;grid-template-columns:1fr 1fr;gap:8px;font-size:0.85em">
+        <div class="level-box"><div class="label">RSI</div><div class="val">${data.rsi}</div></div>
+        <div class="level-box"><div class="label">Vol Spike</div><div class="val">${data.vol_spike}x</div></div>
+        <div class="level-box"><div class="label">VWAP Dist</div><div class="val">${data.vwap_dist_pct}%</div></div>
+        <div class="level-box"><div class="label">ATR %</div><div class="val">${data.atr_pct}%</div></div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>📡 5-Signal Breakdown</h2>
+      ${signalRows}
+    </div>
+
+    <div class="card">
+      <h2>📰 News Sentiment: <span style="color:${data.sentiment.score>0?'#00e676':data.sentiment.score<0?'#ff1744':'#888'}">${data.sentiment.score > 0 ? 'BULLISH' : data.sentiment.score < 0 ? 'BEARISH' : 'NEUTRAL'} (${data.sentiment.score})</span></h2>
+      ${sentimentRows || '<p style="color:#888;font-size:0.85em">No headlines available</p>'}
+    </div>
+
+    <div class="card full">
+      <h2>🤖 Claude AI Scalp Analysis <span class="badge gold">VIA PUTER.JS — FREE</span></h2>
+      <div class="ai-box" id="ai-box-${gridId}">
+        <span class="ai-thinking">Click "Run AI Analysis" to get Claude's scalping recommendation...</span>
+      </div>
+      <button class="btn" id="btn-${gridId}" onclick="runAI('${gridId}', ${JSON.stringify(data).replace(/'/g,"&#39;")})">
+        ⚡ Run AI Analysis
+      </button>
+    </div>
+  `;
+}
+
+async function runAI(gridId, data) {
+  const box = document.getElementById('ai-box-' + gridId);
+  const btn = document.getElementById('btn-' + gridId);
+  btn.disabled = true;
+  box.innerHTML = '<span class="ai-thinking">🤖 Claude is analyzing the scalp signal...</span>';
+
+  const prompt = `You are a professional scalping trader. Analyze this real-time signal and give a clear recommendation.
+
+Asset: ${data.asset} (${data.ticker})
+Price: $${data.price} | 5min Change: ${data.change_pct}%
+Direction: ${data.direction} | Confidence: ${(data.confidence*100).toFixed(0)}%
+Score: LONG ${data.score_long}/5 | SHORT ${data.score_short}/5
+Trading Session: ${data.session_ok ? 'ACTIVE (London/NY)' : 'OUTSIDE HOURS'}
+
+5-Signal Breakdown:
+${Object.entries(data.signals).map(([k,v]) => `- ${k}: ${v}`).join('\n')}
+
+Key Metrics:
+- RSI: ${data.rsi}
+- VWAP Distance: ${data.vwap_dist_pct}%
+- Volume Spike: ${data.vol_spike}x average
+- ATR: ${data.atr_pct}% of price
+- Bollinger Band Position: ${data.bb_pct}
+
+Trade Levels:
+- Entry: $${data.price}
+- Take Profit: $${data.take_profit} (+${data.tp_pct}%)
+- Stop Loss: $${data.stop_loss} (-${data.sl_pct}%)
+- R:R: 1:${data.rr_ratio}
+
+News Sentiment: ${data.sentiment.score} (${data.sentiment.headlines.slice(0,3).join(' | ')})
+
+Give your analysis in this format:
+1. TRADE DECISION: ENTER / SKIP / WAIT
+2. REASON: (2-3 sentences)
+3. KEY RISK: (1 sentence)
+4. ENTRY TIMING: (immediate / wait for X)`;
+
+  try {
+    const response = await puter.ai.chat(prompt);
+    const text = typeof response === 'string' ? response : response?.message?.content?.[0]?.text || JSON.stringify(response);
+    box.innerHTML = text.replace(/\n/g,'<br>').replace(/\*\*(.*?)\*\*/g,'<strong style="color:#FFD700">$1</strong>');
+  } catch(e) {
+    box.innerHTML = `<span style="color:#ff1744">Error: ${e.message}. Make sure you are logged into Puter.js</span>`;
+  }
+  btn.disabled = false;
+}
+
+// Load data from JSON files
+async function loadData() {
+  const files = [
+    { file: 'gold_scalp_signals.json', grid: 'gold-grid' },
+    { file: 'btc_scalp_signals.json',  grid: 'btc-grid'  },
+  ];
+  for (const {file, grid} of files) {
+    try {
+      const r = await fetch(file + '?t=' + Date.now());
+      if (r.ok) {
+        const data = await r.json();
+        renderAsset(data, grid);
+      }
+    } catch(e) {
+      console.log('Could not load', file, e);
+    }
+  }
+}
+
+loadData();
+setInterval(loadData, 60000); // auto-refresh every 60 seconds
+</script>
+</body>
+</html>

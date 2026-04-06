@@ -1,0 +1,40 @@
+{
+  "asset": "Gold",
+  "ticker": "GC=F",
+  "timestamp": "2026-04-03T12:05:18.386463",
+  "price": 4702.7002,
+  "change_pct": 0.0979,
+  "session_ok": false,
+  "direction": "NONE",
+  "confidence": 0.0,
+  "score_long": 1.5,
+  "score_short": 2,
+  "signals": {
+    "ema_cross": "LONG (trend) \u2705",
+    "rsi": "NEUTRAL 59.5 \u274c",
+    "vwap": "ABOVE VWAP 0.125% \u2192 SHORT \u2705",
+    "bollinger": "NEAR UPPER BAND 0.90 \u2192 SHORT \u2705",
+    "volume": "SPIKE 1.5x + UP MOM \u2192 LONG \u2705"
+  },
+  "rsi": 59.54,
+  "vwap_dist_pct": 0.1251,
+  "vol_spike": 1.53,
+  "bb_pct": 0.897,
+  "atr_pct": 0.1028,
+  "take_profit": null,
+  "stop_loss": null,
+  "tp_pct": 0.15,
+  "sl_pct": 0.08,
+  "rr_ratio": 1.88,
+  "sentiment": {
+    "score": 0.065,
+    "headlines": [
+      "SLV vs. GLD: Two Metals That Don't Move the Same Way",
+      "Daily ETF Flows: GLD Gathers $550M",
+      "Update: Gold Falls as the Dollar Rises After Trump Threatens to Escalate Attacks on Iran",
+      "5 Good ETFs to Buy and Hold for the Long Term",
+      "Gold Falls as the Dollar and Yields Climb After Trump Threatens to Escalate Attacks on Iran"
+    ]
+  },
+  "trade_valid": false
+}

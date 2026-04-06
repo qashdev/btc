@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-03-28T23:05:12.956693",
+  "asset": "Gold (GC=F)",
+  "price": 4492.0,
+  "price_change_pct": 2.663,
+  "volume_spike": 1.26,
+  "volatility": 0.3783,
+  "flagged": true,
+  "sentiment_score": 0.15,
+  "headlines": [
+    "What's the Better Buy to Save for Retirement: Bitcoin vs. Gold",
+    "The Iran War Started 1 Month Ago. What It\u2019s Meant for Stocks, Bonds, and Oil.",
+    "Update: Gold Rebounds from a Three-Month Low Despite a Higher Dollar",
+    "Market Minute 3-27-26- Deadline Can Kick Earns Market Shrug",
+    "Gold Rebounds from a Three-Month Low Despite a Higher Dollar"
+  ],
+  "prediction": {
+    "direction": "LONG",
+    "confidence": 0.5113253593444824,
+    "prob_up": 0.5113253593444824,
+    "prob_down": 0.4886746406555176
+  },
+  "risk": null,
+  "no_trade_reason": "Confidence 51.1% below threshold 58%."
+}
