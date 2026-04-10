@@ -1,0 +1,326 @@
+
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: var(--font-sans); }
+  .header { display: flex; align-items: center; justify-content: space-between; padding: 1rem 0 0.75rem; border-bottom: 0.5px solid var(--color-border-tertiary); margin-bottom: 1rem; }
+  .header-left { display: flex; align-items: center; gap: 10px; }
+  .live-dot { width: 8px; height: 8px; border-radius: 50%; background: #3B6D11; animation: pulse 1.5s infinite; }
+  @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.3} }
+  .badge { font-size: 11px; padding: 2px 8px; border-radius: 4px; font-weight: 500; }
+  .badge-live { background: #EAF3DE; color: #27500A; }
+  .badge-clear { background: #EAF3DE; color: #27500A; }
+  .badge-moderate { background: #FAEEDA; color: #633806; }
+  .badge-heavy { background: #FAECE7; color: #4A1B0C; }
+  .badge-critical { background: #FCEBEB; color: #501313; }
+  .metrics { display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: 10px; margin-bottom: 1rem; }
+  .metric { background: var(--color-background-secondary); border-radius: var(--border-radius-md); padding: 0.75rem 1rem; }
+  .metric-label { font-size: 12px; color: var(--color-text-secondary); margin-bottom: 4px; }
+  .metric-value { font-size: 22px; font-weight: 500; color: var(--color-text-primary); }
+  .metric-sub { font-size: 11px; color: var(--color-text-tertiary); margin-top: 2px; }
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 12px; }
+  .card { background: var(--color-background-primary); border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-lg); padding: 1rem 1.25rem; }
+  .card-title { font-size: 13px; font-weight: 500; color: var(--color-text-secondary); margin-bottom: 12px; }
+  .road-row { display: flex; align-items: center; justify-content: space-between; padding: 6px 0; border-bottom: 0.5px solid var(--color-border-tertiary); }
+  .road-row:last-child { border-bottom: none; }
+  .road-name { font-size: 13px; color: var(--color-text-primary); font-weight: 500; }
+  .road-meta { font-size: 11px; color: var(--color-text-secondary); margin-top: 2px; }
+  .bar-wrap { flex: 1; margin: 0 12px; height: 6px; background: var(--color-background-secondary); border-radius: 3px; overflow: hidden; }
+  .bar-fill { height: 100%; border-radius: 3px; transition: width 0.8s ease; }
+  .pipeline { display: flex; align-items: center; gap: 0; margin-bottom: 1rem; }
+  .pipe-step { flex: 1; text-align: center; padding: 10px 6px; border-radius: var(--border-radius-md); position: relative; }
+  .pipe-arrow { font-size: 16px; color: var(--color-text-tertiary); flex-shrink: 0; }
+  .pipe-icon { font-size: 18px; margin-bottom: 4px; display: block; }
+  .pipe-label { font-size: 11px; font-weight: 500; }
+  .pipe-sub { font-size: 10px; color: var(--color-text-secondary); margin-top: 2px; }
+  .pipe-active { animation: pipePulse 2s infinite; }
+  @keyframes pipePulse { 0%,100%{opacity:1} 50%{opacity:0.6} }
+  .event-list { max-height: 160px; overflow-y: auto; }
+  .event-row { display: flex; gap: 8px; padding: 5px 0; border-bottom: 0.5px solid var(--color-border-tertiary); font-size: 12px; }
+  .event-row:last-child { border-bottom: none; }
+  .event-time { color: var(--color-text-tertiary); flex-shrink: 0; width: 48px; }
+  .event-msg { color: var(--color-text-primary); }
+  .map-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-top: 8px; }
+  .map-cell { border-radius: 6px; padding: 8px 10px; }
+  .map-cell-label { font-size: 11px; font-weight: 500; }
+  .map-cell-score { font-size: 18px; font-weight: 500; margin-top: 2px; }
+  .map-cell-detail { font-size: 10px; margin-top: 2px; }
+  .controls { display: flex; gap: 8px; margin-bottom: 1rem; flex-wrap: wrap; align-items: center; }
+  .toggle-btn { font-size: 12px; padding: 4px 10px; border-radius: 4px; border: 0.5px solid var(--color-border-secondary); background: transparent; color: var(--color-text-primary); cursor: pointer; }
+  .toggle-btn.active { background: var(--color-background-secondary); }
+  .chart-wrap { position: relative; width: 100%; height: 180px; }
+  .timestamp { font-size: 11px; color: var(--color-text-tertiary); }
+</style>
+
+<h2 class="sr-only" style="position:absolute;width:1px;height:1px;overflow:hidden">Real-Time Traffic Management System dashboard showing live congestion scores, road statuses, and data pipeline status.</h2>
+
+<div class="header">
+  <div class="header-left">
+    <div class="live-dot"></div>
+    <span style="font-size:15px;font-weight:500;color:var(--color-text-primary)">Traffic Management System</span>
+    <span class="badge badge-live">LIVE</span>
+  </div>
+  <span class="timestamp" id="clock">--:--:--</span>
+</div>
+
+<div style="background:var(--color-background-secondary);border-radius:var(--border-radius-md);padding:10px 14px;margin-bottom:1rem;display:flex;align-items:center;gap:10px;">
+  <span style="font-size:12px;color:var(--color-text-secondary);flex:1">Data Pipeline Status</span>
+  <div class="pipeline" style="flex:3;gap:0">
+    <div class="pipe-step pipe-active" style="background:#EAF3DE">
+      <span class="pipe-label" style="color:#27500A">Google Maps API</span>
+      <div class="pipe-sub" id="pipe1">Fetching...</div>
+    </div>
+    <div class="pipe-arrow">→</div>
+    <div class="pipe-step pipe-active" style="background:#E6F1FB">
+      <span class="pipe-label" style="color:#0C447C">Kafka</span>
+      <div class="pipe-sub" id="pipe2">Streaming</div>
+    </div>
+    <div class="pipe-arrow">→</div>
+    <div class="pipe-step pipe-active" style="background:#FAEEDA">
+      <span class="pipe-label" style="color:#633806">Spark</span>
+      <div class="pipe-sub" id="pipe3">Analyzing</div>
+    </div>
+    <div class="pipe-arrow">→</div>
+    <div class="pipe-step" style="background:#EEEDFE">
+      <span class="pipe-label" style="color:#3C3489">Power BI</span>
+      <div class="pipe-sub">Dashboard</div>
+    </div>
+  </div>
+</div>
+
+<div class="metrics">
+  <div class="metric">
+    <div class="metric-label">Roads monitored</div>
+    <div class="metric-value" id="m-roads">6</div>
+    <div class="metric-sub">Active sensors</div>
+  </div>
+  <div class="metric">
+    <div class="metric-label">Avg congestion</div>
+    <div class="metric-value" id="m-avg">--</div>
+    <div class="metric-sub">Score 0–100</div>
+  </div>
+  <div class="metric">
+    <div class="metric-label">Critical roads</div>
+    <div class="metric-value" id="m-crit" style="color:#A32D2D">0</div>
+    <div class="metric-sub">Needs rerouting</div>
+  </div>
+  <div class="metric">
+    <div class="metric-label">Data points</div>
+    <div class="metric-value" id="m-points">0</div>
+    <div class="metric-sub">Processed</div>
+  </div>
+</div>
+
+<div class="grid2">
+  <div class="card">
+    <div class="card-title">Road congestion status</div>
+    <div id="road-list"></div>
+  </div>
+  <div class="card">
+    <div class="card-title">Zone map — congestion scores</div>
+    <div class="map-grid" id="map-grid"></div>
+  </div>
+</div>
+
+<div class="card" style="margin-bottom:12px">
+  <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:10px">
+    <div class="card-title" style="margin:0">Congestion trend (last 20 readings)</div>
+    <div class="controls" style="margin:0;gap:6px">
+      <button class="toggle-btn active" onclick="setRoad('all',this)">All roads</button>
+      <button class="toggle-btn" onclick="setRoad('Downtown Junction',this)">Downtown</button>
+      <button class="toggle-btn" onclick="setRoad('Highway Entrance',this)">Highway</button>
+      <button class="toggle-btn" onclick="setRoad('Ring Road',this)">Ring Rd</button>
+    </div>
+  </div>
+  <div class="chart-wrap">
+    <canvas id="trendChart" role="img" aria-label="Line chart showing congestion trends over time for multiple roads">Congestion trend data updating in real time.</canvas>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-title">Live event log</div>
+  <div class="event-list" id="event-log"></div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<script>
+const ROADS = [
+  { name: 'Downtown Junction', base: 60, zone: 'Central' },
+  { name: 'Highway Entrance', base: 40, zone: 'North' },
+  { name: 'Ring Road', base: 30, zone: 'South' },
+  { name: 'Airport Connector', base: 50, zone: 'East' },
+  { name: 'Market Street', base: 70, zone: 'Central' },
+  { name: 'Bridge Crossing', base: 45, zone: 'West' },
+];
+
+const COLORS = ['#3B6D11','#185FA5','#BA7517','#993C1D','#534AB7','#0F6E56'];
+
+function scoreColor(s) {
+  if (s < 20) return { bg:'#EAF3DE', text:'#27500A', bar:'#639922' };
+  if (s < 50) return { bg:'#FAEEDA', text:'#633806', bar:'#EF9F27' };
+  if (s < 80) return { bg:'#FAECE7', text:'#4A1B0C', bar:'#D85A30' };
+  return { bg:'#FCEBEB', text:'#501313', bar:'#E24B4A' };
+}
+
+function statusLabel(s) {
+  if (s < 20) return 'CLEAR';
+  if (s < 50) return 'MODERATE';
+  if (s < 80) return 'HEAVY';
+  return 'CRITICAL';
+}
+
+let roadScores = ROADS.map(r => ({ ...r, score: r.base + Math.floor(Math.random()*20-10), delay: 0 }));
+let history = Array.from({length:20}, (_,i) => ({
+  t: i,
+  scores: ROADS.map(r => Math.max(0, Math.min(100, r.base + Math.floor(Math.random()*30-15))))
+}));
+let totalPoints = 0;
+let selectedRoad = 'all';
+let eventLog = [];
+
+function now() {
+  return new Date().toLocaleTimeString('en-IN', { hour12: false });
+}
+
+function noise(base) {
+  return Math.max(0, Math.min(100, base + Math.floor(Math.random()*24-12)));
+}
+
+function addEvent(msg, level) {
+  const colors = { info:'#0C447C', warn:'#633806', danger:'#A32D2D', ok:'#27500A' };
+  eventLog.unshift({ time: now(), msg, color: colors[level] || colors.info });
+  if (eventLog.length > 20) eventLog.pop();
+  const el = document.getElementById('event-log');
+  el.innerHTML = eventLog.map(e =>
+    `<div class="event-row"><span class="event-time">${e.time}</span><span class="event-msg" style="color:${e.color}">${e.msg}</span></div>`
+  ).join('');
+}
+
+function renderRoads() {
+  const el = document.getElementById('road-list');
+  el.innerHTML = roadScores.map(r => {
+    const c = scoreColor(r.score);
+    return `<div class="road-row">
+      <div style="min-width:110px">
+        <div class="road-name">${r.name}</div>
+        <div class="road-meta">${r.zone} zone</div>
+      </div>
+      <div class="bar-wrap"><div class="bar-fill" style="width:${r.score}%;background:${c.bar}"></div></div>
+      <span class="badge badge-${statusLabel(r.score).toLowerCase()}" style="min-width:64px;text-align:center">${statusLabel(r.score)}</span>
+      <span style="font-size:13px;font-weight:500;min-width:30px;text-align:right;color:var(--color-text-primary)">${r.score}</span>
+    </div>`;
+  }).join('');
+}
+
+function renderMap() {
+  const el = document.getElementById('map-grid');
+  el.innerHTML = roadScores.map(r => {
+    const c = scoreColor(r.score);
+    return `<div class="map-cell" style="background:${c.bg}">
+      <div class="map-cell-label" style="color:${c.text}">${r.name.split(' ')[0]}</div>
+      <div class="map-cell-score" style="color:${c.text}">${r.score}</div>
+      <div class="map-cell-detail" style="color:${c.text}">${statusLabel(r.score)}</div>
+    </div>`;
+  }).join('');
+}
+
+function renderMetrics() {
+  const avg = Math.round(roadScores.reduce((a,r)=>a+r.score,0)/roadScores.length);
+  const crit = roadScores.filter(r=>r.score>=80).length;
+  document.getElementById('m-avg').textContent = avg;
+  document.getElementById('m-crit').textContent = crit;
+  document.getElementById('m-points').textContent = totalPoints.toLocaleString();
+}
+
+const ctx = document.getElementById('trendChart').getContext('2d');
+const trendChart = new Chart(ctx, {
+  type: 'line',
+  data: {
+    labels: history.map((_,i)=>''),
+    datasets: ROADS.map((r,i) => ({
+      label: r.name,
+      data: history.map(h=>h.scores[i]),
+      borderColor: COLORS[i],
+      backgroundColor: COLORS[i]+'22',
+      borderWidth: 1.5,
+      pointRadius: 0,
+      tension: 0.4,
+      fill: false,
+    }))
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    animation: { duration: 400 },
+    plugins: { legend: { display: false } },
+    scales: {
+      x: { display: false },
+      y: {
+        min: 0, max: 100,
+        ticks: { stepSize: 25, font: { size: 11 }, color: '#888780',
+          callback: v => v === 0 ? 'Clear' : v===50 ? 'Heavy' : v===100 ? 'Critical' : '' },
+        grid: { color: 'rgba(136,135,128,0.15)' }
+      }
+    }
+  }
+});
+
+function setRoad(road, btn) {
+  selectedRoad = road;
+  document.querySelectorAll('.toggle-btn').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  trendChart.data.datasets.forEach((ds,i) => {
+    ds.hidden = (road !== 'all' && ROADS[i].name !== road);
+  });
+  trendChart.update();
+}
+
+function updatePipeline() {
+  const msgs1 = ['Fetching...','Retrieved','Polling...'];
+  const msgs2 = ['Streaming','Queued','Dispatched'];
+  const msgs3 = ['Analyzing','Processing','Scoring'];
+  document.getElementById('pipe1').textContent = msgs1[Math.floor(Math.random()*3)];
+  document.getElementById('pipe2').textContent = msgs2[Math.floor(Math.random()*3)] + ' ' + (Math.floor(Math.random()*10)+2) + ' msgs';
+  document.getElementById('pipe3').textContent = msgs3[Math.floor(Math.random()*3)];
+}
+
+function tick() {
+  roadScores = roadScores.map(r => {
+    const newScore = noise(r.base);
+    const prev = r.score;
+    if (newScore >= 80 && prev < 80) addEvent(`${r.name} — now CRITICAL (${newScore})`, 'danger');
+    if (newScore < 20 && prev >= 20) addEvent(`${r.name} — road cleared (${newScore})`, 'ok');
+    if (newScore >= 50 && newScore < 80 && prev < 50) addEvent(`${r.name} — traffic building (${newScore})`, 'warn');
+    return { ...r, score: newScore };
+  });
+
+  const tick = { t: history.length, scores: roadScores.map(r=>r.score) };
+  history.push(tick);
+  if (history.length > 20) history.shift();
+
+  trendChart.data.labels = history.map(()=>'');
+  trendChart.data.datasets.forEach((ds,i)=>{ ds.data = history.map(h=>h.scores[i]); });
+  trendChart.update('none');
+
+  totalPoints += 6;
+  renderRoads();
+  renderMap();
+  renderMetrics();
+  updatePipeline();
+  document.getElementById('clock').textContent = now();
+}
+
+function initLog() {
+  addEvent('System started — all sensors online', 'ok');
+  addEvent('Kafka broker connected on port 9092', 'info');
+  addEvent('Spark streaming session initialized', 'info');
+  addEvent('Google Maps API polling every 30s', 'info');
+}
+
+renderRoads();
+renderMap();
+renderMetrics();
+initLog();
+tick();
+setInterval(tick, 3000);
+setInterval(()=>{ document.getElementById('clock').textContent = now(); }, 1000);
+</script>
